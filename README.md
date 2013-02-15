@@ -8,6 +8,16 @@ Dependencies
 
 * [Schema.org](http://schema.org): mainly [`schema:JobPosting`](http://schema.org/JobPosting), [`schema:Person`](http://schema.org/Person)
 
+Data model
+----------
+
+![Abstract data model](diagrams/abstract-data-model.png)
+
+Implementation
+--------------
+
+![Implementation of data model](diagrams/data-model.png)
+
 Licence
 -------
 
