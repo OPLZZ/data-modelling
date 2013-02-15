@@ -1,0 +1,52 @@
+@prefix :           <http://example.com/> .
+@prefix schema:     <http://schema.org/> .
+@prefix schemaExt:  <http://example.com/schemaExt#> .
+@prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+
+:job-posting6 a schema:JobPosting ;
+  schema:title "Courier boy"@en ;
+  schema:employmentType :full-time, :part-time ;
+  schema:industry :others ;
+  schema:description """
+    Job Timing   Morning   Evening
+    Vacancies 2
+    Job Description We are looking for courier boys on part time or full time basis. Qualification -SSLC Age - No Age bar Petrol allowance will be provided separately. 
+  """@en ;
+  schema:jobLocation :chennai ;
+  schemaExt:compensation [
+    a schemaExt:Compensation ;
+    schema:minValue "5000"^^xsd:decimal ;
+    schema:maxValue "9000"^^xsd:decimal ;
+    schemaExt:currency :inr ;
+    schemaExt:type :monthly
+  ]
+  .
+
+:full-time a skos:Concept ;
+  skos:prefLabel "Full time"@en
+  .
+
+:part-time a skos:Concept ;
+  skos:prefLabel "Part-time"@en
+  .
+
+:others a skos:Concept ;
+  skos:prefLabel "Others"@en
+  .
+
+:chennai a schema:Place ;
+  schema:address [
+    a schema:PostalAddress ;
+    schema:addressLocality "Chennai"
+  ]
+  .
+
+:inr a skos:Concept ;
+  skos:notation "INR" ;
+  skos:prefLabel "Indian rupee"@en
+  .
+
+:monthly a skos:Concept ;
+  skos:prefLabel "Monthly"@en
+  .

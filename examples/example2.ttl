@@ -1,0 +1,25 @@
+@prefix :           <http://example.com/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix schema:     <http://schema.org/> .
+@prefix schemaExt:  <http://example.com/schemaExt#> .
+@prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+
+:job-posting8 a schema:JobPosting ;
+  schema:title "Cleaning"@en ;
+  schema:jobLocation :birmingham ;
+  schema:industry :personal-and-home-services ;
+  dcterms:modified "2013-02-10"^^xsd:dateTime ;
+  schema:description "I am a working mom that needs help organizing and cleaning my home."@en 
+  .
+
+:birmingham a schema:Place ;
+  schema:address [
+    a schema:PostalAddress ;
+    schema:addressLocality "Birmingham"
+  ]
+  .
+
+:personal-and-home-services a skos:Concept ;
+  skos:prefLabel "Personal & Home Services"@en
+  .

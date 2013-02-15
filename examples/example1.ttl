@@ -1,0 +1,23 @@
+@prefix :           <http://example.com/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix schema:     <http://schema.org/> .
+@prefix schemaExt:  <http://example.com/schemaExt#> .
+@prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+
+:job-posting9 a schema:JobPosting ;
+  schema:title "Airport Ramp and Passenger Service Agent"@en ;
+  schema:jobLocation :dothan ;
+  schema:description "Loading and unloading aircraft Passenger checkin Must be able to lift 70 lbs."@en ;
+  schemaExt:contact [
+    a schema:ContactPoint ;
+    schema:email <mailto:snelson@g2securestaff.com>
+  ]
+  .
+
+:dothan a schema:Place ;
+  schema:address [
+    a schema:PostalAddress ;
+    schema:addressLocality "Dothan"
+  ]
+  .

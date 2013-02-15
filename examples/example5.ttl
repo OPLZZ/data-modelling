@@ -1,0 +1,61 @@
+@prefix :           <http://example.com/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema:     <http://schema.org/> .
+@prefix schemaExt:  <http://example.com/schemaExt#> .
+@prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+
+:job-posting5 a schema:JobPosting ;
+  schema:employmentType :part-time ;
+  schemaExt:isRemoteWork "true"^^xsd:boolean ;
+  schema:title "Telephonic Round"@en ;
+  schemaExt:compensation [
+    a schemaExt:Compensation ;
+    schema:minValue "200000"^^xsd:decimal ;
+    schema:maxValue "800000"^^xsd:decimal ;
+    schemaExt:currency :inr ;
+    schemaExt:type :annual
+  ] ;
+  schema:industry :call-centres ;
+  schema:description """We have few openings for Work from Home & Data Entry for different MNC's across India. 
+  Please apply online for Job. Please apply now & one of our recruiter will get in touch with you shortly.
+  
+  We do not charge any fee for Work from Home programs. Please apply ASAP.
+  
+  We Provide Jobs to Job Seekers Willing to Work in MNC's across different sectors.
+  
+  Job Profile
+  KEY SKILLS
+  data entry, front office, work from home, free work from home, part time job, online work, view demo, get online work, html tagging
+  QUALIFICATION
+  School & Graduation - Any Graduate
+  SPECIALIZATION
+  Data entry , Personal / Secretarial , Receptionists , Stenography , Front Office , Work from Home
+  JOB FUNCTION
+  Front Office Staff / Secretarial / Computer Operator
+  INDUSTRY
+  Banking , CRM / CallCentres / BPO / ITES / Med.trans , Consulting Services
+  PERKS
+  Incentives + Transport
+  VACANCIES
+  50"""@en ;
+  dcterms:modified "2013-01-29"^^xsd:dateTime
+  .
+
+:part-time a skos:Concept ;
+  skos:prefLabel "Part-time"@en
+  .
+
+:inr a skos:Concept ;
+  skos:notation "INR" ;
+  skos:prefLabel "Indian rupee"@en
+  .
+
+:annual a skos:Concept ;
+  skos:prefLabel "Annual payment"@en
+  .
+
+:call-centres a skos:Concept ;
+  skos:prefLabel "Call centres"@en
+  .

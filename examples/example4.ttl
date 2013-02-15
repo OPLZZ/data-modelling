@@ -1,0 +1,43 @@
+@prefix :           <http://example.com/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema:     <http://schema.org/> .
+@prefix schemaExt:  <http://example.com/schemaExt#> .
+@prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+
+:job-posting4 a schema:JobPosting ;
+  schema:title "Night porter"@en ;
+  schemaExt:contact :contact4 ;
+  schema:jobLocation :new-ross ;
+  dcterms:modified "2013-02-07T12:57:00Z"^^xsd:dateTime ;
+  schema:industry :hotels ;
+  schema:employmentType :full-time ;
+  schema:responsibilites """· Smooth running of the hotel during the night
+    · Dealing with guest requests
+    · Bartending duties, knowledge of cocktails, 
+    wines & spirits
+    · Cleaning Duties - clean kitchen & public areas
+    · Answering telephone calls
+    · Knowledge of computer systems
+    · Keeping the hotel secure during the night"""
+  .
+
+:contact4 a schema:ContactPoint ;
+  schema:name "HR Manager"
+  .
+
+:new-ross a schema:Place ;
+  schema:address [
+    schema:addressLocality "New Ross" ;
+    schema:addressRegion "Wexford"
+  ]
+  .
+
+:hotels a skos:Concept ;
+  skos:prefLabel "Hotels"@en
+  .
+
+:full-time a skos:Concept ;
+  skos:prefLabel "Full time"@en
+  .
