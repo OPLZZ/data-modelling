@@ -1,84 +1,87 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix :     <http://schema.org/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema: <http://schema.org/> .
-@prefix schemaExt: <http://example.com/schemaExt#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 
-schemaExt:Compensation a rdfs:Class ;
+:Compensation a rdfs:Class ;
   rdfs:label "Compensation"@en, "Kompenzace"@cs ;
   rdfs:comment "Defines how the worker is paid for the work that was done"@en ;
   rdfs:subClassOf schema:QuantitativeValue ;
-  rdfs:isDefinedBy schemaExt:
+  rdfs:isDefinedBy :
   .
 
-schemaExt:WorkExperience a rdfs:Class ;
+:WorkExperience a rdfs:Class ;
   rdfs:label "Work experience"@en, "Pracovní zkušenost"@cs ;
   rdfs:subClassOf schema:StructuredValue ;
-  rdfs:isDefinedBy schemaExt:
+  rdfs:isDefinedBy :
   .
 
-schemaExt:currency a rdf:Property ;
+:currency a rdf:Property ;
   rdfs:label "currency"@en, "měna"@cs ;
   rdfs:comment "The currency (in 3-letter ISO 4217 format) of the compensation"@en ;
-  rdfs:domain schemaExt:Compensation ;
+  rdfs:domain :Compensation ;
   rdfs:range xsd:string ;
-  rdfs:isDefinedBy schemaExt:
+  rdfs:isDefinedBy :
   .
 
-schemaExt:type a rdf:Property ;
+:type a rdf:Property ;
   rdfs:label "type"@en, "typ"@cs ;
   rdfs:comment "Type of compensation. Recommended values are: annual, hourly, fixed."@en ;
-  rdfs:domain schemaExt:Compensation ;
+  rdfs:domain :Compensation ;
   rdfs:range xsd:string ;
-  rdfs:isDefinedBy schemaExt:
+  rdfs:isDefinedBy :
   .
 
-schemaExt:contact a rdf:Property ;
+:contact a rdf:Property ;
   rdfs:label "contact"@en, "kontakt"@cs ;
   rdfs:comment "Information needed for a job seeker to respond to a job offer"@en ;
   rdfs:domain schema:JobPosting ;
   rdfs:range schema:ContactPoint ;
-  rdfs:isDefinedBy schemaExt:
+  rdfs:isDefinedBy :
   .
 
-schemaExt:compensation a rdf:Property ;
+:compensation a rdf:Property ;
   rdfs:label "compensation"@en, "kompenzace"@cs ;
   rdfs:comment "Remuneration paid by an employer to an employee"@en ;
   rdfs:domain schema:JobPosting ;
-  rdfs:range schemaExt:Compensation ;
-  rdfs:isDefinedBy schemaExt:
+  rdfs:range :Compensation ;
+  rdfs:isDefinedBy :
   .
 
-schemaExt:isRemoteWork a rdf:Property ;
+:isRemoteWork a rdf:Property ;
   rdfs:label "remote work"@en, "práce na dálku"@cs ;
   rdfs:domain schema:JobPosting ;
   rdfs:range xsd:boolean ;
-  rdfs:isDefinedBy schemaExt:
+  rdfs:isDefinedBy :
   .
 
-schemaExt:duration a rdf:Property ;
+:duration a rdf:Property ;
   rdfs:label "duration"@en, "délka"@cs ;
-  rdfs:comment "Length of period when experience was acquired"@en ;
-  rdfs:domain schemaExt:Experience ;
+  rdfs:comment "Length of period when experience was acquired"@en,
+    "Délka trvání zkušenosti"@cs ;
+  rdfs:domain :Experience ;
   rdfs:range xsd:duration ;
-  rdfs:isDefinedBy schemaExt:
+  rdfs:isDefinedBy :
   .
 
-schemaExt:references a rdf:Property ;
+:references a rdf:Property ;
   rdfs:label "references"@en, "reference"@cs ;
-  rdfs:comment "Indication whether applicant is able to provide contacts for references"@en ;
-  rdfs:domain schemaExt:Experience ;
+  rdfs:comment "Indication whether applicant is able to provide contacts for references"@en,
+    "Ukazatel toho, zda může žadatel/ka uvést kontakt na člověka, který poskytne referenci k minulé práci"@cs
+  rdfs:domain :Experience ;
   rdfs:range xsd:boolean ;
-  rdfs:isDefinedBy schemaExt:
+  rdfs:isDefinedBy :
   .
 
-schemaExt:startDate a rdf:Property ;
+:startDate a rdf:Property ;
   rdfs:label "start date"@en, "datum nástupu"@cs ;
+  rdfs:comment "Date when job opportunity starts"@en, 
+    "Datum nástupu pro tuto pracovní pozici"@cs ;
   rdfs:domain schema:JobPosting ;
   rdfs:range xsd:date ;
-  rdfs:isDefinedBy schemaExt:
+  rdfs:isDefinedBy :
   .
 
-schema:experienceRequirements rdfs:range schemaExt:WorkExperience .
+schema:experienceRequirements rdfs:range :WorkExperience .
 
-schema:industry rdfs:comment "Includes also private employment etc."@en .
+schema:industry rdfs:comment "Includes also private employment etc."@en, "Zahrnuje také kategorie zaměstnání fyzickými osobami atp."@cs .
