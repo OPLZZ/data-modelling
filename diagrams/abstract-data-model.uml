@@ -1,0 +1,13 @@
+// http://yuml.me/diagram/class/draw
+[Compensation|currency;maxAmount;minAmount;regime]
+[Contact|email;name;phone number]
+[Experience|description;duration;references;start]
+[Job offer|category;date updated;description;employment type;expires;feature;job title;remote work;responsibilities;start of the job]
+[Job seeker|email;feature;profession]
+[Location|locality;street]
+[Job seeker]-experience>[Experience]
+[Job seeker]-location>[Location]
+[Job offer]-location>[Location]
+[Job offer]-compensation>[Compensation]
+[Job offer]-contact>[Contact]
+[Job offer]-experience>[Experience]
