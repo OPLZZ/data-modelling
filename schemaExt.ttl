@@ -1,0 +1,84 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix schemaExt: <http://example.com/schemaExt#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+schemaExt:Compensation a rdfs:Class ;
+  rdfs:label "Compensation"@en, "Kompenzace"@cs ;
+  rdfs:comment "Defines how the worker is paid for the work that was done"@en ;
+  rdfs:subClassOf schema:QuantitativeValue ;
+  rdfs:isDefinedBy schemaExt:
+  .
+
+schemaExt:WorkExperience a rdfs:Class ;
+  rdfs:label "Work experience"@en, "Pracovní zkušenost"@cs ;
+  rdfs:subClassOf schema:StructuredValue ;
+  rdfs:isDefinedBy schemaExt:
+  .
+
+schemaExt:currency a rdf:Property ;
+  rdfs:label "currency"@en, "měna"@cs ;
+  rdfs:comment "The currency (in 3-letter ISO 4217 format) of the compensation"@en ;
+  rdfs:domain schemaExt:Compensation ;
+  rdfs:range xsd:string ;
+  rdfs:isDefinedBy schemaExt:
+  .
+
+schemaExt:type a rdf:Property ;
+  rdfs:label "type"@en, "typ"@cs ;
+  rdfs:comment "Type of compensation. Recommended values are: annual, hourly, fixed."@en ;
+  rdfs:domain schemaExt:Compensation ;
+  rdfs:range xsd:string ;
+  rdfs:isDefinedBy schemaExt:
+  .
+
+schemaExt:contact a rdf:Property ;
+  rdfs:label "contact"@en, "kontakt"@cs ;
+  rdfs:comment "Information needed for a job seeker to respond to a job offer"@en ;
+  rdfs:domain schema:JobPosting ;
+  rdfs:range schema:ContactPoint ;
+  rdfs:isDefinedBy schemaExt:
+  .
+
+schemaExt:compensation a rdf:Property ;
+  rdfs:label "compensation"@en, "kompenzace"@cs ;
+  rdfs:comment "Remuneration paid by an employer to an employee"@en ;
+  rdfs:domain schema:JobPosting ;
+  rdfs:range schemaExt:Compensation ;
+  rdfs:isDefinedBy schemaExt:
+  .
+
+schemaExt:isRemoteWork a rdf:Property ;
+  rdfs:label "remote work"@en, "práce na dálku"@cs ;
+  rdfs:domain schema:JobPosting ;
+  rdfs:range xsd:boolean ;
+  rdfs:isDefinedBy schemaExt:
+  .
+
+schemaExt:duration a rdf:Property ;
+  rdfs:label "duration"@en, "délka"@cs ;
+  rdfs:comment "Length of period when experience was acquired"@en ;
+  rdfs:domain schemaExt:Experience ;
+  rdfs:range xsd:duration ;
+  rdfs:isDefinedBy schemaExt:
+  .
+
+schemaExt:references a rdf:Property ;
+  rdfs:label "references"@en, "reference"@cs ;
+  rdfs:comment "Indication whether applicant is able to provide contacts for references"@en ;
+  rdfs:domain schemaExt:Experience ;
+  rdfs:range xsd:boolean ;
+  rdfs:isDefinedBy schemaExt:
+  .
+
+schemaExt:startDate a rdf:Property ;
+  rdfs:label "start date"@en, "datum nástupu"@cs ;
+  rdfs:domain schema:JobPosting ;
+  rdfs:range xsd:date ;
+  rdfs:isDefinedBy schemaExt:
+  .
+
+schema:experienceRequirements rdfs:range schemaExt:WorkExperience .
+
+schema:industry rdfs:comment "Includes also private employment etc."@en .
