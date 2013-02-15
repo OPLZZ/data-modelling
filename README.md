@@ -18,6 +18,8 @@ Implementation
 
 ![Implementation of data model](diagrams/data-model.png)
 
+[Schema.org](http://schema.org) is the default namespace. Vocabulary terms marked with * come from a [Schema.org extension proposal](schemaExt.ttl).
+
 Licence
 -------
 
