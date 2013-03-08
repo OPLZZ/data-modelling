@@ -1,16 +1,16 @@
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix oplzz: <http://example.com/oplzz#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema: <http://schema.org/> .
-@prefix schemaExt: <http://example.com/schemaExt#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix :         <http://schema.org/> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix foaf:     <http://xmlns.com/foaf/0.1/> .
+@prefix oplzz:    <http://example.com/oplzz#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
 
 oplzz: a owl:Ontology ;
-  rdfs:label "Vocabulary for the application for matching job postings and job seekers"@en ;
+  rdfs:label "Vocabulary for the application for matching job postings and job seekers"@en, 
+    "Slovník aplikace pro párování nabídek práce a žadatelů o práci"@cs ;
   dcterms:creator <http://richard.cyganiak.de/#me>, 
     <http://keg.vse.cz/resource/person/jindrich-mynarz>,
     [
@@ -24,12 +24,13 @@ oplzz: a owl:Ontology ;
     [
       a foaf:Person ;
       foaf:name "Vojtěch Hýža"
-    ]
+    ] ;
+  dcterms:license <http://creativecommons.org/licenses/by/3.0/cz/>
   .
 
 oplzz:JobSeeker a rdfs:Class ;
-  rdfs:label "Job seeker"@en ;
-  rdfs:subClassOf schema:Person ;
+  rdfs:label "Job seeker"@en, "Žadatel o práci"@cs ;
+  rdfs:subClassOf :Person ;
   rdfs:isDefinedBy oplzz:
   .
 
@@ -37,7 +38,7 @@ oplzz:feature a rdf:Property ;
   rdfs:label "feature"@en, "rys"@cs ;
   rdfs:domain [
     a owl:Class ;
-    owl:unionOf (schema:JobPosting oplzz:JobSeeker)
+    owl:unionOf (:JobPosting oplzz:JobSeeker)
   ] ;
   rdfs:range skos:Concept ;
   rdfs:isDefinedBy oplzz:
@@ -45,7 +46,7 @@ oplzz:feature a rdf:Property ;
 
 oplzz:startDate a rdf:Property ;
   rdfs:label "start date"@en, "začátek"@cs ;
-  rdfs:domain schemaExt:Experience ;
+  rdfs:domain :Experience ;
   rdfs:range xsd:gYear ;
   rdfs:isDefinedBy oplzz:
   .
@@ -53,7 +54,7 @@ oplzz:startDate a rdf:Property ;
 oplzz:experience a rdf:Property ;
   rdfs:label "experience"@en, "zkušenost"@cs ;
   rdfs:domain oplzz:JobSeeker ;
-  rdfs:range schemaExt:Experience ;
+  rdfs:range :Experience ;
   rdfs:isDefinedBy oplzz:
   .
  
