@@ -6,13 +6,13 @@
 :Compensation a rdfs:Class ;
   rdfs:label "Compensation"@en, "Kompenzace"@cs ;
   rdfs:comment "Defines how the worker is paid for the work that was done"@en ;
-  rdfs:subClassOf schema:QuantitativeValue ;
+  rdfs:subClassOf :QuantitativeValue ;
   rdfs:isDefinedBy :
   .
 
 :WorkExperience a rdfs:Class ;
   rdfs:label "Work experience"@en, "Pracovní zkušenost"@cs ;
-  rdfs:subClassOf schema:StructuredValue ;
+  rdfs:subClassOf :StructuredValue ;
   rdfs:isDefinedBy :
   .
 
@@ -35,22 +35,22 @@
 :contact a rdf:Property ;
   rdfs:label "contact"@en, "kontakt"@cs ;
   rdfs:comment "Information needed for a job seeker to respond to a job offer"@en ;
-  rdfs:domain schema:JobPosting ;
-  rdfs:range schema:ContactPoint ;
+  rdfs:domain :JobPosting ;
+  rdfs:range :ContactPoint ;
   rdfs:isDefinedBy :
   .
 
 :compensation a rdf:Property ;
   rdfs:label "compensation"@en, "kompenzace"@cs ;
   rdfs:comment "Remuneration paid by an employer to an employee"@en ;
-  rdfs:domain schema:JobPosting ;
+  rdfs:domain :JobPosting ;
   rdfs:range :Compensation ;
   rdfs:isDefinedBy :
   .
 
 :isRemoteWork a rdf:Property ;
   rdfs:label "remote work"@en, "práce na dálku"@cs ;
-  rdfs:domain schema:JobPosting ;
+  rdfs:domain :JobPosting ;
   rdfs:range xsd:boolean ;
   rdfs:isDefinedBy :
   .
@@ -77,11 +77,11 @@
   rdfs:label "start date"@en, "datum nástupu"@cs ;
   rdfs:comment "Date when job opportunity starts"@en, 
     "Datum nástupu pro tuto pracovní pozici"@cs ;
-  rdfs:domain schema:JobPosting ;
+  rdfs:domain :JobPosting ;
   rdfs:range xsd:date ;
   rdfs:isDefinedBy :
   .
 
-schema:experienceRequirements rdfs:range :WorkExperience .
+:experienceRequirements rdfs:range :WorkExperience .
 
-schema:industry rdfs:comment "Includes also private employment etc."@en, "Zahrnuje také kategorie zaměstnání fyzickými osobami atp."@cs .
+:industry rdfs:comment "Includes also private employment etc."@en, "Zahrnuje také kategorie zaměstnání fyzickými osobami atp."@cs .
