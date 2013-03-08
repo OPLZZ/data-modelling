@@ -57,6 +57,8 @@ oplzz:startYear a rdf:Property ;
 
 oplzz:experience a rdf:Property ;
   rdfs:label "experience"@en, "zkušenost"@cs ;
+  rdfs:comment "Job seeker's work experience"@en,
+    "Pracovní zkušenost žadatele o práci"@cs ;
   rdfs:domain oplzz:JobSeeker ;
   rdfs:range :Experience ;
   rdfs:isDefinedBy oplzz:
@@ -64,6 +66,8 @@ oplzz:experience a rdf:Property ;
  
 oplzz:profession a rdf:Property ;
   rdfs:label "profession"@en, "profese"@cs ;
+  rdfs:label "Profession job seeker identifies with"@en,
+    "Profese udávaná žadatelem o práci"@cs;
   rdfs:domain oplzz:JobSeeker ;
   rdfs:range xsd:string ;
   rdfs:isDefinedBy oplzz:
