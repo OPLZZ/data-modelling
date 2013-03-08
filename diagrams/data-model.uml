@@ -3,7 +3,7 @@
 [JobPosting|dcterms:modified;dcterms:valid;description;employmentType;industry;oplzz:feature;responsibilites;isRemoteWork*;startDate*;title]
 [oplzz:JobSeeker|email;oplzz:feature;oplzz:profession]
 [Compensation*|maxValue;minValue;currency*;type*;value]
-[WorkExperience*|description;oplzz:startDate;duration*;references*]
+[WorkExperience*|description;oplzz:startYear;duration*;references*]
 [PostalAddress|addressLocality;streetAddress]
 [oplzz:JobSeeker]-oplzz:experience>[WorkExperience*]
 [oplzz:JobSeeker]-address>[PostalAddress]
