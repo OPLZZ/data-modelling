@@ -36,6 +36,8 @@ oplzz:JobSeeker a rdfs:Class ;
 
 oplzz:feature a rdf:Property ;
   rdfs:label "feature"@en, "rys"@cs ;
+  rdfs:comment "Job seeker's feature"@en,
+    "Rys žadatele o práci"@cs ;
   rdfs:domain [
     a owl:Class ;
     owl:unionOf (:JobPosting oplzz:JobSeeker)
@@ -44,8 +46,10 @@ oplzz:feature a rdf:Property ;
   rdfs:isDefinedBy oplzz:
   .
 
-oplzz:startDate a rdf:Property ;
+oplzz:startYear a rdf:Property ;
   rdfs:label "start date"@en, "začátek"@cs ;
+  rdfs:comment "Year when work experience started"@en,
+    "Rok zahájení pracovní zkušenosti"@cs ;
   rdfs:domain :Experience ;
   rdfs:range xsd:gYear ;
   rdfs:isDefinedBy oplzz:
