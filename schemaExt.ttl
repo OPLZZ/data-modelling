@@ -1,24 +1,49 @@
-@prefix :     <http://schema.org/> .
-@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix :         <http://schema.org/> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix foaf:     <http://xmlns.com/foaf/0.1/> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+
+<> a owl:Ontology ;
+  rdfs:label "Schema.org extension proposal"@en ;
+  dcterms:creator <http://richard.cyganiak.de/#me>, 
+    <http://keg.vse.cz/resource/person/jindrich-mynarz>,
+    [
+      a foaf:Person ;
+      foaf:name "Josef Šlerka"
+    ],
+    [
+      a foaf:Person ;
+      foaf:name "Eliška Hutníková"
+    ],
+    [
+      a foaf:Person ;
+      foaf:name "Vojtěch Hýža"
+    ] ;
+  dcterms:license <http://creativecommons.org/licenses/by/3.0/cz/>
+  .
 
 :Compensation a rdfs:Class ;
   rdfs:label "Compensation"@en, "Kompenzace"@cs ;
-  rdfs:comment "Defines how the worker is paid for the work that was done"@en ;
+  rdfs:comment "Defines how the worker is paid for the work done"@en, 
+    "Určení toho, jak je zaměstnanec placen za odvedenou práci"@cs ;
   rdfs:subClassOf :QuantitativeValue ;
   rdfs:isDefinedBy :
   .
 
 :WorkExperience a rdfs:Class ;
   rdfs:label "Work experience"@en, "Pracovní zkušenost"@cs ;
+  rdfs:comment "Job applicant's work history that demonstrates skills or competences"@en,
+    "Pracovní zkušenost žadatele/ky o práci demonstrující nabyté schopnosti nebo kompetence"@cs ;
   rdfs:subClassOf :StructuredValue ;
   rdfs:isDefinedBy :
   .
 
 :currency a rdf:Property ;
   rdfs:label "currency"@en, "měna"@cs ;
-  rdfs:comment "The currency (in 3-letter ISO 4217 format) of the compensation"@en ;
+  rdfs:comment "Currency (in 3-letter ISO 4217 format), in which compensation is paid"@en,
+    "Měna (v 3-místném formátu ISO 4217), ve které je vyplácena kompenzace"@cs ;
   rdfs:domain :Compensation ;
   rdfs:range xsd:string ;
   rdfs:isDefinedBy :
@@ -26,7 +51,8 @@
 
 :type a rdf:Property ;
   rdfs:label "type"@en, "typ"@cs ;
-  rdfs:comment "Type of compensation. Recommended values are: annual, hourly, fixed."@en ;
+  rdfs:comment "Type of compensation. Recommended values are: annual, hourly, fixed."@en,
+    "Způsob výpočtu a vyplácení kompenzace. Doporučené hodnoty jsou: roční, hodinová, fixní."@cs ;
   rdfs:domain :Compensation ;
   rdfs:range xsd:string ;
   rdfs:isDefinedBy :
@@ -34,7 +60,8 @@
 
 :contact a rdf:Property ;
   rdfs:label "contact"@en, "kontakt"@cs ;
-  rdfs:comment "Information needed for a job seeker to respond to a job offer"@en ;
+  rdfs:comment "Contact information job seeker needs to respond to a job offer"@en,
+    "Kontaktní informace pro odpověď na nabídku práce"@cs ;
   rdfs:domain :JobPosting ;
   rdfs:range :ContactPoint ;
   rdfs:isDefinedBy :
@@ -42,7 +69,7 @@
 
 :compensation a rdf:Property ;
   rdfs:label "compensation"@en, "kompenzace"@cs ;
-  rdfs:comment "Remuneration paid by an employer to an employee"@en ;
+  rdfs:comment "Compensation paid by an employer to an employee"@en ;
   rdfs:domain :JobPosting ;
   rdfs:range :Compensation ;
   rdfs:isDefinedBy :
@@ -50,6 +77,8 @@
 
 :isRemoteWork a rdf:Property ;
   rdfs:label "remote work"@en, "práce na dálku"@cs ;
+  rdfs:comment "Indicates job postings for which location of execution does not matter (i.e. remote work)"@en,
+    "Označení nabídek práce, pro které na místu výkonu nezáleží (tj. práce na dálku)"@cs ;
   rdfs:domain :JobPosting ;
   rdfs:range xsd:boolean ;
   rdfs:isDefinedBy :
@@ -57,7 +86,7 @@
 
 :duration a rdf:Property ;
   rdfs:label "duration"@en, "délka"@cs ;
-  rdfs:comment "Length of period when experience was acquired"@en,
+  rdfs:comment "Length of period during which job applicant acquired experience"@en,
     "Délka trvání zkušenosti"@cs ;
   rdfs:domain :Experience ;
   rdfs:range xsd:duration ;
@@ -66,8 +95,8 @@
 
 :references a rdf:Property ;
   rdfs:label "references"@en, "reference"@cs ;
-  rdfs:comment "Indication whether applicant is able to provide contacts for references"@en,
-    "Ukazatel toho, zda může žadatel/ka uvést kontakt na člověka, který poskytne referenci k minulé práci"@cs
+  rdfs:comment "Indicates whether applicant is able to provide contact for references"@en,
+    "Ukazuje, zda žadatel/ka může uvést kontakt pro poskytnutí reference k minulé práci"@cs
   rdfs:domain :Experience ;
   rdfs:range xsd:boolean ;
   rdfs:isDefinedBy :
@@ -76,7 +105,7 @@
 :startDate a rdf:Property ;
   rdfs:label "start date"@en, "datum nástupu"@cs ;
   rdfs:comment "Date when job opportunity starts"@en, 
-    "Datum nástupu pro tuto pracovní pozici"@cs ;
+    "Datum zahájení práce"@cs ;
   rdfs:domain :JobPosting ;
   rdfs:range xsd:date ;
   rdfs:isDefinedBy :
@@ -84,4 +113,6 @@
 
 :experienceRequirements rdfs:range :WorkExperience .
 
-:industry rdfs:comment "Includes also private employment etc."@en, "Zahrnuje také kategorie zaměstnání fyzickými osobami atp."@cs .
+:industry rdfs:comment "Includes also private employment etc."@en,
+  "Zahrnuje také kategorie zaměstnání fyzickými osobami atp."@cs
+  .
