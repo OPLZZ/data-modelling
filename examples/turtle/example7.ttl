@@ -1,0 +1,57 @@
+@prefix :           <http://schema.org/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix ex:         <http://example.com/> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+
+ex:job-posting7 a :JobPosting ;
+  # foaf:page <http://www.agentka.cz/cz/nabidka/182571520/ostrava-skladnik-ce-ridic-ka-vzv> ;
+  :title "Skladník/ce - Řidič/ka VZV"@cs ;
+  dcterms:modified "2013-03-07"^^xsd:date ;
+  :description """Společnost ACME s.r.o. hledá nové zaměstnance na pozici Skladník/ce - Řidič/ka VZV v lokalitě Ostrava. Min. vyučení, osvědčení na vysokozdvižný vozík - podmínkou, pracovitost, bezúhonnost."""@cs ;
+  :jobLocation ex:address7 ;
+  :employmentType ex:full-time ;
+  :compensation [
+    a :Compensation ;
+    :value "85" ;
+    :currency ex:CZK ;
+    :type ex:hourly
+  ] ;
+  :experienceRequirements ex:experience7 ;
+  :contact ex:contact7 ;
+  :startDate "2013-04-01"^^xsd:date
+  .
+
+ex:contact7 a :ContactPoint ;
+  :email "kontakt@acme.cz" ;
+  :name "Jan Hluchý" ;
+  :telephone "+420599123456789"
+  .
+
+ex:full-time a skos:Concept ;
+  skos:prefLabel "Plný úvazek"@cs
+  .
+
+ex:address7 a :Place ;
+  :address [
+    a :PostalAddress ;
+    :addressLocality "Ostrava" ;
+    :streetAddress "Místecká 126"
+  ]
+  .
+
+ex:CZK a skos:Concept ;
+  skos:notation "CZK" ;
+  skos:prefLabel "Česká koruna"@cs
+  .
+
+ex:hourly a skos:Concept ;
+  skos:prefLabel "Hodinová mzda"@cs
+  .
+
+ex:experience7 a :WorkExperience ;
+  :description "Práce s vysokozdvižným vozíkem"@cs ;
+  :duration "P1Y"^^xsd:duration ;
+  :references "true"^^xsd:boolean
+  .
