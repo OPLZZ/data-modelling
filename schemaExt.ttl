@@ -7,7 +7,8 @@
 @prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
 
 <> a owl:Ontology ;
-  rdfs:label "Schema.org extension proposal"@en ;
+  rdfs:label "Schema.org extension proposal"@en,
+    "Návrh rozšíření Schema.org"@cs ;
   dcterms:creator <http://richard.cyganiak.de/#me>, 
     <http://keg.vse.cz/resource/person/jindrich-mynarz>,
     [

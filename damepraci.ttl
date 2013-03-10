@@ -1,14 +1,14 @@
-@prefix :         <http://schema.org/> .
+@prefix :         <http://vocab.damepraci.eu/#> .
 @prefix dcterms:  <http://purl.org/dc/terms/> .
 @prefix foaf:     <http://xmlns.com/foaf/0.1/> .
-@prefix oplzz:    <http://example.com/oplzz#> .
 @prefix owl:      <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:   <http://schema.org/> .
 @prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
 
-oplzz: a owl:Ontology ;
+: a owl:Ontology ;
   rdfs:label "Vocabulary for the application for matching job postings and job seekers"@en, 
     "Slovník aplikace pro párování nabídek práce a žadatelů o práci"@cs ;
   dcterms:creator <http://richard.cyganiak.de/#me>, 
@@ -28,47 +28,49 @@ oplzz: a owl:Ontology ;
   dcterms:license <http://creativecommons.org/licenses/by/3.0/cz/>
   .
 
-oplzz:JobSeeker a rdfs:Class ;
+:JobSeeker a rdfs:Class ;
   rdfs:label "Job seeker"@en, "Žadatel o práci"@cs ;
-  rdfs:subClassOf :Person ;
-  rdfs:isDefinedBy oplzz:
+  rdfs:comment "A person while seeking job"@en,
+    "Osoba žádající o práce"@cs ;
+  rdfs:subClassOf schema:Person ;
+  rdfs:isDefinedBy :
   .
 
-oplzz:feature a rdf:Property ;
+:feature a rdf:Property ;
   rdfs:label "feature"@en, "rys"@cs ;
   rdfs:comment "Job seeker's feature"@en,
     "Rys žadatele o práci"@cs ;
   rdfs:domain [
     a owl:Class ;
-    owl:unionOf (:JobPosting oplzz:JobSeeker)
+    owl:unionOf (schema:JobPosting :JobSeeker)
   ] ;
   rdfs:range skos:Concept ;
-  rdfs:isDefinedBy oplzz:
+  rdfs:isDefinedBy :
   .
 
-oplzz:startYear a rdf:Property ;
+:startYear a rdf:Property ;
   rdfs:label "start date"@en, "začátek"@cs ;
   rdfs:comment "Year when work experience started"@en,
     "Rok zahájení pracovní zkušenosti"@cs ;
-  rdfs:domain :Experience ;
+  rdfs:domain schema:WorkExperience ;
   rdfs:range xsd:gYear ;
-  rdfs:isDefinedBy oplzz:
+  rdfs:isDefinedBy :
   .
 
-oplzz:experience a rdf:Property ;
+:experience a rdf:Property ;
   rdfs:label "experience"@en, "zkušenost"@cs ;
   rdfs:comment "Job seeker's work experience"@en,
     "Pracovní zkušenost žadatele o práci"@cs ;
-  rdfs:domain oplzz:JobSeeker ;
-  rdfs:range :Experience ;
-  rdfs:isDefinedBy oplzz:
+  rdfs:domain :JobSeeker ;
+  rdfs:range schema:WorkExperience ;
+  rdfs:isDefinedBy :
   .
  
-oplzz:profession a rdf:Property ;
+:profession a rdf:Property ;
   rdfs:label "profession"@en, "profese"@cs ;
-  rdfs:label "Profession job seeker identifies with"@en,
+  rdfs:comment "Profession job seeker identifies with"@en,
     "Profese udávaná žadatelem o práci"@cs;
-  rdfs:domain oplzz:JobSeeker ;
+  rdfs:domain :JobSeeker ;
   rdfs:range xsd:string ;
-  rdfs:isDefinedBy oplzz:
+  rdfs:isDefinedBy :
   .
