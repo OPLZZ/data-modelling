@@ -18,7 +18,7 @@ Implementation
 
 ![Implementation of data model](diagrams/data-model.png)
 
-[Schema.org](http://schema.org) is the default namespace. Vocabulary terms marked with * come from a [Schema.org extension proposal](schemaExt.ttl).
+[Schema.org](http://schema.org) is the default namespace. Vocabulary terms marked with * come from a [Schema.org extension proposal](schemaExt.ttl). The `damepraci:` prefix is used for an internal application vocabulary.
 
 Licence
 -------
