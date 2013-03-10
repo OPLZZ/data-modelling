@@ -15,7 +15,7 @@ ex:job-posting7 a :JobPosting ;
   :compensation [
     a :Compensation ;
     :value "85" ;
-    :currency ex:CZK ;
+    :currency "CZK" ;
     :type ex:hourly
   ] ;
   :experienceRequirements ex:experience7 ;
@@ -39,11 +39,6 @@ ex:address7 a :Place ;
     :addressLocality "Ostrava" ;
     :streetAddress "Místecká 126"
   ]
-  .
-
-ex:CZK a skos:Concept ;
-  skos:notation "CZK" ;
-  skos:prefLabel "Česká koruna"@cs
   .
 
 ex:hourly a skos:Concept ;
