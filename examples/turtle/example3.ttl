@@ -1,39 +1,38 @@
-@prefix :           <http://example.com/> .
+@prefix :           <http://schema.org/> .
+@prefix damepraci:  <http://vocab.damepraci.eu/#> .
 @prefix dcterms:    <http://purl.org/dc/terms/> .
-@prefix oplzz:      <http://example.com/oplzz/> .
-@prefix schema:     <http://schema.org/> .
-@prefix schemaExt:  <http://example.com/schemaExt#> .
+@prefix ex:         <http://example.com/> .
 @prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
 
-:job-posting7 a schema:JobPosting ;
-  schema:title "a reliable Au pair ,nanny housekeeper and a garden"@en ;
-  schema:description """I'm in need of a live-in aupair with whom I can entrust my 2 little angels while I return to my busy work schedule . My miltons will turn 5 in a months time and tracy is turning 3 in a couple of weeks.
+ex:job-posting7 a :JobPosting ;
+  :title "a reliable Au pair ,nanny housekeeper and a garden"@en ;
+  :description """I'm in need of a live-in aupair with whom I can entrust my 2 little angels while I return to my busy work schedule . My miltons will turn 5 in a months time and tracy is turning 3 in a couple of weeks.
   I live in Milton Keynes, a modern town, about 30mins on the virgin train to London and 1hr plus on the coach.
   I have a nice, friendly family and my home environment is neat and spacious.
   The successful candidate will be responsible for both childcare ie keeping the kids entertained, giving them meals, ironing their clothes and taking the baby to local groups to play; helping with homework as well as domestic chores which includes vacuuming, cleaning the bathrooms as well as washing up dishes etc.
   My son attends a local school about 10mins walk from my home, so, will be expected to drop him off and pick up on days when I'm working.
   Applicants must be able to speak good English, be full of initiative, be a lover of kids as well as have previous childcare experience. However, there'll be lots of support in the remaining few weeks before I start work.
   Interested candidate must be able to work Mon-friday as I run a very busy schedule at work; must also be a NON-SMOKER for obvious reasons."""@en ;
-  oplzz:feature :english-speaker, :non-smoker ;
-  schema:experienceRequirements [
-    a schemaExt:WorkExperience ;
-    schema:description "Childcare"@en
+  damepraci:feature :english-speaker, :non-smoker ;
+  :experienceRequirements [
+    a :WorkExperience ;
+    :description "Childcare"@en
   ] ;
-  schemaExt:contact [
-    a schema:ContactPoint ;
-    schema:name "Rosale" ;
-    schema:email <mailto:rosale.david@yahoo.com> ;
-    schema:telephone "+447042066525"
+  :contact [
+    a :ContactPoint ;
+    :name "Rosale" ;
+    :email <mailto:rosale.david@yahoo.com> ;
+    :telephone "+447042066525"
   ] ;
-  schema:jobLocation :London_Arizona ;
+  :jobLocation ex:London_Arizona ;
   dcterms:modified "2013-01-26"^^xsd:dateTime
   .
 
-:London_Arizona a schema:Place ;
-  schema:address [
-    a schema:PostalAddress ;
-    schema:addressLocality "London" ;
-    schema:addressRegion "Arizona" # Probably erroneously assigned the first option in the interface
+ex:London_Arizona a :Place ;
+  :address [
+    a :PostalAddress ;
+    :addressLocality "London" ;
+    :addressRegion "Arizona" # Probably erroneously assigned the first option in the interface
   ]
   . 

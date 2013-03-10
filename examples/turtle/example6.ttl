@@ -1,52 +1,51 @@
-@prefix :           <http://example.com/> .
-@prefix schema:     <http://schema.org/> .
-@prefix schemaExt:  <http://example.com/schemaExt#> .
+@prefix :           <http://schema.org/> .
+@prefix ex:         <http://example.com/> .
 @prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
 
-:job-posting6 a schema:JobPosting ;
-  schema:title "Courier boy"@en ;
-  schema:employmentType :full-time, :part-time ;
-  schema:industry :others ;
-  schema:description """
+ex:job-posting6 a :JobPosting ;
+  :title "Courier boy"@en ;
+  :employmentType ex:full-time, ex:part-time ;
+  :industry ex:others ;
+  :description """
     Job Timing   Morning   Evening
     Vacancies 2
     Job Description We are looking for courier boys on part time or full time basis. Qualification -SSLC Age - No Age bar Petrol allowance will be provided separately. 
   """@en ;
-  schema:jobLocation :chennai ;
-  schemaExt:compensation [
-    a schemaExt:Compensation ;
-    schema:minValue "5000"^^xsd:decimal ;
-    schema:maxValue "9000"^^xsd:decimal ;
-    schemaExt:currency :inr ;
-    schemaExt:type :monthly
+  :jobLocation ex:chennai ;
+  :compensation [
+    a :Compensation ;
+    :minValue "5000"^^xsd:decimal ;
+    :maxValue "9000"^^xsd:decimal ;
+    :currency ex:inr ;
+    :type ex:monthly
   ]
   .
 
-:full-time a skos:Concept ;
+ex:full-time a skos:Concept ;
   skos:prefLabel "Full time"@en
   .
 
-:part-time a skos:Concept ;
+ex:part-time a skos:Concept ;
   skos:prefLabel "Part-time"@en
   .
 
-:others a skos:Concept ;
+ex:others a skos:Concept ;
   skos:prefLabel "Others"@en
   .
 
-:chennai a schema:Place ;
-  schema:address [
-    a schema:PostalAddress ;
-    schema:addressLocality "Chennai"
+ex:chennai a :Place ;
+  :address [
+    a :PostalAddress ;
+    :addressLocality "Chennai"
   ]
   .
 
-:inr a skos:Concept ;
+ex:inr a skos:Concept ;
   skos:notation "INR" ;
   skos:prefLabel "Indian rupee"@en
   .
 
-:monthly a skos:Concept ;
+ex:monthly a skos:Concept ;
   skos:prefLabel "Monthly"@en
   .
