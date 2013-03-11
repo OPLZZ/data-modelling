@@ -4,6 +4,7 @@
 @prefix owl:      <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann:     <http://purl.org/vocab/vann/> .
 @prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
 
 <> a owl:Ontology ;
@@ -23,13 +24,15 @@
       a foaf:Person ;
       foaf:name "Vojtěch Hýža"
     ] ;
-  dcterms:license <http://creativecommons.org/licenses/by/3.0/cz/>
+  dcterms:license <http://creativecommons.org/licenses/by/3.0/cz/> ;
+  vann:preferredNamespaceUri <http://schema.org/> ;
+  vann:preferredNamespacePrefix "schema"
   .
 
 :Compensation a rdfs:Class ;
   rdfs:label "Compensation"@en, "Kompenzace"@cs ;
-  rdfs:comment "Class defining a data structure that describes how the worker is paid for the work done"@en, 
-    "Třída pro datovou strukturu určující, jak je zaměstnanec placen za odvedenou práci"@cs ;
+  rdfs:comment "Compensation describes how the worker is paid for the work done"@en, 
+    "Kompenzace určuje, jak je zaměstnanec placen za odvedenou práci"@cs ;
   rdfs:subClassOf :QuantitativeValue ;
   rdfs:isDefinedBy :
   .
@@ -62,8 +65,8 @@
 
 :contact a rdf:Property ;
   rdfs:label "contact"@en, "kontakt"@cs ;
-  rdfs:comment "Contact information job seeker needs to respond to a job offer"@en,
-    "Kontaktní informace pro odpověď na nabídku práce"@cs ;
+  rdfs:comment "Property relating job posting with contact information job seeker needs to respond to it"@en,
+    "Vlastnost propojující nabídku práce s kontaktními informace, které jsou zapotřebí proto, aby uchazeč o práci mohl na nabídku odpovědět"@cs ;
   rdfs:domain :JobPosting ;
   rdfs:range :ContactPoint ;
   rdfs:isDefinedBy :
