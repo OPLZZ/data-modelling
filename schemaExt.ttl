@@ -45,19 +45,21 @@
   rdfs:isDefinedBy :
   .
 
-:currency a rdf:Property ;
+:currency a owl:FunctionalProperty ;
   rdfs:label "currency"@en, "měna"@cs ;
   rdfs:comment "Currency (in 3-letter ISO 4217 format), in which compensation is paid"@en,
     "Měna (v 3-místném formátu ISO 4217), ve které je vyplácena kompenzace"@cs ;
+  vann:usageNote "Cardinality 1..1"@en, "Kardinalita 1..1"@cs ;
   rdfs:domain :Compensation ;
   rdfs:range xsd:string ;
   rdfs:isDefinedBy :
   .
 
-:type a rdf:Property ;
+:type a rdf:FunctionalProperty ;
   rdfs:label "type"@en, "typ"@cs ;
   rdfs:comment "Type of compensation. Recommended values are: annual, hourly, fixed."@en,
     "Způsob výpočtu a vyplácení kompenzace. Doporučené hodnoty jsou: roční, hodinová, fixní."@cs ;
+  vann:usageNote "Cardinality 1..1"en, "Kardinalita 1..1"@cs ;
   rdfs:domain :Compensation ;
   rdfs:range xsd:string ;
   rdfs:isDefinedBy :
@@ -67,6 +69,7 @@
   rdfs:label "contact"@en, "kontakt"@cs ;
   rdfs:comment "Property relating job posting with contact information job seeker needs to respond to it"@en,
     "Vlastnost propojující nabídku práce s kontaktními informace, které jsou zapotřebí proto, aby uchazeč o práci mohl na nabídku odpovědět"@cs ;
+  vann:usageNote "Cardinality: n..n"@en, "Kardinalita: n..n"@cs ;
   rdfs:domain :JobPosting ;
   rdfs:range :ContactPoint ;
   rdfs:isDefinedBy :
@@ -76,42 +79,47 @@
   rdfs:label "compensation"@en, "kompenzace"@cs ;
   rdfs:comment "Property relating job posting to compensation paid by employer to employee"@en,
     "Vlastnost propojující nabídku práce s kompenzací hrazenou zaměstnavatelem zaměstnanci"@cs ;
+  vann:usageNote "Cardinality: n..n"@en, "Kardinalita: n..n"@cs ;
   rdfs:domain :JobPosting ;
   rdfs:range :Compensation ;
   rdfs:isDefinedBy :
   .
 
-:isRemoteWork a rdf:Property ;
+:isRemoteWork a owl:FunctionalProperty ;
   rdfs:label "remote work"@en, "práce na dálku"@cs ;
   rdfs:comment "Indicates job postings for which location of execution does not matter (i.e. remote work)"@en,
     "Označení nabídek práce, pro které na místu výkonu nezáleží (tj. práce na dálku)"@cs ;
+  vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
   rdfs:domain :JobPosting ;
   rdfs:range xsd:boolean ;
   rdfs:isDefinedBy :
   .
 
-:duration a rdf:Property ;
+:duration a owl:FunctionalProperty ;
   rdfs:label "duration"@en, "délka"@cs ;
   rdfs:comment "Length of period during which job applicant acquired experience"@en,
     "Délka trvání zkušenosti žadatele/ky o práci"@cs ;
+  vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
   rdfs:domain :Experience ;
   rdfs:range xsd:duration ;
   rdfs:isDefinedBy :
   .
 
-:references a rdf:Property ;
+:references a owl:FunctionalProperty ;
   rdfs:label "references"@en, "reference"@cs ;
   rdfs:comment "Indicates whether applicant is able to provide contact for references"@en,
     "Ukazuje, zda žadatel/ka může uvést kontakt pro poskytnutí reference k minulé práci"@cs ;
+  vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
   rdfs:domain :Experience ;
   rdfs:range xsd:boolean ;
   rdfs:isDefinedBy :
   .
 
-:startDate a rdf:Property ;
+:startDate a owl:FunctionalProperty ;
   rdfs:label "start date"@en, "datum nástupu"@cs ;
   rdfs:comment "Date when job opportunity starts"@en, 
     "Datum zahájení práce"@cs ;
+  vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
   rdfs:domain :JobPosting ;
   rdfs:range xsd:date ;
   rdfs:isDefinedBy :

@@ -6,6 +6,7 @@
 @prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema:   <http://schema.org/> .
 @prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann:     <http://purl.org/vocab/vann/> .
 @prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
 
 <http://vocab.damepraci.eu/> a owl:Ontology ;
@@ -25,7 +26,8 @@
       a foaf:Person ;
       foaf:name "Vojtěch Hýža"
     ] ;
-  dcterms:license <http://creativecommons.org/licenses/by/3.0/cz/>
+  dcterms:license <http://creativecommons.org/licenses/by/3.0/cz/> ;
+  vann:preferredNamespaceUri <http://vocab.damepraci.eu/#>
   .
 
 :JobSeeker a rdfs:Class ;
@@ -40,6 +42,7 @@
   rdfs:label "feature"@en, "rys"@cs ;
   rdfs:comment "Job seeker's feature"@en,
     "Rys žadatele o práci"@cs ;
+  vann:usageNote "Cardinality: n..n"@en, "Kardinalita: n..n"@cs ;
   rdfs:domain [
     a owl:Class ;
     owl:unionOf (schema:JobPosting :JobSeeker)
@@ -48,10 +51,11 @@
   rdfs:isDefinedBy :
   .
 
-:startYear a rdf:Property ;
+:startYear a owl:FunctionalProperty ;
   rdfs:label "start date"@en, "začátek"@cs ;
   rdfs:comment "Year when work experience started"@en,
     "Rok zahájení pracovní zkušenosti"@cs ;
+  vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
   rdfs:domain schema:WorkExperience ;
   rdfs:range xsd:gYear ;
   rdfs:isDefinedBy :
@@ -61,15 +65,17 @@
   rdfs:label "experience"@en, "zkušenost"@cs ;
   rdfs:comment "Job seeker's work experience"@en,
     "Pracovní zkušenost žadatele o práci"@cs ;
+  vann:usageNote "Cardinality: n..n"@en, "Kardinalita: n..n"@cs ;
   rdfs:domain :JobSeeker ;
   rdfs:range schema:WorkExperience ;
   rdfs:isDefinedBy :
   .
  
-:profession a rdf:Property ;
+:profession a owl:FunctionalProperty ;
   rdfs:label "profession"@en, "profese"@cs ;
   rdfs:comment "Profession job seeker identifies with"@en,
     "Profese udávaná žadatelem o práci"@cs;
+  vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
   rdfs:domain :JobSeeker ;
   rdfs:range xsd:string ;
   rdfs:isDefinedBy :
