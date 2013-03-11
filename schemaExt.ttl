@@ -28,8 +28,8 @@
 
 :Compensation a rdfs:Class ;
   rdfs:label "Compensation"@en, "Kompenzace"@cs ;
-  rdfs:comment "Defines how the worker is paid for the work done"@en, 
-    "Určení toho, jak je zaměstnanec placen za odvedenou práci"@cs ;
+  rdfs:comment "Class defining a data structure that describes how the worker is paid for the work done"@en, 
+    "Třída pro datovou strukturu určující, jak je zaměstnanec placen za odvedenou práci"@cs ;
   rdfs:subClassOf :QuantitativeValue ;
   rdfs:isDefinedBy :
   .
@@ -71,7 +71,8 @@
 
 :compensation a rdf:Property ;
   rdfs:label "compensation"@en, "kompenzace"@cs ;
-  rdfs:comment "Compensation paid by an employer to an employee"@en ;
+  rdfs:comment "Property relating job posting to compensation paid by employer to employee"@en,
+    "Vlastnost propojující nabídku práce s kompenzací hrazenou zaměstnavatelem zaměstnanci"@cs ;
   rdfs:domain :JobPosting ;
   rdfs:range :Compensation ;
   rdfs:isDefinedBy :
@@ -89,7 +90,7 @@
 :duration a rdf:Property ;
   rdfs:label "duration"@en, "délka"@cs ;
   rdfs:comment "Length of period during which job applicant acquired experience"@en,
-    "Délka trvání zkušenosti"@cs ;
+    "Délka trvání zkušenosti žadatele/ky o práci"@cs ;
   rdfs:domain :Experience ;
   rdfs:range xsd:duration ;
   rdfs:isDefinedBy :
