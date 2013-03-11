@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="cs" vocab="http://schema.org/"
   prefix="dcterms: http://purl.org/dc/terms/">
+  <!-- 
+  "Be liberal in what you accept, and conservative in what you send."
+  Zjednodušení:
+    nepovinné typy (rdf:type a datové typy), které lze odvodit; povinné je pouze alespoň 1 použít typeof="JobPosting"
+    nepovinné generování URI: lze použít blank nodes, nebo URI HTML dokumentu
+    strojově čitelné údaje mohou být uvedeny pomocí prázdných elementů, aby je bylo možné lépe automaticky generovat
+  -->
   <head>
     <meta charset="utf-8">
     <title>Skladník/ce - Řidič/ka VZV</title>
@@ -18,7 +25,7 @@
       </tr>
       <tr rel="jobLocation">
         <th>Adresa pracoviště</th>
-        <td>
+        <td><!-- Lze přeskočit použití rel="address" -->
           <p property="streetAddress">Místecká 126</p> 
           <p>720 00 <span property="addressLocality">Ostrava</span></p>
         </td>
