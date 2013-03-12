@@ -55,7 +55,7 @@
   rdfs:isDefinedBy :
   .
 
-:type a rdf:FunctionalProperty ;
+:type a owl:FunctionalProperty ;
   rdfs:label "type"@en, "typ"@cs ;
   rdfs:comment "Type of compensation. Recommended values are: annual, hourly, fixed."@en,
     "Způsob výpočtu a vyplácení kompenzace. Doporučené hodnoty jsou: roční, hodinová, fixní."@cs ;
