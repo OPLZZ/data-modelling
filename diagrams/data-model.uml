@@ -11,4 +11,5 @@
 [JobPosting]-compensation*>[Compensation*]
 [JobPosting]-contact*>[ContactPoint]
 [JobPosting]-experienceRequirements>[WorkExperience*]
+[Person]-roles:plays>[damepraci:JobSeeker]
 [Place]-address>[PostalAddress]

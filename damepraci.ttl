@@ -1,9 +1,11 @@
 @prefix :         <http://vocab.damepraci.eu/#> .
 @prefix dcterms:  <http://purl.org/dc/terms/> .
 @prefix foaf:     <http://xmlns.com/foaf/0.1/> .
+@prefix gr:       <http://purl.org/goodrelations/v1#> .
 @prefix owl:      <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix roles:    <http://purl.org/net/roles#> .
 @prefix schema:   <http://schema.org/> .
 @prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann:     <http://purl.org/vocab/vann/> .
@@ -34,7 +36,7 @@
   rdfs:label "Job seeker"@en, "Žadatel o práci"@cs ;
   rdfs:comment "A person while seeking job"@en,
     "Osoba žádající o práce"@cs ;
-  rdfs:subClassOf schema:Person ;
+  rdfs:subClassOf roles:TR ;
   rdfs:isDefinedBy :
   .
 
@@ -79,4 +81,11 @@
   rdfs:domain :JobSeeker ;
   rdfs:range xsd:string ;
   rdfs:isDefinedBy :
+  .
+
+schema:Person rdfs:subClassOf roles:Ag .
+
+gr:seeks rdfs:domain :JobSeeker ;
+  vann:usageNote "Property relating job seeker and his/her ideal job posting"@en,
+    "Vlastnost spojující žadatele o práci a jeho ideální nabídku práce"@cs
   .
