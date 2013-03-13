@@ -125,6 +125,21 @@
   rdfs:isDefinedBy :
   .
 
+:employer a owl:FunctionalProperty ;
+  rdfs:label "employer"@en, "zaměstnavatel"@cs ;
+  rdfs:comment "Property relating job postings to persons or organizations offering the job"@en,
+    "Vlastnost propojující nabídky práce s osobami nebo organizacemi, které práci nabízejí"@cs ;
+  vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
+  rdfs:domain :JobPosting ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (:Organization :Person)
+  ] ;
+  rdfs:isDefinedBy :
+  .
+
+:hiringOrganization rdfs:subPropertyOf :employer .
+
 :experienceRequirements rdfs:range :WorkExperience .
 
 :industry rdfs:comment "Includes also private employment etc."@en,
@@ -134,6 +149,8 @@
 ## Czech labels
 
 :JobPosting rdfs:label "Nabídka práce"@cs .
+:Organization rdfs:label "Organizace"@cs .
+:Person rdfs:label "Osoba"@cs .
 :Place rdfs:label "Místo"@cs .
 :PostalAddress rdfs:label "Poštovní adresa"@cs .
 :ContactPoint rdfs:label "Kontakt"@cs .
