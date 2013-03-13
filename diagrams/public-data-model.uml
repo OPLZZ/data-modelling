@@ -10,5 +10,7 @@
 [JobPosting]-contact*>[ContactPoint]
 [JobPosting]-employer*>[Organization]
 [JobPosting]-employer*>[Person]
+[JobPosting]-dcterms:publisher>[Organization]
+[JobPosting]-dcterms:publisher>[Person]
 [JobPosting]-experienceRequirements>[WorkExperience*]
 [Place]-address>[PostalAddress]
