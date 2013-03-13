@@ -12,7 +12,7 @@
 [JobPosting]-employer*>[Organization]
 [JobPosting]-employer*>[Person]
 [JobPosting]-experienceRequirements>[WorkExperience*]
-[Organization]-employee*>[Person]
+[Organization]-employee>[Person]
 [Person]-address>[PostalAddress]
 [Person]-damepraci:experience>[WorkExperience*]
 [Person]-damepraci:dreamJob>[JobPosting]

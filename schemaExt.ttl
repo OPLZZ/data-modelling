@@ -145,31 +145,3 @@
 :industry rdfs:comment "Includes also private employment etc."@en,
   "Zahrnuje také kategorie zaměstnání fyzickými osobami atp."@cs
   .
-
-## Czech labels
-
-:JobPosting rdfs:label "Nabídka práce"@cs .
-:Organization rdfs:label "Organizace"@cs .
-:Person rdfs:label "Osoba"@cs .
-:Place rdfs:label "Místo"@cs .
-:PostalAddress rdfs:label "Poštovní adresa"@cs .
-:ContactPoint rdfs:label "Kontakt"@cs .
-
-:address rdfs:label "adresa"@cs .
-:addressLocality rdfs:label "obec"@cs .
-dcterms:modified rdfs:label "změněno"@cs .
-dcterms:valid rdfs:label "platnost"@cs .
-:description rdfs:label "popis"@cs .
-:email rdfs:label "email"@cs .
-:employmentType rdfs:label "typ zaměstnaneckého poměru"@cs .
-:experienceRequirements rdfs:label "požadované zkušenosti"@cs .
-:industry rdfs:label "pracovní kategorie"@cs .
-:jobLocation rdfs:label "místo výkonu práce"@cs .
-:maxValue rdfs:label "maximální hodnota"@cs .
-:minValue rdfs:label "minimální hodnota"@cs .
-:name rdfs:label "jméno"@cs .
-:responsibilities rdfs:label "pracovní náplň"@cs .
-:streetAddress rdfs:label "ulice"@cs ; vann:usageNote "Může zahrnovat číslo popisné"@cs  .
-:telephone rdfs:label "telefon"@cs .
-:title rdfs:label "pracovní pozice"@cs .
-:value rdfs:label "hodnota"@cs . 
