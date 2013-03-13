@@ -68,7 +68,7 @@
 :contact a rdf:Property ;
   rdfs:label "contact"@en, "kontakt"@cs ;
   rdfs:comment "Contact information job seeker needs to respond to job posting"@en,
-    "Kontaktními informace, které jsou zapotřebí proto, aby uchazeč o práci mohl odpovědět na nabídku práce"@cs ;
+    "Kontaktní informace, které jsou zapotřebí proto, aby uchazeč o práci mohl odpovědět na nabídku práce"@cs ;
   vann:usageNote "Cardinality: n..n"@en, "Kardinalita: n..n"@cs ;
   rdfs:domain :JobPosting ;
   rdfs:range :ContactPoint ;
