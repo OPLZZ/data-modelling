@@ -59,7 +59,7 @@
   rdfs:label "type"@en, "typ"@cs ;
   rdfs:comment "Type of compensation. Recommended values are: annual, hourly, fixed."@en,
     "Způsob výpočtu a vyplácení kompenzace. Doporučené hodnoty jsou: roční, hodinová, fixní."@cs ;
-  vann:usageNote "Cardinality 1..1"en, "Kardinalita 1..1"@cs ;
+  vann:usageNote "Cardinality 1..1"@en, "Kardinalita 1..1"@cs ;
   rdfs:domain :Compensation ;
   rdfs:range xsd:string ;
   rdfs:isDefinedBy :
