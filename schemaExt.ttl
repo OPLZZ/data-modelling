@@ -142,6 +142,6 @@
 
 :experienceRequirements rdfs:range :WorkExperience .
 
-:industry rdfs:comment "Includes also private employment etc."@en,
+:industry vann:usageNote "Includes also private employment etc."@en,
   "Zahrnuje také kategorie zaměstnání fyzickými osobami atp."@cs
   .
