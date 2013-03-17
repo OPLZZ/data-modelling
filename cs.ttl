@@ -8,6 +8,9 @@
 dcterms:modified rdfs:label "změněno"@cs ;
   rdfs:comment "Datum, kdy byla nabídka práce změněna."@cs .
 
+dcterms:publisher rdfs:label "zveřejnil"@cs ;
+  rdfs:comment "Subjekt zveřejňující nabídku práce."@cs .
+
 dcterms:valid rdfs:label "platnost"@cs ;
   rdfs:comment "Datum (nebo časové rozmení) určující meze platnosti nabídky práce."@cs .
 
