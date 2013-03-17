@@ -82,7 +82,7 @@ schema:maxValue a rdf:Property ;
   rdfs:label "maximální hodnota"@cs ;
   rdfs:comment "Maximální hodnota kompenzace za práci."@cs .
 
-schema:minValue a rdf:Property ;
+schema:minValue a rdf:Property ;
   rdfs:label "minimální hodnota"@cs ;
   rdfs:comment "Minimální hodnota kompenzace za práci."@cs .
 
