@@ -2,7 +2,7 @@
 [ContactPoint|email;name;telephone]
 [JobPosting|dcterms:modified;dcterms:valid;description;employmentType;industry;damepraci:feature;responsibilites;isRemoteWork*;startDate*;title]
 [Organization|legalName]
-[Person|email;damepraci:feature;damepraci:profession]
+[Person|email;damepraci:feature;name;damepraci:profession]
 [Compensation*|maxValue;minValue;currency*;type*;value]
 [WorkExperience*|description;damepraci:startYear;duration*;references*]
 [PostalAddress|addressLocality;streetAddress]

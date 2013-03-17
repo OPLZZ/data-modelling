@@ -2,6 +2,7 @@
 [ContactPoint|email;name;telephone]
 [JobPosting|dcterms:modified;dcterms:valid;description;employmentType;industry;isRemoteWork*;responsibilites;startDate*;title]
 [Organization|legalName]
+[Person|name]
 [Compensation*|currency*;maxValue;minValue;type*;value]
 [WorkExperience*|description;duration*;references*]
 [PostalAddress|addressLocality;streetAddress]
