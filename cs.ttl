@@ -1,0 +1,82 @@
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:   <http://schema.org/> .
+@prefix vann:     <http://purl.org/vocab/vann/> .
+
+## Czech translations
+
+dcterms:modified rdfs:label "změněno"@cs ;
+  rdfs:comment "Datum, kdy byla nabídka práce změněna."@cs .
+
+dcterms:valid rdfs:label "platnost"@cs ;
+  rdfs:comment "Datum (nebo časové rozmení) určující meze platnosti nabídky práce."@cs .
+
+schema:ContactPoint rdfs:label "Kontakt"@cs ;
+  rdfs:comment "Informace o tom, jak možné kontaktovat zaměstanavatele."@cs .
+
+schema:JobPosting rdfs:label "Nabídka práce"@cs ;
+  rdfs:comment "Popis pracovní příležitosti."@cs .
+
+schema:Organization rdfs:label "Organizace"@cs ;
+  rdfs:comment "Skupina lidí sdružená v komunitní, společenské, obchodní nebo politické struktuře."@cs .
+
+schema:Person rdfs:label "Osoba"@cs ;
+  rdfs:comment "Fyzická nebo právnická osoba."@cs ..
+
+schema:Place rdfs:label "Místo"@cs ;
+  rdfs:comment "Lokalita vymezená v prostoru."@cs .
+
+schema:PostalAddress rdfs:label "Poštovní adresa"@cs ;
+  rdfs:comment "Adresa pro doručování pošty."@cs .
+
+schema:address rdfs:label "adresa"@cs ;
+  rdfs:comment "Vlastnost pro asociovanou poštovní adresu."@cs .
+
+schema:addressLocality rdfs:label "obec"@cs ;
+  rdfs:comment "Lokalita obsažená v poštovní adrese, např. město."@cs .
+
+schema:description rdfs:label "popis"@cs ;
+  rdfs:comment "Textový popis nabídky práce."@cs .
+
+schema:email rdfs:label "email"@cs ;
+  rdfs:comment "Emailová adresa uvedená v kontaktních informacích nabídky práce nebo na profilu žadatele o práci."@cs .
+
+schema:employmentType rdfs:label "typ pracovního úvazku"@cs ;
+  rdfs:comment "Typ a rozsah pracovního úvazku."@cs .
+
+schema:experienceRequirements rdfs:label "požadované zkušenosti"@cs ;
+  rdfs:comment "Popis pracovních zkušeností, které jsou požadovány pro nabízenou práci."@cs .
+
+schema:industry rdfs:label "odvětví"@cs ;
+  rdfs:label "Odvětví, do něhož pracovní nabídka spadá. Může zahrnovat také zaměstnání soukromými osobami."@cs .
+
+schema:jobLocation rdfs:label "místo výkonu práce"@cs ;
+  rdfs:label "Geografická lokalita asociovaná s nabízenou prací."@cs .
+
+schema:legalName rdfs:label "oficiální název"@cs ;
+  rdfs:label "Název, s nímž je organizace registrována v oficiálním rejstříku."@cs .
+
+schema:maxValue rdfs:label "maximální hodnota"@cs ;
+  rdfs:comment "Maximální hodnota kompenzace za práci."@cs .
+
+schema:minValue rdfs:label "minimální hodnota"@cs ;
+  rdfs:comment "Minimální hodnota kompenzace za práci."@cs .
+
+schema:name rdfs:label "jméno"@cs ;
+  rdfs:comment "Jméno asociované s kontaktními informacemi."@cs .
+
+schema:responsibilities rdfs:label "pracovní náplň"@cs ;
+  rdfs:comment "Pracovní náplň a povinnosti spojené s nabídkou práce."@cs .
+
+schema:streetAddress rdfs:label "ulice"@cs ;
+  rdfs:label "Název ulice obsažené v kontaktních informacích. Může obsahovat také číslo popisné."@cs ;
+  vann:usageNote "Může zahrnovat číslo popisné"@cs .
+
+schema:telephone rdfs:label "telefonní číslo"@cs ;
+  rdfs:label "Telefonní číslo obsažené v kontaktních informacích."@cs .
+
+schema:title rdfs:label "pracovní pozice"@cs ;
+  rdfs:comment "Název pracovní pozice obsažený v nabídce práce."@cs .
+
+schema:value rdfs:label "hodnota"@cs ;
+  rdfs:comment "Hodnota kompenzace za nabízenou práci."@cs .
