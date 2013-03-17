@@ -24,7 +24,7 @@ schema:Organization rdfs:label "Organizace"@cs ;
   rdfs:comment "Skupina lidí sdružená v komunitní, společenské, obchodní nebo politické struktuře."@cs .
 
 schema:Person rdfs:label "Osoba"@cs ;
-  rdfs:comment "Fyzická nebo právnická osoba."@cs ..
+  rdfs:comment "Fyzická nebo právnická osoba."@cs .
 
 schema:Place rdfs:label "Místo"@cs ;
   rdfs:comment "Lokalita vymezená v prostoru."@cs .
