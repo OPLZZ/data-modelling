@@ -1,16 +1,16 @@
-@prefix :         <http://schema.org/> .
 @prefix dcterms:  <http://purl.org/dc/terms/> .
 @prefix foaf:     <http://xmlns.com/foaf/0.1/> .
 @prefix owl:      <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:   <http://schema.org/> .
 @prefix vann:     <http://purl.org/vocab/vann/> .
 @prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
 
-<> a owl:Ontology ;
+<http://schema.org> a owl:Ontology ;
   rdfs:label "Schema.org extension proposal"@en,
     "Návrh rozšíření Schema.org"@cs ;
-  dcterms:creator <http://richard.cyganiak.de/#me>, 
+  dcterms:contributor <http://richard.cyganiak.de/#me>, 
     <http://keg.vse.cz/resource/person/jindrich-mynarz>,
     [
       a foaf:Person ;
@@ -29,119 +29,119 @@
   vann:preferredNamespacePrefix "schema"
   .
 
-:Compensation a rdfs:Class ;
+schema:Compensation a rdfs:Class ;
   rdfs:label "Compensation"@en, "Kompenzace"@cs ;
   rdfs:comment "Compensation describes how the worker is paid for the work done"@en, 
     "Kompenzace určuje, jak je zaměstnanec placen za odvedenou práci"@cs ;
-  rdfs:subClassOf :QuantitativeValue ;
-  rdfs:isDefinedBy :
+  rdfs:subClassOf schema:QuantitativeValue ;
+  rdfs:isDefinedBy <http://schema.org>
   .
 
-:WorkExperience a rdfs:Class ;
+schema:WorkExperience a rdfs:Class ;
   rdfs:label "Work experience"@en, "Pracovní zkušenost"@cs ;
   rdfs:comment "Job applicant's work history that demonstrates skills or competences"@en,
     "Pracovní zkušenost žadatele/ky o práci demonstrující nabyté schopnosti nebo kompetence"@cs ;
-  rdfs:subClassOf :StructuredValue ;
-  rdfs:isDefinedBy :
+  rdfs:subClassOf schema:StructuredValue ;
+  rdfs:isDefinedBy <http://schema.org>
   .
 
-:currency a owl:FunctionalProperty ;
+schema:currency a owl:FunctionalProperty ;
   rdfs:label "currency"@en, "měna"@cs ;
   rdfs:comment "Currency (in 3-letter ISO 4217 format), in which compensation is paid"@en,
     "Měna (v 3-místném formátu ISO 4217), ve které je vyplácena kompenzace"@cs ;
   vann:usageNote "Cardinality 1..1"@en, "Kardinalita 1..1"@cs ;
-  rdfs:domain :Compensation ;
+  rdfs:domain schema:Compensation ;
   rdfs:range xsd:string ;
-  rdfs:isDefinedBy :
+  rdfs:isDefinedBy <http://schema.org>
   .
 
-:type a owl:FunctionalProperty ;
+schema:type a owl:FunctionalProperty ;
   rdfs:label "type"@en, "typ"@cs ;
   rdfs:comment "Type of compensation. Recommended values are: annual, hourly, fixed."@en,
     "Způsob výpočtu a vyplácení kompenzace. Doporučené hodnoty jsou: roční, hodinová, fixní."@cs ;
   vann:usageNote "Cardinality 1..1"@en, "Kardinalita 1..1"@cs ;
-  rdfs:domain :Compensation ;
+  rdfs:domain schema:Compensation ;
   rdfs:range xsd:string ;
-  rdfs:isDefinedBy :
+  rdfs:isDefinedBy <http://schema.org>
   .
 
-:contact a rdf:Property ;
+schema:contact a rdf:Property ;
   rdfs:label "contact"@en, "kontakt"@cs ;
   rdfs:comment "Contact information job seeker needs to respond to job posting"@en,
     "Kontaktní informace, které jsou zapotřebí proto, aby uchazeč o práci mohl odpovědět na nabídku práce"@cs ;
   vann:usageNote "Cardinality: n..n"@en, "Kardinalita: n..n"@cs ;
-  rdfs:domain :JobPosting ;
-  rdfs:range :ContactPoint ;
-  rdfs:isDefinedBy :
+  rdfs:domain schema:JobPosting ;
+  rdfs:range schema:ContactPoint ;
+  rdfs:isDefinedBy <http://schema.org>
   .
 
-:compensation a rdf:Property ;
+schema:compensation a rdf:Property ;
   rdfs:label "compensation"@en, "kompenzace"@cs ;
   rdfs:comment "Compensation paid by employer to employee as stated in job posting"@en,
     "Kompenzace hrazená zaměstnavatelem zaměstnanci popsaná v nabídce práce"@cs ;
   vann:usageNote "Cardinality: n..n"@en, "Kardinalita: n..n"@cs ;
-  rdfs:domain :JobPosting ;
-  rdfs:range :Compensation ;
-  rdfs:isDefinedBy :
+  rdfs:domain schema:JobPosting ;
+  rdfs:range schema:Compensation ;
+  rdfs:isDefinedBy <http://schema.org>
   .
 
-:isRemoteWork a owl:FunctionalProperty ;
+schema:isRemoteWork a owl:FunctionalProperty ;
   rdfs:label "remote work"@en, "práce na dálku"@cs ;
   rdfs:comment "Indicates job postings for which location of execution does not matter (i.e. remote work)"@en,
     "Označení nabídek práce, pro které na místu výkonu nezáleží (tj. práce na dálku)"@cs ;
   vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
-  rdfs:domain :JobPosting ;
+  rdfs:domain schema:JobPosting ;
   rdfs:range xsd:boolean ;
-  rdfs:isDefinedBy :
+  rdfs:isDefinedBy <http://schema.org>
   .
 
-:duration a owl:FunctionalProperty ;
+schema:duration a owl:FunctionalProperty ;
   rdfs:label "duration"@en, "délka"@cs ;
   rdfs:comment "Length of period during which job applicant acquired experience"@en,
     "Délka trvání zkušenosti žadatele/ky o práci"@cs ;
   vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
-  rdfs:domain :Experience ;
+  rdfs:domain schema:Experience ;
   rdfs:range xsd:duration ;
-  rdfs:isDefinedBy :
+  rdfs:isDefinedBy <http://schema.org>
   .
 
-:references a owl:FunctionalProperty ;
+schema:references a owl:FunctionalProperty ;
   rdfs:label "references"@en, "reference"@cs ;
   rdfs:comment "Indicates whether applicant is able to provide contact for references"@en,
     "Ukazuje, zda žadatel/ka může uvést kontakt pro poskytnutí reference k minulé práci"@cs ;
   vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
-  rdfs:domain :Experience ;
+  rdfs:domain schema:Experience ;
   rdfs:range xsd:boolean ;
-  rdfs:isDefinedBy :
+  rdfs:isDefinedBy <http://schema.org>
   .
 
-:startDate a owl:FunctionalProperty ;
+schema:startDate a owl:FunctionalProperty ;
   rdfs:label "start date"@en, "datum nástupu"@cs ;
   rdfs:comment "Date when job opportunity starts"@en, 
     "Datum zahájení práce"@cs ;
   vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
-  rdfs:domain :JobPosting ;
+  rdfs:domain schema:JobPosting ;
   rdfs:range xsd:date ;
-  rdfs:isDefinedBy :
+  rdfs:isDefinedBy <http://schema.org>
   .
 
-:employer a owl:FunctionalProperty ;
+schema:employer a owl:FunctionalProperty ;
   rdfs:label "employer"@en, "zaměstnavatel"@cs ;
   rdfs:comment "Property relating job postings to persons or organizations offering the job"@en,
     "Vlastnost propojující nabídky práce s osobami nebo organizacemi, které práci nabízejí"@cs ;
   vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
-  rdfs:domain :JobPosting ;
+  rdfs:domain schema:JobPosting ;
   rdfs:range [
     a owl:Class ;
-    owl:unionOf (:Organization :Person)
+    owl:unionOf (schema:Organization schema:Person)
   ] ;
-  rdfs:isDefinedBy :
+  rdfs:isDefinedBy <http://schema.org>
   .
 
-:hiringOrganization rdfs:subPropertyOf :employer .
+schema:hiringOrganization rdfs:subPropertyOf schema:employer .
 
-:experienceRequirements rdfs:range :WorkExperience .
+schema:experienceRequirements rdfs:range schema:WorkExperience .
 
-:industry vann:usageNote "Includes also private employment etc."@en,
+schema:industry vann:usageNote "Includes also private employment etc."@en,
   "Zahrnuje také kategorie zaměstnání fyzickými osobami atp."@cs
   .

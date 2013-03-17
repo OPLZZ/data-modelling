@@ -1,14 +1,14 @@
-@prefix :         <http://vocab.damepraci.eu/#> .
-@prefix dcterms:  <http://purl.org/dc/terms/> .
-@prefix foaf:     <http://xmlns.com/foaf/0.1/> .
-@prefix gr:       <http://purl.org/goodrelations/v1#> .
-@prefix owl:      <http://www.w3.org/2002/07/owl#> .
-@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema:   <http://schema.org/> .
-@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
-@prefix vann:     <http://purl.org/vocab/vann/> .
-@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix damepraci:  <http://vocab.damepraci.eu/#> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix gr:         <http://purl.org/goodrelations/v1#> .
+@prefix owl:        <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:     <http://schema.org/> .
+@prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann:       <http://purl.org/vocab/vann/> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
 
 <http://vocab.damepraci.eu> a owl:Ontology ;
   rdfs:label "Vocabulary for the application for matching job postings and job seekers"@en, 
@@ -31,17 +31,17 @@
   vann:preferredNamespaceUri <http://vocab.damepraci.eu/#>
   .
 
-:dreamjob a rdf:Property ;
+damepraci:dreamjob a rdf:Property ;
   rdfs:label "dream job"@en, "práce snů"@cs ;
   rdfs:comment "Job seeker's ideal job posting"@en,
     "Ideální nabídka práce pro žadatele o práci"@cs ;
   vann:usageNote "Cardinality: n..n"@en, "Kardinalita: n..n"@cs ;
   rdfs:domain schema:Person ;
   rdfs:range schema:JobPosting ;
-  rdfs:isDefinedBy :
+  rdfs:isDefinedBy <http://vocab.damepraci.eu>
   .
 
-:feature a rdf:Property ;
+damepraci:feature a rdf:Property ;
   rdfs:label "feature"@en, "rys"@cs ;
   rdfs:comment "Job seeker's feature"@en,
     "Rys žadatele o práci"@cs ;
@@ -51,35 +51,35 @@
     owl:unionOf (schema:JobPosting schema:Person)
   ] ;
   rdfs:range skos:Concept ;
-  rdfs:isDefinedBy :
+  rdfs:isDefinedBy <http://vocab.damepraci.eu>
   .
 
-:startYear a owl:FunctionalProperty ;
+damepraci:startYear a owl:FunctionalProperty ;
   rdfs:label "start date"@en, "začátek"@cs ;
   rdfs:comment "Year when work experience started"@en,
     "Rok zahájení pracovní zkušenosti"@cs ;
   vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
   rdfs:domain schema:WorkExperience ;
   rdfs:range xsd:gYear ;
-  rdfs:isDefinedBy :
+  rdfs:isDefinedBy <http://vocab.damepraci.eu>
   .
 
-:experience a rdf:Property ;
+damepraci:experience a rdf:Property ;
   rdfs:label "experience"@en, "zkušenost"@cs ;
   rdfs:comment "Job seeker's work experience"@en,
     "Pracovní zkušenost žadatele o práci"@cs ;
   vann:usageNote "Cardinality: n..n"@en, "Kardinalita: n..n"@cs ;
   rdfs:domain schema:Person ;
   rdfs:range schema:WorkExperience ;
-  rdfs:isDefinedBy :
+  rdfs:isDefinedBy <http://vocab.damepraci.eu>
   .
  
-:profession a owl:FunctionalProperty ;
+damepraci:profession a owl:FunctionalProperty ;
   rdfs:label "profession"@en, "profese"@cs ;
   rdfs:comment "Profession job seeker identifies with"@en,
     "Profese udávaná žadatelem o práci"@cs;
   vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
   rdfs:domain schema:Person ;
   rdfs:range xsd:string ;
-  rdfs:isDefinedBy :
+  rdfs:isDefinedBy <http://vocab.damepraci.eu>
   .
