@@ -57,8 +57,8 @@ schema:currency a owl:FunctionalProperty ;
 
 schema:type a owl:FunctionalProperty ;
   rdfs:label "type"@en, "typ"@cs ;
-  rdfs:comment "Type of compensation. Recommended values are: annual, hourly, fixed."@en,
-    "Způsob výpočtu a vyplácení kompenzace. Doporučené hodnoty jsou: roční, hodinová, fixní."@cs ;
+  rdfs:comment "Type of compensation. Recommended values are: annual, monthly, hourly, fixed."@en,
+    "Způsob výpočtu a vyplácení kompenzace. Doporučené hodnoty jsou: roční, měsíční, hodinová, fixní."@cs ;
   vann:usageNote "Cardinality 1..1"@en, "Kardinalita 1..1"@cs ;
   rdfs:domain schema:Compensation ;
   rdfs:range xsd:string ;
