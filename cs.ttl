@@ -96,7 +96,7 @@ schema:responsibilities a rdf:Property ;
 
 schema:streetAddress a rdf:Property ;
   rdfs:label "ulice"@cs ;
-  rdfs:comment "Název ulice obsažené v kontaktních informacích. Může obsahovat také číslo popisné."@cs ;
+  rdfs:comment "Název ulice obsažený v kontaktních informacích. Může obsahovat také číslo popisné."@cs ;
   vann:usageNote "Může zahrnovat číslo popisné"@cs .
 
 schema:telephone a rdf:Property ;
