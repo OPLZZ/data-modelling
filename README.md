@@ -1,6 +1,6 @@
 # data-modelling
 
-Collection of data modelling patterns for job postings based on [Schema.org](http://schema.org). Associated documentation and data modelling recipes are available on the [project wiki](wiki).
+Collection of data modelling patterns for job postings based on [Schema.org](http://schema.org). Associated documentation and data modelling recipes are available on the [project wiki](https://github.com/OPLZZ/data-modelling/wiki).
 
 ## Dependencies
 
