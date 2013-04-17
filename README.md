@@ -2,6 +2,8 @@
 
 Collection of data modelling patterns for job postings based on [Schema.org](http://schema.org). Associated documentation and data modelling recipes are available on the [project wiki](https://github.com/OPLZZ/data-modelling/wiki).
 
+The data model is proposed as an [extension for Schema.org](http://www.w3.org/wiki/WebSchemas/JobMarket).
+
 ## Dependencies
 
 * [Schema.org](http://schema.org): mainly [`schema:JobPosting`](http://schema.org/JobPosting), [`schema:Person`](http://schema.org/Person)
