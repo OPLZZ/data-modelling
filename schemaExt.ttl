@@ -117,7 +117,7 @@ schema:references a owl:FunctionalProperty ;
 
 schema:startDate a owl:FunctionalProperty ;
   rdfs:label "start date"@en, "datum nástupu"@cs ;
-  rdfs:comment "Date when job opportunity starts"@en, 
+  rdfs:comment "Date when employment starts"@en, 
     "Datum zahájení práce"@cs ;
   vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
   rdfs:domain schema:JobPosting ;
@@ -127,7 +127,7 @@ schema:startDate a owl:FunctionalProperty ;
 
 schema:employer a owl:FunctionalProperty ;
   rdfs:label "employer"@en, "zaměstnavatel"@cs ;
-  rdfs:comment "Property relating job postings to persons or organizations offering the job"@en,
+  rdfs:comment "Property relating job postings to persons or organizations offering a job"@en,
     "Vlastnost propojující nabídky práce s osobami nebo organizacemi, které práci nabízejí"@cs ;
   vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
   rdfs:domain schema:JobPosting ;
