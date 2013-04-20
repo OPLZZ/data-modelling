@@ -6,6 +6,7 @@
 [Compensation*|maxValue;minValue;currency*;type*;value]
 [WorkExperience*|description;damepraci:startYear;duration*;references*]
 [PostalAddress|addressLocality;streetAddress]
+[JobPosting]-address>[PostalAddress]
 [JobPosting]-compensation*>[Compensation*]
 [JobPosting]-contact*>[ContactPoint]
 [JobPosting]-dcterms:publisher>[Organization]

@@ -6,6 +6,7 @@
 [Compensation*|currency*;maxValue;minValue;type*;value]
 [WorkExperience*|description;duration*;references*]
 [PostalAddress|addressLocality;streetAddress]
+[JobPosting]-address>[PostalAddress]
 [JobPosting]-jobLocation>[Place]
 [JobPosting]-compensation*>[Compensation*]
 [JobPosting]-contact*>[ContactPoint]
