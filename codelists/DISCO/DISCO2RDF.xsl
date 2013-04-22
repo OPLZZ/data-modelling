@@ -14,6 +14,7 @@
             DOUBLE AS PREF TERM: used both as prefLabel and altLabel
             DOUBLE SYNONYM: used twice as altLabel for different concepts
             DOUBLE AS SYNONYM 2: used twice as prefLabel for the same concept
+        Add skos:topConceptOf by SPARQL.
     -->
     
     <xsl:param name="namespace">http://data.damepraci.cz/resource/</xsl:param>
@@ -54,9 +55,6 @@
                 </xsl:call-template>    
             </xsl:variable>
             <skos:inScheme rdf:resource="{$scheme}"/>
-            <xsl:if test="not(BT)">
-                <skos:topConceptOf rdf:resource="{$scheme}"/>
-            </xsl:if>
             <xsl:apply-templates>
                 <xsl:with-param name="defaultLang" select="$defaultLang"/>
             </xsl:apply-templates>
