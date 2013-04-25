@@ -15,6 +15,7 @@
             DOUBLE SYNONYM: used twice as altLabel for different concepts
             DOUBLE AS SYNONYM 2: used twice as prefLabel for the same concept
         Add skos:topConceptOf by SPARQL.
+        Add links in opposite directions for symmetric properties (e.g., skos:related) by SPARQL.
     -->
     
     <xsl:param name="namespace">http://data.damepraci.cz/resource/</xsl:param>
