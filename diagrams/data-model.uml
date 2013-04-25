@@ -1,7 +1,7 @@
 // http://schema.org is the default namespace. Vocabulary terms marked with * come from a Schema.org extension proposal.
 [ContactPoint|email;name;telephone]
 [JobPosting|dcterms:modified;dcterms:valid;description;employmentType;industry;damepraci:feature;responsibilites;isRemoteWork*;startDate*;title]
-[Organization|legalName]
+[Organization|name]
 [Person|email;damepraci:feature;name;damepraci:profession]
 [Compensation*|maxValue;minValue;currency*;type*;value]
 [WorkExperience*|description;damepraci:startYear;duration*;references*]

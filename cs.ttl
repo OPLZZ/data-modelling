@@ -74,10 +74,6 @@ schema:jobLocation a rdf:Property ;
   rdfs:label "místo výkonu práce"@cs ;
   rdfs:comment "Geografická lokalita asociovaná s nabízenou prací."@cs .
 
-schema:legalName a rdf:Property ;
-  rdfs:label "oficiální název"@cs ;
-  rdfs:label "Název, s nímž je organizace registrována v oficiálním rejstříku."@cs .
-
 schema:maxValue a rdf:Property ;
   rdfs:label "maximální hodnota"@cs ;
   rdfs:comment "Maximální hodnota kompenzace za práci."@cs .
@@ -88,7 +84,7 @@ schema:minValue a rdf:Property ;
 
 schema:name a rdf:Property ;
   rdfs:label "jméno"@cs ;
-  rdfs:comment "Jméno asociované s kontaktními informacemi."@cs .
+  rdfs:comment "Jméno organizace nebo jméno asociované s kontaktními informacemi."@cs .
 
 schema:responsibilities a rdf:Property ;
   rdfs:label "pracovní náplň"@cs ;

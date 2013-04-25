@@ -1,6 +1,9 @@
 # data-modelling
 
-Collection of data modelling patterns for job postings based on [Schema.org](http://schema.org). Associated documentation and data modelling recipes are available on the [project wiki](https://github.com/OPLZZ/data-modelling/wiki).
+Collection of data modelling patterns for job postings based on [Schema.org](http://schema.org). Associated documentation and data modelling recipes are available on the [project wiki](https://github.com/OPLZZ/data-modelling/wiki):
+
+* Reference: [English](https://github.com/OPLZZ/data-modelling/wiki/Reference-English), [česky](https://github.com/OPLZZ/data-modelling/wiki/Reference-Czech)
+* RDFa recipe: [English](https://github.com/OPLZZ/data-modelling/wiki/RDFa-Recipe-English), [česky](https://github.com/OPLZZ/data-modelling/wiki/RDFa-Recipe-Czech)
 
 The data model is proposed as an [extension for Schema.org](http://www.w3.org/wiki/WebSchemas/JobMarket).
 
