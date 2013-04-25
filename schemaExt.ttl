@@ -65,6 +65,15 @@ schema:type a owl:FunctionalProperty ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
+schema:availableVacancies a owl:FunctionalProperty ;
+  rdfs:label "number of available vacancies"@en, "počet nabízených míst"@cs ;
+  rdfs:comment "Number of persons sought for a job. Default value is 1."@en, "Počet osob požadovaných pro práci. Výchozí hodnotou je 1."@cs ;
+  vann:usageNote "Cardinality 1..1"@en, "Kardinalita 1..1"@cs ;
+  rdfs:domain schema:JobPosting ;
+  rdfs:range xsd:integer ;
+  rdfs:isDefinedBy <http://schema.org>
+  .
+
 schema:contact a rdf:Property ;
   rdfs:label "contact"@en, "kontakt"@cs ;
   rdfs:comment "Contact information job seeker needs to respond to job posting"@en,
@@ -85,6 +94,19 @@ schema:compensation a rdf:Property ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
+schema:employer a owl:FunctionalProperty ;
+  rdfs:label "employer"@en, "zaměstnavatel"@cs ;
+  rdfs:comment "Property relating job postings to persons or organizations offering a job"@en,
+    "Vlastnost propojující nabídky práce s osobami nebo organizacemi, které práci nabízejí"@cs ;
+  vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
+  rdfs:domain schema:JobPosting ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (schema:Organization schema:Person)
+  ] ;
+  rdfs:isDefinedBy <http://schema.org>
+  .
+
 schema:isRemoteWork a owl:FunctionalProperty ;
   rdfs:label "remote work"@en, "práce na dálku"@cs ;
   rdfs:comment "Indicates job postings for which location of execution does not matter (i.e. remote work)"@en,
@@ -92,6 +114,16 @@ schema:isRemoteWork a owl:FunctionalProperty ;
   vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
   rdfs:domain schema:JobPosting ;
   rdfs:range xsd:boolean ;
+  rdfs:isDefinedBy <http://schema.org>
+  .
+
+schema:startDate a owl:FunctionalProperty ;
+  rdfs:label "start date"@en, "datum nástupu"@cs ;
+  rdfs:comment "Date when employment starts"@en, 
+    "Datum zahájení práce"@cs ;
+  vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
+  rdfs:domain schema:JobPosting ;
+  rdfs:range xsd:date ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
@@ -112,29 +144,6 @@ schema:references a owl:FunctionalProperty ;
   vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
   rdfs:domain schema:Experience ;
   rdfs:range xsd:boolean ;
-  rdfs:isDefinedBy <http://schema.org>
-  .
-
-schema:startDate a owl:FunctionalProperty ;
-  rdfs:label "start date"@en, "datum nástupu"@cs ;
-  rdfs:comment "Date when employment starts"@en, 
-    "Datum zahájení práce"@cs ;
-  vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
-  rdfs:domain schema:JobPosting ;
-  rdfs:range xsd:date ;
-  rdfs:isDefinedBy <http://schema.org>
-  .
-
-schema:employer a owl:FunctionalProperty ;
-  rdfs:label "employer"@en, "zaměstnavatel"@cs ;
-  rdfs:comment "Property relating job postings to persons or organizations offering a job"@en,
-    "Vlastnost propojující nabídky práce s osobami nebo organizacemi, které práci nabízejí"@cs ;
-  vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
-  rdfs:domain schema:JobPosting ;
-  rdfs:range [
-    a owl:Class ;
-    owl:unionOf (schema:Organization schema:Person)
-  ] ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
