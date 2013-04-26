@@ -83,3 +83,12 @@ damepraci:profession a owl:FunctionalProperty ;
   rdfs:range xsd:string ;
   rdfs:isDefinedBy <http://vocab.damepraci.eu>
   .
+
+damepraci:isStartDateASAP a owl:FunctionalProperty ;
+  rdfs:label "Start date as soon as possible"@en, "Datum nástupu co nejdříve"@cs ;
+  rdfs:comment "Indicates whether the applicants should start with the posted job as soon as possible."@en, "Označení nabídek práce, kde by uchazeč měl nastoupit co nejdříve."@cs ;
+  vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
+  rdfs:domain schema:JobPosting ;
+  rdfs:range xsd:boolean ;
+  rdfs:isDefinedBy <http://vocab.damepraci.eu>
+  .
