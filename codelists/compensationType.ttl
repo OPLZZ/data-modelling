@@ -1,0 +1,32 @@
+@prefix :     <http://data.damepraci.cz/resource/compensation-types/concept/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.damepraci.cz/resource/concept-scheme/compensation-types> a skos:ConceptScheme ;
+  rdfs:label "Compensation types"@en, "Typy kompenzací"@cs ;
+  skos:hasTopConcept :annual, :monthly, :hourly, :fixed
+  .
+
+:annual a skos:Concept ;
+  skos:prefLabel "Annual"@en, "Roční"@cs ;
+  skos:topConceptOf <http://data.damepraci.cz/resource/concept-scheme/compensation-types> ;
+  skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/compensation-types>
+  .
+
+:monthly a skos:Concept ;
+  skos:prefLabel "Monthly"@en, "Měsíční"@cs ;
+  skos:topConceptOf <http://data.damepraci.cz/resource/concept-scheme/compensation-types> ;
+  skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/compensation-types>
+  .
+
+:hourly a skos:Concept ;
+  skos:prefLabel "Hourly"@en, "Hodinová"@cs ;
+  skos:topConceptOf <http://data.damepraci.cz/resource/concept-scheme/compensation-types> ;
+  skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/compensation-types>
+  .
+
+:fixed a skos:Concept ;
+  skos:prefLabel "Fixed"@en, "Fixní"@cs ;
+  skos:topConceptOf <http://data.damepraci.cz/resource/concept-scheme/compensation-types> ;
+  skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/compensation-types>
+  .
