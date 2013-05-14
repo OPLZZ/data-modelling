@@ -1,0 +1,3525 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.damepraci.cz/resource/concept-scheme/countries>
+    a skos:ConceptScheme .
+
+<http://data.damepraci.cz/resource/concept-scheme/currency-codes>
+    a skos:ConceptScheme ;
+    rdfs:label "ISO 4127 currency codes"@en, "ISO 4217 kódy měn"@cs .
+
+<http://data.damepraci.cz/resource/countries/concept/00d7f69f12785bd324517c9f11e876c5da47ca5d>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "MARTINIQUE" .
+
+<http://data.damepraci.cz/resource/countries/concept/01418e1bfbd17a694937cda87acc44155843e4df>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "TOKELAU" .
+
+<http://data.damepraci.cz/resource/countries/concept/01a403218d16a72ecfd38a0ead7afa00dc2d1c4e>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SOMALIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/01fab39cd0801c2f334a4e543b3daf4bdbaf9902>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SAINT BARTHÉLEMY" .
+
+<http://data.damepraci.cz/resource/countries/concept/03fa660b10af9f049d892919285ee7bb853b3bce>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "UZBEKISTAN" .
+
+<http://data.damepraci.cz/resource/countries/concept/0422bf38a4e41786d8009dd5f36b5bb3014ca417>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "NORWAY" .
+
+<http://data.damepraci.cz/resource/countries/concept/043a6c45e472debba7980be9e3eb12b1209c2877>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "CAYMAN ISLANDS" .
+
+<http://data.damepraci.cz/resource/countries/concept/04886207388e661967bca7a56d7de85414f867e3>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ETHIOPIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/0494ce1ce00b5ed2f94cca73dcf4aa51cfe58529>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "LUXEMBOURG" .
+
+<http://data.damepraci.cz/resource/countries/concept/05ba0b3b8290d69e6cef1189bbee863f442a3497>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "CROATIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/081b71d71da3621b781fab056ce7499d0f17d318>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "MAURITANIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/085a3082042e3090132b4c736eab30cf4d0da8e1>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "INTERNATIONAL MONETARY FUND (IMF) " .
+
+<http://data.damepraci.cz/resource/countries/concept/08a01ecab831f8e3b4af7ea90a91905dcd8f9ff3>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SRI LANKA" .
+
+<http://data.damepraci.cz/resource/countries/concept/0b6f4b925157cac3ee2c3e6630548d4879b8e9df>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SINT MAARTEN (DUTCH PART)" .
+
+<http://data.damepraci.cz/resource/countries/concept/0c1d80180aa45d3f66464bdc2b076e6421dabd9b>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ZIMBABWE" .
+
+<http://data.damepraci.cz/resource/countries/concept/0c56d10716a4dbc5588692af8afb0521b43e0fcc>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "YUGOSLAVIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/0d4ec3f23fcfd1d0cc8572782b717099555be3a6>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "MONACO" .
+
+<http://data.damepraci.cz/resource/countries/concept/0ea7c1c7983377fba8ac21e3521d2601f3a41134>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ZZ08_Gold" .
+
+<http://data.damepraci.cz/resource/countries/concept/0edec670409380e42e57e7ab5224d815e3c121da>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ISRAEL" .
+
+<http://data.damepraci.cz/resource/countries/concept/0f50c92061830695fc51abc609c71d1382652e61>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "KENYA" .
+
+<http://data.damepraci.cz/resource/countries/concept/0f6d46ed4948fd9bde4f2e9f33031253906ec827>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SIERRA LEONE" .
+
+<http://data.damepraci.cz/resource/countries/concept/11bdfea0b3365504d30da1fbef318014515bdcb2>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "NAMIBIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/123aef702c863ac525b9e03597fbbf75b6d72702>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "FRENCH GUIANA" .
+
+<http://data.damepraci.cz/resource/countries/concept/12aad60a0a15534eabc27b3719e3a17c0f603628>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "LIECHTENSTEIN" .
+
+<http://data.damepraci.cz/resource/countries/concept/13b59dfae73c9b610fbb4df685ce6ad2bb29502b>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SVALBARD AND JAN MAYEN" .
+
+<http://data.damepraci.cz/resource/countries/concept/1455ddefee49384c0a19a5c248f844e6a68b41d9>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ZZ02_RINET Funds Code" .
+
+<http://data.damepraci.cz/resource/countries/concept/14b2d53f66f7f09227cbff1cd0d6d45dd68f83aa>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "LEBANON" .
+
+<http://data.damepraci.cz/resource/countries/concept/14c0a8bf76907883f4505a4d2609f5f9b2bfd09b>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "MEXICO" .
+
+<http://data.damepraci.cz/resource/countries/concept/164ea7dafd1c9b1be614ca3240fb5a594337a9f3>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "NEW CALEDONIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/16f762a3ae3fdf3b98782cf47784303ac307e357>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "MACAO" .
+
+<http://data.damepraci.cz/resource/countries/concept/18868e130eced7bea54b09a9a1ae24d234267393>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SYRIAN ARAB REPUBLIC" .
+
+<http://data.damepraci.cz/resource/countries/concept/1b512d2d6e55b4b87de63c2ab62f9329d9a2dc39>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "BURUNDI" .
+
+<http://data.damepraci.cz/resource/countries/concept/1b864784223fab4ab7f14a40d38b0ee6b3ede516>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "MYANMAR" .
+
+<http://data.damepraci.cz/resource/countries/concept/1bd4e6333ee30638b526213d7126df0cd824d18c>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ZZ04_Bond Markets Unit European_EUA-17" .
+
+<http://data.damepraci.cz/resource/countries/concept/1d98c7b37b7a5d4808d6a2ab8e57466e50fa42c8>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "KOREA, DEMOCRATIC PEOPLE’S REPUBLIC OF" .
+
+<http://data.damepraci.cz/resource/countries/concept/1db405caad9dd2a99e49188198ec3faa560d6356>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "KOREA, REPUBLIC OF" .
+
+<http://data.damepraci.cz/resource/countries/concept/1e93b5af64c44a5884c36c8545bd800a6b78836b>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ZZ01_Bond Markets Unit European_EURCO" .
+
+<http://data.damepraci.cz/resource/countries/concept/200ec51c7945a65a79ebafe35747f98335bdb67d>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "NIGERIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/20991616475bc9d32c74d8b33ce517b2b2ad338b>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "MONTENEGRO" .
+
+<http://data.damepraci.cz/resource/countries/concept/21003dd8ede74c10c9472d537849f6e7134c9ed8>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "GUYANA" .
+
+<http://data.damepraci.cz/resource/countries/concept/229556e4792c2e2834bb449d34c25a84b85e3ceb>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "MOLDOVA, REPUBLIC OF" .
+
+<http://data.damepraci.cz/resource/countries/concept/238b81bbcb9ecec213b2607bc5d1bebad96ae2d0>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "MONTSERRAT" .
+
+<http://data.damepraci.cz/resource/countries/concept/2470c360dae2b1263ebee2a62354e146e0b6e8ef>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ANGOLA" .
+
+<http://data.damepraci.cz/resource/countries/concept/247ee4c201b5936f6dffe2b7b368fb518386bfcc>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "UNITED KINGDOM" .
+
+<http://data.damepraci.cz/resource/countries/concept/25099fc7bdbc418e195c4318f4ace9b5082cd08e>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "PARAGUAY" .
+
+<http://data.damepraci.cz/resource/countries/concept/25553bbecf4e60c4765210b82911d252b0567956>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "CÔTE D'IVOIRE" .
+
+<http://data.damepraci.cz/resource/countries/concept/266b49393ba3f58b304b332328bcbdc23eef77f8>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "GHANA" .
+
+<http://data.damepraci.cz/resource/countries/concept/271b05d0cba539ea60eded0119ccb7a22746b08c>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "GREECE" .
+
+<http://data.damepraci.cz/resource/countries/concept/2a2df5999e3823ecc198dafed7ec15d34468f0af>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "QATAR" .
+
+<http://data.damepraci.cz/resource/countries/concept/2db56a6fb2248e20b0fe41fc122d7b77dbf84d6b>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "TURKEY" .
+
+<http://data.damepraci.cz/resource/countries/concept/2e7fdd04e6bed71acd81c49e1ceb266f9ddfe132>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ZZ05_UIC-Franc" .
+
+<http://data.damepraci.cz/resource/countries/concept/2f08e509f3e7d2ab37170f0812f80d87b3917e52>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "RWANDA" .
+
+<http://data.damepraci.cz/resource/countries/concept/2feff9a7d49b05554fefa37cd9f66cde6aa4fb71>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "BOSNIA AND HERZEGOVINA" .
+
+<http://data.damepraci.cz/resource/countries/concept/31be45841fe73f4d30cc62fa5aa4007802109958>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "NAURU" .
+
+<http://data.damepraci.cz/resource/countries/concept/32201581f7745240f8b24a16b2d12edaa8d91661>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "COMOROS" .
+
+<http://data.damepraci.cz/resource/countries/concept/3326c00f388e025abf7dbf7324b1e786be4d0a89>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "TOGO" .
+
+<http://data.damepraci.cz/resource/countries/concept/3390b7cd045097a31509b7e6bb5cb3956264722e>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "CUBA" .
+
+<http://data.damepraci.cz/resource/countries/concept/33c6d319af665745a235764127f15fbe73f3b21d>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "GERMAN DEMOCRATIC REPUBLIC" .
+
+<http://data.damepraci.cz/resource/countries/concept/35698c21875c72b5337c75e2934fab7600151f81>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SENEGAL" .
+
+<http://data.damepraci.cz/resource/countries/concept/36364f8f724b5c2897a1c60ef3b284f2480adbc5>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "NEPAL" .
+
+<http://data.damepraci.cz/resource/countries/concept/3643b49cdc91dbf8dbabcdf1a53a8396ea9711e0>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "COOK ISLANDS" .
+
+<http://data.damepraci.cz/resource/countries/concept/36e58d2887eac7d19f60470e9ef9ed18cfd0e1f4>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "GABON" .
+
+<http://data.damepraci.cz/resource/countries/concept/36f6b09f50bcfeee6b8edb11d6b38edbfd9e84d0>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "LAO PEOPLE’S DEMOCRATIC REPUBLIC" .
+
+<http://data.damepraci.cz/resource/countries/concept/375460498c71e02dc7491eceb25f0d995842016b>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "VIET NAM" .
+
+<http://data.damepraci.cz/resource/countries/concept/3825bd865dfea282c84830587841319b0a5f75be>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "BOTSWANA" .
+
+<http://data.damepraci.cz/resource/countries/concept/388754ee5938c3b037b155bd3d292500235eb129>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "HUNGARY" .
+
+<http://data.damepraci.cz/resource/countries/concept/38b582da53138ce26920fbf81a8eca8eca2cecc0>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "MARSHALL ISLANDS" .
+
+<http://data.damepraci.cz/resource/countries/concept/38d7faa6258194ad673bc7db85946f9cc0e615fe>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ZZ11_Silver" .
+
+<http://data.damepraci.cz/resource/countries/concept/395ab763dcf873eca612f4bf95612d875343b619>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "FRENCH SOUTHERN TERRITORIES" .
+
+<http://data.damepraci.cz/resource/countries/concept/3993eab891a84e6419ddec3a858d1c3261a5434b>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "NIGER" .
+
+<http://data.damepraci.cz/resource/countries/concept/3ae3b3b80f697d9891e6490fdd0af1b094ae694c>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "POLAND" .
+
+<http://data.damepraci.cz/resource/countries/concept/3aeb6de6fc8f97e94456993b2022e28ac2627fd0>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "COCOS (KEELING) ISLANDS" .
+
+<http://data.damepraci.cz/resource/countries/concept/3c4fd5d8932b41d0bd9795268a2e8ef88de36c57>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ROMANIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/40bef83b5e8b8a29343bc2a8c9233bf17ee9542b>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "TONGA" .
+
+<http://data.damepraci.cz/resource/countries/concept/417f0d08790c8c0651a659bd0828fad232fa11a8>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SLOVENIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/42287d67c3ad3ff94232045a2af58884d40ab094>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "BELGIUM" .
+
+<http://data.damepraci.cz/resource/countries/concept/42483a95c37c3c5daa776f9aed07d4e7dce764d2>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "UNITED STATES MINOR OUTLYING ISLANDS" .
+
+<http://data.damepraci.cz/resource/countries/concept/430a1d65b23e550060d8487d5cec3487c1161f7c>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ARGENTINA" .
+
+<http://data.damepraci.cz/resource/countries/concept/432538b5d14acb91795b9f9f9bb9d6d4dbae219b>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "CZECH REPUBLIC" .
+
+<http://data.damepraci.cz/resource/countries/concept/440c7706684e29a5586aef1fd06e2adc3b0f3b59>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "KAZAKHSTAN" .
+
+<http://data.damepraci.cz/resource/countries/concept/445e87b8290b5833ead483ef1039c2851d2b16e5>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "NETHERLANDS ANTILLES" .
+
+<http://data.damepraci.cz/resource/countries/concept/4460e36a624853e6db2ecea812960361be82f962>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "LESOTHO" .
+
+<http://data.damepraci.cz/resource/countries/concept/44cb087c3f2a0b200fb64464e3e375af57660015>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "EUROPEAN MONETARY CO-OPERATION FUND (EMCF) " .
+
+<http://data.damepraci.cz/resource/countries/concept/452d8a23e30789dc2e17ee567f846fca49080008>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "AUSTRALIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/4564825e8aef351ae1eb60a5754adb5458438304>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SAINT LUCIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/459588b894012690c5f5f490757c3a54d65fd207>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "PORTUGAL" .
+
+<http://data.damepraci.cz/resource/countries/concept/4869b5e8439d0532a812c0f9aa2de11aa2f61bf1>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "THAILAND" .
+
+<http://data.damepraci.cz/resource/countries/concept/48f6131348ec4f6e822cd1299ea801c343a1a131>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "PAKISTAN" .
+
+<http://data.damepraci.cz/resource/countries/concept/4aabf2e207503404763a9940ae759e2bd6456a8e>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "GREENLAND" .
+
+<http://data.damepraci.cz/resource/countries/concept/4abf69dfd5f9b900266cbf7ae24358a209c8787f>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "GAMBIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/4bde5691d73ccda3ea5536986dfe2c3a2c446c87>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ÅLAND ISLANDS" .
+
+<http://data.damepraci.cz/resource/countries/concept/4ce48c2bae087cc8c1e919e9f373f20d5654cb5a>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "MAYOTTE" .
+
+<http://data.damepraci.cz/resource/countries/concept/4ce56ea9d4a5d5bc05c8a734e15503b652b88e2d>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "MOROCCO" .
+
+<http://data.damepraci.cz/resource/countries/concept/4ed304002fd201b19411a47ff48e025aa1aae0fd>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "GUATEMALA" .
+
+<http://data.damepraci.cz/resource/countries/concept/4edc5f231aceae02b2d148b9b010700bda0f67bf>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "TANZANIA, UNITED REPUBLIC OF" .
+
+<http://data.damepraci.cz/resource/countries/concept/4fa5dbd0adc10a8d5c3cccf2b866ae874ad97f43>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SAUDI ARABIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/50a8352daae44061134c3a312370d01e41ab7a6e>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SAINT PIERRE AND MIQUELON" .
+
+<http://data.damepraci.cz/resource/countries/concept/50c8232b82ba3764a4a2a8f4801de058bd3c3cc9>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ITALY" .
+
+<http://data.damepraci.cz/resource/countries/concept/50fa98722e2d7a6ac87084bfdecdc73bd8a3b0f8>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "GERMANY" .
+
+<http://data.damepraci.cz/resource/countries/concept/535eba316d13e66c019355bf52e9526b31792c8c>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SAINT MARTIN" .
+
+<http://data.damepraci.cz/resource/countries/concept/53f333af8bc147b8114e9b07fb4c8e6f7544f1e0>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "CHILE" .
+
+<http://data.damepraci.cz/resource/countries/concept/55433e5df9c0ab8a87cb856ea8fc2543806c2729>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "VENEZUELA" .
+
+<http://data.damepraci.cz/resource/countries/concept/563b8dd9e81090fc92e82711920355f151c2b94f>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ALGERIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/57d789c64316cf9178ab2bba702636e8786a3f47>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "LAO" .
+
+<http://data.damepraci.cz/resource/countries/concept/58b6820c055bc2683b8e208d9bc113555caebc17>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "FRENCH POLYNESIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/5a3f31c6cbec238d30ac2c578f3795f6ecd9c404>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "VIRGIN ISLANDS (US)" .
+
+<http://data.damepraci.cz/resource/countries/concept/5a5dfbc752c3d0ed6395f01bb055282d36c685ee>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "TIMOR-LESTE" .
+
+<http://data.damepraci.cz/resource/countries/concept/5db7e7147b84e9f506e5ccbac17d318a24f09a9a>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "BELIZE" .
+
+<http://data.damepraci.cz/resource/countries/concept/5f38ddba805ce1c7f278b0e2ff4cd9440ff5f59d>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ARUBA" .
+
+<http://data.damepraci.cz/resource/countries/concept/5f3a3920b40bc9a5437846b5b5f8508d841e3a0b>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "TUVALU" .
+
+<http://data.damepraci.cz/resource/countries/concept/6016c4536e6cab1fe4322ee49545880173dbb5d9>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SOUTH AFRICA" .
+
+<http://data.damepraci.cz/resource/countries/concept/608a45ba900452c672001fdd6f3e7ac0455a4ee9>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "MALI" .
+
+<http://data.damepraci.cz/resource/countries/concept/635c2f196e7daaeb3e269b1e4fef4501e933d6e8>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "LIBYA" .
+
+<http://data.damepraci.cz/resource/countries/concept/63948051b0f71922e3d2e853b37e50da2f520870>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "MALDIVES" .
+
+<http://data.damepraci.cz/resource/countries/concept/64b795f7f4c2d4fc20b5cd9a366727aa4e897d95>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "KYRGYZSTAN" .
+
+<http://data.damepraci.cz/resource/countries/concept/64d524e258cbce2a9a13a015c86443c01d583732>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ZZ10_Platinum" .
+
+<http://data.damepraci.cz/resource/countries/concept/653b4e6d1258e62abd4015f3b8aeecae0d18981b>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "BRAZIL" .
+
+<http://data.damepraci.cz/resource/countries/concept/6640c79d2fc26f43255781073f33f650fff8d380>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SOUTH SUDAN" .
+
+<http://data.damepraci.cz/resource/countries/concept/67227250c54cd99313668ebbe910038691ce3157>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "BURMA " .
+
+<http://data.damepraci.cz/resource/countries/concept/676244c82757cc8e89591da1227d574d64effae3>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ARMENIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/682c47c56f43cb7097be21e102c96aedaa975678>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "TAIWAN, PROVINCE OF CHINA" .
+
+<http://data.damepraci.cz/resource/countries/concept/69a55cae5db5064cf98017292d9134f52b4843b0>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ISLE OF MAN" .
+
+<http://data.damepraci.cz/resource/countries/concept/69f1e6c49853ed38f95d2b7bcf698bf2b47407b0>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "OMAN" .
+
+<http://data.damepraci.cz/resource/countries/concept/6a63d630a9e279eb97d96b89dc21f8513497fff4>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "AMERICAN SAMOA" .
+
+<http://data.damepraci.cz/resource/countries/concept/6a88f5bf893673a6d4a9ef41d684a0b5acb33e2d>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "DENMARK" .
+
+<http://data.damepraci.cz/resource/countries/concept/6cecd3a4a710300fef2d0c5420491f7fc7338df8>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "BENIN" .
+
+<http://data.damepraci.cz/resource/countries/concept/6d653766979861aa060ef203fb3952bfc37ba6b0>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "BAHRAIN" .
+
+<http://data.damepraci.cz/resource/countries/concept/6e6d89b3f36861d7dcf92fb4208312d60a5b180b>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SPAIN" .
+
+<http://data.damepraci.cz/resource/countries/concept/71024983a9d82e10cb88e9a514b559b43d213678>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SINGAPORE" .
+
+<http://data.damepraci.cz/resource/countries/concept/7259f0a955648862de3c3909c2701775ba6b223e>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "CENTRAL AFRICAN REPUBLIC" .
+
+<http://data.damepraci.cz/resource/countries/concept/7358da24e692c13d35e9097d4a34bd25c7add28f>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "CHINA" .
+
+<http://data.damepraci.cz/resource/countries/concept/7433558f3732d8773ff8686200a2e966740786d8>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "BAHAMAS" .
+
+<http://data.damepraci.cz/resource/countries/concept/74cae568fc4b821d1421b549c21cac033b90c956>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "IRELAND" .
+
+<http://data.damepraci.cz/resource/countries/concept/75956b90639c7f25b309ccc3c1ee66d0357f279d>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ALBANIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/766b8d04b0bcd95de1ca42b3a55dee62d74277bd>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "FIJI" .
+
+<http://data.damepraci.cz/resource/countries/concept/7835c8e940be008f10141a5a5f098be5883ae38b>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ANGUILLA" .
+
+<http://data.damepraci.cz/resource/countries/concept/78476ac7b088ac60022cb08c0d8602256a30a918>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "CONGO, THE DEMOCRATIC REPUBLIC OF" .
+
+<http://data.damepraci.cz/resource/countries/concept/78497fcaa2178097b0a214bea5fcb7750395c953>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "GRENADA" .
+
+<http://data.damepraci.cz/resource/countries/concept/7850d12ea45d65e283bb536cbc7222059b48448a>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "NETHERLANDS" .
+
+<http://data.damepraci.cz/resource/countries/concept/78c3be88f71a030b9e1401a655695f2dfe1135ff>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "DJIBOUTI" .
+
+<http://data.damepraci.cz/resource/countries/concept/791b2192ceed560f42629925f31315e8d3f7ac29>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "VIETNAM" .
+
+<http://data.damepraci.cz/resource/countries/concept/79bea32a845ef770e34bfdc609f6e26692e0f56a>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "MAURITIUS" .
+
+<http://data.damepraci.cz/resource/countries/concept/7c29612b1fcad24cf6e236f81a7a7aebe222a4d9>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SURINAME" .
+
+<http://data.damepraci.cz/resource/countries/concept/7c3fe2447b69d3b4c0ede21565f98721a48cc257>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ZZ09_Palladium" .
+
+<http://data.damepraci.cz/resource/countries/concept/7c87ee2af4a3c4fe99801e9c02c2e5ec14b2f1e9>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "GIBRALTAR" .
+
+<http://data.damepraci.cz/resource/countries/concept/7d136fc23a639cf32d122f28849d7dc2e311015c>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "MOZAMBIQUE" .
+
+<http://data.damepraci.cz/resource/countries/concept/7e4d641286ddc303e468f66efe371bda8081fc91>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "NEW ZEALAND" .
+
+<http://data.damepraci.cz/resource/countries/concept/7e7c1178d1104a61c56ad3813db4fc303f0e3d08>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "BARBADOS" .
+
+<http://data.damepraci.cz/resource/countries/concept/7e84f58072dae4a9112e8f687ec9b4847aac27b8>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "FALKLAND ISLANDS (MALVINAS)" .
+
+<http://data.damepraci.cz/resource/countries/concept/7f388b93a8b9c35e447f6d30ebff2b25d4a7dde3>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ANDORRA" .
+
+<http://data.damepraci.cz/resource/countries/concept/801bdbde264a51f2c5f207d990df44777b4785f4>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "UNION OF SOVIET SOCIALIST REPUBLICS" .
+
+<http://data.damepraci.cz/resource/countries/concept/8181d69ab4eea9648908f3df9519dfe29dd688e2>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "JORDAN" .
+
+<http://data.damepraci.cz/resource/countries/concept/827a5e30c3aec55cc5da99e6bde2d3ba464af555>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "MICRONESIA, FEDERATED STATES OF" .
+
+<http://data.damepraci.cz/resource/countries/concept/82beaaded0b7ccfa35b1779b69a2d3ae27d803e2>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ANTIGUA AND BARBUDA" .
+
+<http://data.damepraci.cz/resource/countries/concept/831957e232a585d2a99a1cf1828e4123a24d3a81>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "TUNISIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/8490df8864b1686357ab930bb6217424de96fef2>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "HAITI" .
+
+<http://data.damepraci.cz/resource/countries/concept/84db823212fa8111bff304fb3ddbdae67a5ce957>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ZZ03_Bond Markets Unit European_EUA-9" .
+
+<http://data.damepraci.cz/resource/countries/concept/85366acfb2d528adaac46564ceb84f59e801344d>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "FRANCE" .
+
+<http://data.damepraci.cz/resource/countries/concept/8735b0a0f051fd7ee4b25751f8acf75a24fd46ef>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "UNITED ARAB EMIRATES" .
+
+<http://data.damepraci.cz/resource/countries/concept/8928df794035338af827f105c5e412222a79c7cf>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "MEMBER COUNTRIES OF THE AFRICAN DEVELOPMENT BANK GROUP" .
+
+<http://data.damepraci.cz/resource/countries/concept/8a53300a0edf5d01122b448889cd74e3f4351233>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "HONDURAS" .
+
+<http://data.damepraci.cz/resource/countries/concept/8c61e9f1d0d93226bcc4f87cc85a9efc46194024>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "RÉUNION" .
+
+<http://data.damepraci.cz/resource/countries/concept/8c733edb949f2d77e6b68583879ce98b0f55f12b>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "GUINEA" .
+
+<http://data.damepraci.cz/resource/countries/concept/8d85d5c926d174f4391d4e7a388527399597c7e7>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "MONGOLIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/8e567b13b99dea6de92443c9c7d52e9e1161e015>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ZZ07_No_Currency" .
+
+<http://data.damepraci.cz/resource/countries/concept/8efec1034f468d6fdff24d399cd06f98ff7ec4d8>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SISTEMA UNITARIO DE COMPENSACION REGIONAL DE PAGOS \"SUCRE\" " .
+
+<http://data.damepraci.cz/resource/countries/concept/8f5ffa5bd9cf23af8432bc8c4ae01d82f1bcb57d>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ICELAND" .
+
+<http://data.damepraci.cz/resource/countries/concept/91e35c8e152e7ac2c1e5c93dda7f2e4e4b4d6d6b>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SWAZILAND" .
+
+<http://data.damepraci.cz/resource/countries/concept/9276f83d031a7677cfcfeeaf364f9eee9e06c71e>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "IRAN, ISLAMIC REPUBLIC OF" .
+
+<http://data.damepraci.cz/resource/countries/concept/92c3f8018585421683e816f74950e78df6da8565>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SERBIA " .
+
+<http://data.damepraci.cz/resource/countries/concept/94ed170cfc28d9d65b9207114b8529fa3d32a340>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "URUGUAY" .
+
+<http://data.damepraci.cz/resource/countries/concept/958ac4e49d513eb77bf36ee6a76ddc6a1561779f>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA" .
+
+<http://data.damepraci.cz/resource/countries/concept/9616a98b4b971b9b812f9fb8e74b968e9c03b01a>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "INDIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/973d770884b917bd89ba4f9271e260afdca09a04>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "MALTA" .
+
+<http://data.damepraci.cz/resource/countries/concept/982f4613db077f4a23e56eb29668b07f0339901e>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "PITCAIRN" .
+
+<http://data.damepraci.cz/resource/countries/concept/9a756651e8074acaf913fa1301dc80d0462dbfb7>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "IRAQ" .
+
+<http://data.damepraci.cz/resource/countries/concept/9a75d366452896de91b62599630e1c8e0c5bcf52>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "YEMEN, DEMOCRATIC" .
+
+<http://data.damepraci.cz/resource/countries/concept/9b08d61248759ef698cccddcb20e83b214e8b072>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "GUERNSEY" .
+
+<http://data.damepraci.cz/resource/countries/concept/9b9b690debf7de03f11b68c2291f42a737220d69>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "BOLIVIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/9c28e57f9a261443db1467d76589bccb5027ec5d>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SLOVAKIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/9cd3301f68a17edd753be3cdb2d274a2ffa040b2>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "GEORGIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/9e48ab40544f1a7ab5f6b7f2616a1772c1b93ce1>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "UKRAINE" .
+
+<http://data.damepraci.cz/resource/countries/concept/a055dbfa0ab9612c1fdd26a94b3e6534eb06c7a8>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SUDAN" .
+
+<http://data.damepraci.cz/resource/countries/concept/a0d1961ddf21cc849d8e12b425826599f3db156f>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ZZ01_Gold-Franc" .
+
+<http://data.damepraci.cz/resource/countries/concept/a17ad72c8426cde2d688682a57fcb69fde33bed5>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "UNITED STATES" .
+
+<http://data.damepraci.cz/resource/countries/concept/a19bbfeafb7a10cbd880f978bd9e60d099bfa6d7>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "COLOMBIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/a1edf00061cdc9aac36981e6484ac186d2a29c90>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "CHRISTMAS ISLAND" .
+
+<http://data.damepraci.cz/resource/countries/concept/a3d4956fd094604c46004ee73491e530dffd33f1>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "BHUTAN" .
+
+<http://data.damepraci.cz/resource/countries/concept/a717438fc71ff437d3ba1ef43ab43d78563ffe4f>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "CAMEROON" .
+
+<http://data.damepraci.cz/resource/countries/concept/a797c1146a0211ee7add6db6642657500c350fb0>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ZAMBIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/a86c99fe96786461c1542d48d79761e34d21ebd3>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "PHILIPPINES" .
+
+<http://data.damepraci.cz/resource/countries/concept/a86d892aa050c17f015132dab68b8ca4b9e407b0>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SAO TOME AND PRINCIPE" .
+
+<http://data.damepraci.cz/resource/countries/concept/a937501c0a37730aa16fd2bb1babc798312a168e>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "TAJIKISTAN" .
+
+<http://data.damepraci.cz/resource/countries/concept/a9642f2ce9f7762b4a5c1abc4a158780ad4d6a37>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "CHAD" .
+
+<http://data.damepraci.cz/resource/countries/concept/a9be98dd0e094bb074d375a8f930e2083a682d84>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "HOLY SEE (VATICAN CITY STATE)" .
+
+<http://data.damepraci.cz/resource/countries/concept/ab38b87798620e47603e663688cd12a469de44ae>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "WALLIS AND FUTUNA" .
+
+<http://data.damepraci.cz/resource/countries/concept/aba68576228532164b2a6b237cb69709cdc6004b>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "LITHUANIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/acafd197d1f4b07255808590c6a7ba74be211993>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ZAIRE" .
+
+<http://data.damepraci.cz/resource/countries/concept/acbef919756615910feb56b1e0fdb3fba5432c04>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "EL SALVADOR" .
+
+<http://data.damepraci.cz/resource/countries/concept/acc0b63c0bf638236a330717ebd2292cf7455513>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "JAPAN" .
+
+<http://data.damepraci.cz/resource/countries/concept/ace70d5a657dfe9c7309a16b0f7252d797e1f488>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SAINT KITTS AND NEVIS" .
+
+<http://data.damepraci.cz/resource/countries/concept/aef31627152ff98a2a23643ef1b840c75192698e>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "WESTERN SAHARA" .
+
+<http://data.damepraci.cz/resource/countries/concept/b05bf84dabc63493a2bcbe8eb405e66d7355c824>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "NIUE" .
+
+<http://data.damepraci.cz/resource/countries/concept/b1f4354c4c6927986d5f7842c5874fe2b7085c8b>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "AZERBAIJAN" .
+
+<http://data.damepraci.cz/resource/countries/concept/b29813e5fc832031e0aa8532adb98ed8566b9bfd>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "PAPUA NEW GUINEA" .
+
+<http://data.damepraci.cz/resource/countries/concept/b31900cab1548b0b8505d372c68b0a9e3bc50d45>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "NORFOLK ISLAND" .
+
+<http://data.damepraci.cz/resource/countries/concept/b420933fb39747d6bf075bdfe17ca1bbe3f29097>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "BANGLADESH" .
+
+<http://data.damepraci.cz/resource/countries/concept/b4ff8e07033207fd0dffba1ea4faf2a9fbb0893e>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "CYPRUS" .
+
+<http://data.damepraci.cz/resource/countries/concept/b5306334170bd01abdc0b4505349f11d881d27b3>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "HEARD ISLAND AND McDONALD ISLANDS" .
+
+<http://data.damepraci.cz/resource/countries/concept/b935e42810144bfa10a4a50287d199f32811db1f>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "LIBERIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/bb47ad825ad1ad376da948f606628da882e5de31>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "PERU" .
+
+<http://data.damepraci.cz/resource/countries/concept/bfaf7b95493025da05683284ff7db1b543bf09e4>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SAMOA" .
+
+<http://data.damepraci.cz/resource/countries/concept/bfe3c722d29e953c718437c490a2e985a7b37608>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "AFGHANISTAN" .
+
+<http://data.damepraci.cz/resource/countries/concept/c113b2266e26cb3d037ffc8b3aa204ac3720360a>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SAINT-BARTHÉLEMY" .
+
+<http://data.damepraci.cz/resource/countries/concept/c2e142c1838966c7677ce981bd02df18bb738b52>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "BURKINA FASO" .
+
+<http://data.damepraci.cz/resource/countries/concept/c5d39a82a9e040a467f20973b0c8fffb93afe7e6>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "BELARUS" .
+
+<http://data.damepraci.cz/resource/countries/concept/c616cded54b6f03e2457b760db7009eacd71c4c0>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "DOMINICA" .
+
+<http://data.damepraci.cz/resource/countries/concept/c674f9bdf6db9556f699e7790483a2a4f60d0e29>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ESTONIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/c85f0938c77d8514bbea8f995f1a5beb3f1d36ae>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "VIRGIN ISLANDS (BRITISH)" .
+
+<http://data.damepraci.cz/resource/countries/concept/ca4576daf402ccd8d759ea12f0f7661cbeb49c08>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "Vatican City State (HOLY SEE)" .
+
+<http://data.damepraci.cz/resource/countries/concept/cb5605cfecd994cb6e6abef5a0bcec66b2754ea2>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "KIRIBATI" .
+
+<http://data.damepraci.cz/resource/countries/concept/cd371c39bd87c7824e66f7873370e00363cdb6fc>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "BRITISH INDIAN OCEAN TERRITORY" .
+
+<http://data.damepraci.cz/resource/countries/concept/ce2de031de9cd774b8664947ec4270d4ca13df78>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SWITZERLAND" .
+
+<http://data.damepraci.cz/resource/countries/concept/ce78c2843f8ced486461dbea50c3b7a5be3835d7>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "FRENCH  GUIANA" .
+
+<http://data.damepraci.cz/resource/countries/concept/cee5d6db9a0b99c25d123fb70499d07a1bc7df30>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "MADAGASCAR" .
+
+<http://data.damepraci.cz/resource/countries/concept/d0438bf55fff7706090141d0d8a69a1f1f43c70f>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ECUADOR" .
+
+<http://data.damepraci.cz/resource/countries/concept/d12ec993bd5322504816bb9690473ae42cdf74d9>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "BULGARIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/d1da4cb376d4c322b9104b24e5e497c2f29598cb>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "GUAM" .
+
+<http://data.damepraci.cz/resource/countries/concept/d290479572567a111acb750cdd3aac1a154e4be8>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "FAROE ISLANDS" .
+
+<http://data.damepraci.cz/resource/countries/concept/d3d77e0632eca7ab9eac3bfb0456a22fc0ac0287>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "COSTA RICA" .
+
+<http://data.damepraci.cz/resource/countries/concept/d47786bc96e2d2b155b775a25b9ea1e4ee522815>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "MALAWI" .
+
+<http://data.damepraci.cz/resource/countries/concept/d56dc95c7f1d34e1f2580c47afda83600b4c525d>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "BOUVET ISLAND" .
+
+<http://data.damepraci.cz/resource/countries/concept/d732eaf782c28ebfb7ed33a3b806349141177ede>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SEYCHELLES" .
+
+<http://data.damepraci.cz/resource/countries/concept/d735914733a5c231bad1bfc3aaf66e8e1a7fbfc2>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "NORTHERN MARIANA ISLANDS" .
+
+<http://data.damepraci.cz/resource/countries/concept/d7d4cd6a339b94c9d16158b8c6751a30827bdc89>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ZZ02_Bond Markets Unit European_EMU-6" .
+
+<http://data.damepraci.cz/resource/countries/concept/d94778383eb31eb83fd0f1c95c55b540e1862b05>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "MALAYSIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/da37ac6de496fc2b4b6341525885de601260618b>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "BERMUDA" .
+
+<http://data.damepraci.cz/resource/countries/concept/da9f7f50002e5ba019201d42f8c8104a4f3bc8d7>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "PUERTO RICO" .
+
+<http://data.damepraci.cz/resource/countries/concept/dabe7402347fc1dbbb24d49819544720654f50f0>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "AUSTRIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/dc0b032997ca836d4d1b0b701a6f398f5d295ec4>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "BRUNEI DARUSSALAM" .
+
+<http://data.damepraci.cz/resource/countries/concept/dc51cedfd5049951f45c128ba2890fd6c6cfe8ba>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ERITREA" .
+
+<http://data.damepraci.cz/resource/countries/concept/dc7a1bb025b899057e5c476bb410785c5382024f>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "PANAMA" .
+
+<http://data.damepraci.cz/resource/countries/concept/dcefe181ac434342e2a3560d3d60877ca9f80c6b>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "VANUATU" .
+
+<http://data.damepraci.cz/resource/countries/concept/dd25717c12572835f1ca9f35a2e5020f64eee8da>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SAINT VINCENT AND THE GRENADINES" .
+
+<http://data.damepraci.cz/resource/countries/concept/ddb7e1f86a4068027440ea513ed982fd1760a753>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "EGYPT" .
+
+<http://data.damepraci.cz/resource/countries/concept/de30744df5a20a8c74f4a30166a00d3504659eb2>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "CANADA" .
+
+<http://data.damepraci.cz/resource/countries/concept/de54cc75507c35ddbe2e89b7a400129771324046>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "DOMINICAN REPUBLIC" .
+
+<http://data.damepraci.cz/resource/countries/concept/df495db9949de63496a74bc402b99940edfd55a5>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "GUADELOUPE" .
+
+<http://data.damepraci.cz/resource/countries/concept/e00c572817c7bed17ccbf9c3d91e7b410ee1c8ac>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF" .
+
+<http://data.damepraci.cz/resource/countries/concept/e08a17ba05dafde84eb0b3d9d7843c30fb4df786>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SOLOMON ISLANDS" .
+
+<http://data.damepraci.cz/resource/countries/concept/e2233f7e49b19f2b6d0bae30ea26c7f8bd03bc53>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "VENEZUELA, BOLIVARIAN REPUBLIC OF" .
+
+<http://data.damepraci.cz/resource/countries/concept/e23b41748e7e021cc4bfefd94a066845cf8f9d82>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "HONG KONG" .
+
+<http://data.damepraci.cz/resource/countries/concept/e25b5dbde8967c6be655166e824a2e88cad2e231>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "EUROPEAN UNION " .
+
+<http://data.damepraci.cz/resource/countries/concept/e2b4c2d66c098d7c1c5554d511dd48f26a0a191c>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SOUTHERN RHODESIA " .
+
+<http://data.damepraci.cz/resource/countries/concept/e35d9e057d6915d00907d27eced5f13ccf28b122>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "ZZ06_Testing_Code" .
+
+<http://data.damepraci.cz/resource/countries/concept/e381d2d08feab156ce0a169099a0f11e634581b3>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "CURAÇAO" .
+
+<http://data.damepraci.cz/resource/countries/concept/e45599c83e478beffe9e857807afe5adf7dfecc6>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "UGANDA" .
+
+<http://data.damepraci.cz/resource/countries/concept/e59e07fd90809083a3e66e96ad4aaf73d6100806>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "CAPE VERDE" .
+
+<http://data.damepraci.cz/resource/countries/concept/e681f126cd793f734a30bc2adc6152ac003b300b>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "EQUATORIAL GUINEA" .
+
+<http://data.damepraci.cz/resource/countries/concept/e6d10cfe37ea8c7919156ed324b898957cb1587d>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "FINLAND" .
+
+<http://data.damepraci.cz/resource/countries/concept/e76eb9ca1cc1f73151762a922703264dd95aa1cb>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "NICARAGUA" .
+
+<http://data.damepraci.cz/resource/countries/concept/e846880f77b6e03ea946c1493c3835e46514078d>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "CAMBODIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/e9518f08c133a57dc679d841125696a2dc9059a4>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "YEMEN" .
+
+<http://data.damepraci.cz/resource/countries/concept/e981892b03160d9f208bfdd5e333676136b97c20>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SERBIA AND MONTENEGRO" .
+
+<http://data.damepraci.cz/resource/countries/concept/ec2c7c39697091c56829a0195dd2a82798c392c5>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "CZECHOSLOVAKIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/ec910439bf2f205ff18858f23c5257f35d01d5e3>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SWEDEN" .
+
+<http://data.damepraci.cz/resource/countries/concept/ecf78b9e129fa217876f43a59f74763c64eeedfe>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "JAMAICA" .
+
+<http://data.damepraci.cz/resource/countries/concept/edb3e1d4a02fb37f5b52b3dbe99889b22a5484d7>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "CONGO" .
+
+<http://data.damepraci.cz/resource/countries/concept/edc9f8269d03444f57cdc60deae65438f75412d5>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SAINT MARTIN (FRENCH PART)" .
+
+<http://data.damepraci.cz/resource/countries/concept/ef805f62949f18e77450ff5f7f2b06c3b319f50b>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "INDONESIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/efa27ec51d36c82370a7a872d15e07ed75deb1b5>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "KUWAIT" .
+
+<http://data.damepraci.cz/resource/countries/concept/efdda1d9b310f6e1626193f8349d119fea9ed45e>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "BOLIVIA, PLURINATIONAL STATE OF" .
+
+<http://data.damepraci.cz/resource/countries/concept/f031afefc0aa4e15e43e40c74b6276d43f1dbed2>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "JERSEY" .
+
+<http://data.damepraci.cz/resource/countries/concept/f08d6acceb1deb8c8854ad7b975f809b2ab0b5fa>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "TRINIDAD AND TOBAGO" .
+
+<http://data.damepraci.cz/resource/countries/concept/f13002b254426b4e624ade2e830ef1cdbbe6504e>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "RUSSIAN FEDERATION" .
+
+<http://data.damepraci.cz/resource/countries/concept/f1d06296c08b9f1bb320fa52027d00d91e839e99>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "LATVIA" .
+
+<http://data.damepraci.cz/resource/countries/concept/f55cfd3e4915121a73f33b54636f743adc9372ab>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "TURKMENISTAN" .
+
+<http://data.damepraci.cz/resource/countries/concept/f5652ad89e217eb7febe496353ed0fabd09454ee>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "TURKS AND CAICOS ISLANDS" .
+
+<http://data.damepraci.cz/resource/countries/concept/f727958ac99df81e0c437393a27739991a54e6c4>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "SAN MARINO" .
+
+<http://data.damepraci.cz/resource/countries/concept/f82a1dcdad23bcd4faf35e347798db025b3e6833>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "BONAIRE, SINT EUSTATIUS AND SABA" .
+
+<http://data.damepraci.cz/resource/countries/concept/fe27508f993bd93ab577249fe4703a6c09a38d08>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "PALAU" .
+
+<http://data.damepraci.cz/resource/countries/concept/feaa95132a2bd72f55f9606c022b65946265c392>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/countries> ;
+    skos:prefLabel "GUINEA-BISSAU" .
+
+<http://data.damepraci.cz/resource/currency-codes%2Fconcept%2FEEK+>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "233"^^xsd:int, "EEK " ;
+    skos:prefLabel "Kroon"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/c674f9bdf6db9556f699e7790483a2a4f60d0e29> .
+
+<http://data.damepraci.cz/resource/currency-codes%2Fconcept%2FEUR+>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "978"^^xsd:int, "EUR " ;
+    skos:prefLabel "Euro"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/e981892b03160d9f208bfdd5e333676136b97c20> .
+
+<http://data.damepraci.cz/resource/currency-codes%2Fconcept%2FXEU+>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "954"^^xsd:int, "XEU " ;
+    skos:prefLabel "European Currency Unit (E.C.U) "@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/44cb087c3f2a0b200fb64464e3e375af57660015> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ADP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "20"^^xsd:int, "ADP" ;
+    skos:prefLabel "Andorran Peseta"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/7f388b93a8b9c35e447f6d30ebff2b25d4a7dde3> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/AED>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "784"^^xsd:int, "AED" ;
+    skos:prefLabel "UAE Dirham"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/8735b0a0f051fd7ee4b25751f8acf75a24fd46ef> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/AFA>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "4"^^xsd:int, "AFA" ;
+    skos:prefLabel "Afghani"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/bfe3c722d29e953c718437c490a2e985a7b37608> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/AFN>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "971"^^xsd:int, "AFN" ;
+    skos:prefLabel "Afghani"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/bfe3c722d29e953c718437c490a2e985a7b37608> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ALK>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "ALK", "—"^^xsd:int ;
+    skos:prefLabel "Old Lek"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/75956b90639c7f25b309ccc3c1ee66d0357f279d> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ALL>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "8"^^xsd:int, "ALL" ;
+    skos:prefLabel "Lek"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/75956b90639c7f25b309ccc3c1ee66d0357f279d> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/AMD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "51"^^xsd:int, "AMD" ;
+    skos:prefLabel "Armenian Dram"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/676244c82757cc8e89591da1227d574d64effae3> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ANG>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "532"^^xsd:int, "ANG" ;
+    skos:prefLabel "Netherlands Antillean Guilder"@en, "Netherlands Antillean Guilder "@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/0b6f4b925157cac3ee2c3e6630548d4879b8e9df>, <http://data.damepraci.cz/resource/countries/concept/445e87b8290b5833ead483ef1039c2851d2b16e5>, <http://data.damepraci.cz/resource/countries/concept/e381d2d08feab156ce0a169099a0f11e634581b3> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/AOA>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "973"^^xsd:int, "AOA" ;
+    skos:prefLabel "Kwanza"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/2470c360dae2b1263ebee2a62354e146e0b6e8ef> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/AOK>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "AOK", "—"^^xsd:int ;
+    skos:prefLabel "Kwanza"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/2470c360dae2b1263ebee2a62354e146e0b6e8ef> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/AON>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "24"^^xsd:int, "AON" ;
+    skos:prefLabel "New Kwanza"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/2470c360dae2b1263ebee2a62354e146e0b6e8ef> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/AOR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "982"^^xsd:int, "AOR" ;
+    skos:prefLabel "Kwanza Reajustado"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/2470c360dae2b1263ebee2a62354e146e0b6e8ef> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ARA>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "32"^^xsd:int, "ARA" ;
+    skos:prefLabel "Austral"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/430a1d65b23e550060d8487d5cec3487c1161f7c> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ARP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "32"^^xsd:int, "ARP" ;
+    skos:prefLabel "Peso Argentino"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/430a1d65b23e550060d8487d5cec3487c1161f7c> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ARS>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "32"^^xsd:int, "ARS" ;
+    skos:prefLabel "Argentine Peso"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/430a1d65b23e550060d8487d5cec3487c1161f7c> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ARY>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "ARY", "—"^^xsd:int ;
+    skos:prefLabel "Peso"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/430a1d65b23e550060d8487d5cec3487c1161f7c> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ATS>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "40"^^xsd:int, "ATS" ;
+    skos:prefLabel "Schilling"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/dabe7402347fc1dbbb24d49819544720654f50f0> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/AUD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "36"^^xsd:int, "AUD" ;
+    skos:prefLabel "Australian Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/31be45841fe73f4d30cc62fa5aa4007802109958>, <http://data.damepraci.cz/resource/countries/concept/3aeb6de6fc8f97e94456993b2022e28ac2627fd0>, <http://data.damepraci.cz/resource/countries/concept/452d8a23e30789dc2e17ee567f846fca49080008>, <http://data.damepraci.cz/resource/countries/concept/5f3a3920b40bc9a5437846b5b5f8508d841e3a0b>, <http://data.damepraci.cz/resource/countries/concept/a1edf00061cdc9aac36981e6484ac186d2a29c90>, <http://data.damepraci.cz/resource/countries/concept/b31900cab1548b0b8505d372c68b0a9e3bc50d45>, <http://data.damepraci.cz/resource/countries/concept/b5306334170bd01abdc0b4505349f11d881d27b3>, <http://data.damepraci.cz/resource/countries/concept/cb5605cfecd994cb6e6abef5a0bcec66b2754ea2> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/AWG>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "533"^^xsd:int, "AWG" ;
+    skos:prefLabel "Aruban Florin"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/5f38ddba805ce1c7f278b0e2ff4cd9440ff5f59d> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/AYM>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "945"^^xsd:int, "AYM" ;
+    skos:prefLabel "Azerbaijan Manat"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/b1f4354c4c6927986d5f7842c5874fe2b7085c8b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/AZM>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "31"^^xsd:int, "AZM" ;
+    skos:prefLabel "Azerbaijanian Manat"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/b1f4354c4c6927986d5f7842c5874fe2b7085c8b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/AZN>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "944"^^xsd:int, "AZN" ;
+    skos:prefLabel "Azerbaijanian Manat"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/b1f4354c4c6927986d5f7842c5874fe2b7085c8b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BAD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "70"^^xsd:int, "BAD" ;
+    skos:prefLabel "Dinar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/2feff9a7d49b05554fefa37cd9f66cde6aa4fb71> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BAM>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "977"^^xsd:int, "BAM" ;
+    skos:prefLabel "Convertible Mark"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/2feff9a7d49b05554fefa37cd9f66cde6aa4fb71> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BBD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "52"^^xsd:int, "BBD" ;
+    skos:prefLabel "Barbados Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/7e7c1178d1104a61c56ad3813db4fc303f0e3d08> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BDT>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "50"^^xsd:int, "BDT" ;
+    skos:prefLabel "Taka"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/b420933fb39747d6bf075bdfe17ca1bbe3f29097> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BEC>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "993"^^xsd:int, "BEC" ;
+    skos:prefLabel "Convertible Franc"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/42287d67c3ad3ff94232045a2af58884d40ab094> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BEF>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "56"^^xsd:int, "BEF" ;
+    skos:prefLabel "Belgian Franc "@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/42287d67c3ad3ff94232045a2af58884d40ab094> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BEL>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "992"^^xsd:int, "BEL" ;
+    skos:prefLabel "Financial Franc"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/42287d67c3ad3ff94232045a2af58884d40ab094> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BGJ>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "BGJ", "—"^^xsd:int ;
+    skos:prefLabel "Lev A/52"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/d12ec993bd5322504816bb9690473ae42cdf74d9> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BGK>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "BGK", "—"^^xsd:int ;
+    skos:prefLabel "Lev A/62"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/d12ec993bd5322504816bb9690473ae42cdf74d9> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BGL>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "100"^^xsd:int, "BGL" ;
+    skos:prefLabel "Lev"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/d12ec993bd5322504816bb9690473ae42cdf74d9> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BGN>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "975"^^xsd:int, "BGN" ;
+    skos:prefLabel "Bulgarian Lev"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/d12ec993bd5322504816bb9690473ae42cdf74d9> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BHD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "48"^^xsd:int, "BHD" ;
+    skos:prefLabel "Bahraini Dinar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/6d653766979861aa060ef203fb3952bfc37ba6b0> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BIF>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "108"^^xsd:int, "BIF" ;
+    skos:prefLabel "Burundi Franc"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/1b512d2d6e55b4b87de63c2ab62f9329d9a2dc39> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BMD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "60"^^xsd:int, "BMD" ;
+    skos:prefLabel "Bermudian Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/da37ac6de496fc2b4b6341525885de601260618b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BND>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "96"^^xsd:int, "BND" ;
+    skos:prefLabel "Brunei Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/dc0b032997ca836d4d1b0b701a6f398f5d295ec4> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BOB>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "68"^^xsd:int, "BOB" ;
+    skos:prefLabel "Boliviano"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/efdda1d9b310f6e1626193f8349d119fea9ed45e> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BOP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "BOP", "—"^^xsd:int ;
+    skos:prefLabel "Peso boliviano"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/9b9b690debf7de03f11b68c2291f42a737220d69> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BOV>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "984"^^xsd:int, "BOV" ;
+    skos:prefLabel "Mvdol"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/efdda1d9b310f6e1626193f8349d119fea9ed45e> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BRB>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "BRB", "—"^^xsd:int ;
+    skos:prefLabel "Cruzeiro"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/653b4e6d1258e62abd4015f3b8aeecae0d18981b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BRC>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "76"^^xsd:int, "BRC" ;
+    skos:prefLabel "Cruzado"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/653b4e6d1258e62abd4015f3b8aeecae0d18981b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BRE>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "76"^^xsd:int, "BRE" ;
+    skos:prefLabel "Cruzeiro"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/653b4e6d1258e62abd4015f3b8aeecae0d18981b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BRL>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "986"^^xsd:int, "BRL" ;
+    skos:prefLabel "Brazilian Real"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/653b4e6d1258e62abd4015f3b8aeecae0d18981b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BRN>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "76"^^xsd:int, "BRN" ;
+    skos:prefLabel "New Cruzado"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/653b4e6d1258e62abd4015f3b8aeecae0d18981b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BRR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "987"^^xsd:int, "BRR" ;
+    skos:prefLabel "Cruzeiro Real"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/653b4e6d1258e62abd4015f3b8aeecae0d18981b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BSD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "44"^^xsd:int, "BSD" ;
+    skos:prefLabel "Bahamian Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/7433558f3732d8773ff8686200a2e966740786d8> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BTN>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "64"^^xsd:int, "BTN" ;
+    skos:prefLabel "Ngultrum"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/a3d4956fd094604c46004ee73491e530dffd33f1> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BUK>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "BUK", "—"^^xsd:int ;
+    skos:prefLabel "N.A."@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/67227250c54cd99313668ebbe910038691ce3157> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BWP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "72"^^xsd:int, "BWP" ;
+    skos:prefLabel "Pula"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/3825bd865dfea282c84830587841319b0a5f75be> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BYB>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "112"^^xsd:int, "BYB" ;
+    skos:prefLabel "Belarussian Ruble"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/c5d39a82a9e040a467f20973b0c8fffb93afe7e6> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BYR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "974"^^xsd:int, "BYR" ;
+    skos:prefLabel "Belarussian Ruble"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/c5d39a82a9e040a467f20973b0c8fffb93afe7e6> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/BZD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "84"^^xsd:int, "BZD" ;
+    skos:prefLabel "Belize Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/5db7e7147b84e9f506e5ccbac17d318a24f09a9a> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/CAD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "124"^^xsd:int, "CAD" ;
+    skos:prefLabel "Canadian Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/de30744df5a20a8c74f4a30166a00d3504659eb2> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/CDF>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "976"^^xsd:int, "CDF" ;
+    skos:prefLabel "Congolese Franc"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/78476ac7b088ac60022cb08c0d8602256a30a918> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/CHC>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "948"^^xsd:int, "CHC" ;
+    skos:prefLabel "WIR Franc (for electronic)"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/ce2de031de9cd774b8664947ec4270d4ca13df78> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/CHE>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "947"^^xsd:int, "CHE" ;
+    skos:prefLabel "WIR Euro"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/ce2de031de9cd774b8664947ec4270d4ca13df78> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/CHF>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "756"^^xsd:int, "CHF" ;
+    skos:prefLabel "Swiss Franc"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/12aad60a0a15534eabc27b3719e3a17c0f603628>, <http://data.damepraci.cz/resource/countries/concept/ce2de031de9cd774b8664947ec4270d4ca13df78> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/CHW>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "948"^^xsd:int, "CHW" ;
+    skos:prefLabel "WIR Franc"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/ce2de031de9cd774b8664947ec4270d4ca13df78> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/CLF>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "990"^^xsd:int, "CLF" ;
+    skos:prefLabel "Unidades de fomento"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/53f333af8bc147b8114e9b07fb4c8e6f7544f1e0> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/CLP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "152"^^xsd:int, "CLP" ;
+    skos:prefLabel "Chilean Peso"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/53f333af8bc147b8114e9b07fb4c8e6f7544f1e0> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/CNX>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "CNX", "—"^^xsd:int ;
+    skos:prefLabel "Peoples Bank Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/7358da24e692c13d35e9097d4a34bd25c7add28f> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/CNY>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "156"^^xsd:int, "CNY" ;
+    skos:prefLabel "Yuan Renminbi"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/7358da24e692c13d35e9097d4a34bd25c7add28f> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/COP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "170"^^xsd:int, "COP" ;
+    skos:prefLabel "Colombian Peso"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/a19bbfeafb7a10cbd880f978bd9e60d099bfa6d7> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/COU>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "970"^^xsd:int, "COU" ;
+    skos:prefLabel "Unidad de Valor Real"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/a19bbfeafb7a10cbd880f978bd9e60d099bfa6d7> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/CRC>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "188"^^xsd:int, "CRC" ;
+    skos:prefLabel "Costa Rican Colon"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/d3d77e0632eca7ab9eac3bfb0456a22fc0ac0287> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/CSD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "891"^^xsd:int, "CSD" ;
+    skos:prefLabel "Serbian Dinar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/e981892b03160d9f208bfdd5e333676136b97c20> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/CSJ>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "CSJ", "—"^^xsd:int ;
+    skos:prefLabel "Krona A/53"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/ec2c7c39697091c56829a0195dd2a82798c392c5> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/CSK>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "200"^^xsd:int, "CSK" ;
+    skos:prefLabel "Koruna"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/ec2c7c39697091c56829a0195dd2a82798c392c5> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/CUC>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "931"^^xsd:int, "CUC" ;
+    skos:prefLabel "Peso Convertible"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/3390b7cd045097a31509b7e6bb5cb3956264722e> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/CUP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "192"^^xsd:int, "CUP" ;
+    skos:prefLabel "Cuban Peso"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/3390b7cd045097a31509b7e6bb5cb3956264722e> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/CVE>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "132"^^xsd:int, "CVE" ;
+    skos:prefLabel "Cape Verde Escudo"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/e59e07fd90809083a3e66e96ad4aaf73d6100806> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/CYP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "196"^^xsd:int, "CYP" ;
+    skos:prefLabel "Cyprus Pound"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/b4ff8e07033207fd0dffba1ea4faf2a9fbb0893e> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/CZK>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "203"^^xsd:int, "CZK" ;
+    skos:prefLabel "Czech Koruna"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/432538b5d14acb91795b9f9f9bb9d6d4dbae219b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/DDM>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "278"^^xsd:int, "DDM" ;
+    skos:prefLabel "Mark der DDR"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/33c6d319af665745a235764127f15fbe73f3b21d> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/DEM>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "276"^^xsd:int, "DEM" ;
+    skos:prefLabel "Deutsche Mark"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/50fa98722e2d7a6ac87084bfdecdc73bd8a3b0f8> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/DJF>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "262"^^xsd:int, "DJF" ;
+    skos:prefLabel "Djibouti Franc"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/78c3be88f71a030b9e1401a655695f2dfe1135ff> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/DKK>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "208"^^xsd:int, "DKK" ;
+    skos:prefLabel "Danish Krone"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/4aabf2e207503404763a9940ae759e2bd6456a8e>, <http://data.damepraci.cz/resource/countries/concept/6a88f5bf893673a6d4a9ef41d684a0b5acb33e2d>, <http://data.damepraci.cz/resource/countries/concept/d290479572567a111acb750cdd3aac1a154e4be8> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/DOP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "214"^^xsd:int, "DOP" ;
+    skos:prefLabel "Dominican Peso"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/de54cc75507c35ddbe2e89b7a400129771324046> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/DZD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "12"^^xsd:int, "DZD" ;
+    skos:prefLabel "Algerian Dinar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/563b8dd9e81090fc92e82711920355f151c2b94f> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ECS>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "218"^^xsd:int, "ECS" ;
+    skos:prefLabel "Sucre"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/d0438bf55fff7706090141d0d8a69a1f1f43c70f> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ECV>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "983"^^xsd:int, "ECV" ;
+    skos:prefLabel "Unidad de Valor Constante (UVC)"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/d0438bf55fff7706090141d0d8a69a1f1f43c70f> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/EGP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "818"^^xsd:int, "EGP" ;
+    skos:prefLabel "Egyptian Pound"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/ddb7e1f86a4068027440ea513ed982fd1760a753> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/EQE>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "EQE", "—"^^xsd:int ;
+    skos:prefLabel "Ekwele"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/e681f126cd793f734a30bc2adc6152ac003b300b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ERN>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "232"^^xsd:int, "ERN" ;
+    skos:prefLabel "Nakfa"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/dc51cedfd5049951f45c128ba2890fd6c6cfe8ba> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ESA>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "996"^^xsd:int, "ESA" ;
+    skos:prefLabel "Spanish Peseta"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/6e6d89b3f36861d7dcf92fb4208312d60a5b180b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ESB>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "995"^^xsd:int, "ESB" ;
+    skos:prefLabel "\"A\" Account (convertible Peseta Account)"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/6e6d89b3f36861d7dcf92fb4208312d60a5b180b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ESP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "724"^^xsd:int, "ESP" ;
+    skos:prefLabel "Spanish Peseta"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/6e6d89b3f36861d7dcf92fb4208312d60a5b180b>, <http://data.damepraci.cz/resource/countries/concept/7f388b93a8b9c35e447f6d30ebff2b25d4a7dde3> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ETB>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "230"^^xsd:int, "ETB" ;
+    skos:prefLabel "Ethiopian Birr"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/04886207388e661967bca7a56d7de85414f867e3> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/EUR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "978"^^xsd:int, "EUR" ;
+    skos:prefLabel "Euro"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/00d7f69f12785bd324517c9f11e876c5da47ca5d>, <http://data.damepraci.cz/resource/countries/concept/01fab39cd0801c2f334a4e543b3daf4bdbaf9902>, <http://data.damepraci.cz/resource/countries/concept/0494ce1ce00b5ed2f94cca73dcf4aa51cfe58529>, <http://data.damepraci.cz/resource/countries/concept/0d4ec3f23fcfd1d0cc8572782b717099555be3a6>, <http://data.damepraci.cz/resource/countries/concept/123aef702c863ac525b9e03597fbbf75b6d72702>, <http://data.damepraci.cz/resource/countries/concept/20991616475bc9d32c74d8b33ce517b2b2ad338b>, <http://data.damepraci.cz/resource/countries/concept/271b05d0cba539ea60eded0119ccb7a22746b08c>, <http://data.damepraci.cz/resource/countries/concept/395ab763dcf873eca612f4bf95612d875343b619>, <http://data.damepraci.cz/resource/countries/concept/417f0d08790c8c0651a659bd0828fad232fa11a8>, <http://data.damepraci.cz/resource/countries/concept/42287d67c3ad3ff94232045a2af58884d40ab094>, <http://data.damepraci.cz/resource/countries/concept/459588b894012690c5f5f490757c3a54d65fd207>, <http://data.damepraci.cz/resource/countries/concept/4bde5691d73ccda3ea5536986dfe2c3a2c446c87>, <http://data.damepraci.cz/resource/countries/concept/4ce48c2bae087cc8c1e919e9f373f20d5654cb5a>, <http://data.damepraci.cz/resource/countries/concept/50a8352daae44061134c3a312370d01e41ab7a6e>, <http://data.damepraci.cz/resource/countries/concept/50c8232b82ba3764a4a2a8f4801de058bd3c3cc9>, <http://data.damepraci.cz/resource/countries/concept/50fa98722e2d7a6ac87084bfdecdc73bd8a3b0f8>, <http://data.damepraci.cz/resource/countries/concept/6e6d89b3f36861d7dcf92fb4208312d60a5b180b>, <http://data.damepraci.cz/resource/countries/concept/74cae568fc4b821d1421b549c21cac033b90c956>, <http://data.damepraci.cz/resource/countries/concept/7850d12ea45d65e283bb536cbc7222059b48448a>, <http://data.damepraci.cz/resource/countries/concept/7f388b93a8b9c35e447f6d30ebff2b25d4a7dde3>, <http://data.damepraci.cz/resource/countries/concept/85366acfb2d528adaac46564ceb84f59e801344d>, <http://data.damepraci.cz/resource/countries/concept/8c61e9f1d0d93226bcc4f87cc85a9efc46194024>, <http://data.damepraci.cz/resource/countries/concept/973d770884b917bd89ba4f9271e260afdca09a04>, <http://data.damepraci.cz/resource/countries/concept/9c28e57f9a261443db1467d76589bccb5027ec5d>, <http://data.damepraci.cz/resource/countries/concept/a9be98dd0e094bb074d375a8f930e2083a682d84>, <http://data.damepraci.cz/resource/countries/concept/b4ff8e07033207fd0dffba1ea4faf2a9fbb0893e>, <http://data.damepraci.cz/resource/countries/concept/c674f9bdf6db9556f699e7790483a2a4f60d0e29>, <http://data.damepraci.cz/resource/countries/concept/ca4576daf402ccd8d759ea12f0f7661cbeb49c08>, <http://data.damepraci.cz/resource/countries/concept/dabe7402347fc1dbbb24d49819544720654f50f0>, <http://data.damepraci.cz/resource/countries/concept/df495db9949de63496a74bc402b99940edfd55a5>, <http://data.damepraci.cz/resource/countries/concept/e25b5dbde8967c6be655166e824a2e88cad2e231>, <http://data.damepraci.cz/resource/countries/concept/e6d10cfe37ea8c7919156ed324b898957cb1587d>, <http://data.damepraci.cz/resource/countries/concept/edc9f8269d03444f57cdc60deae65438f75412d5>, <http://data.damepraci.cz/resource/countries/concept/f727958ac99df81e0c437393a27739991a54e6c4> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/FIM>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "246"^^xsd:int, "FIM" ;
+    skos:prefLabel "Markka"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/4bde5691d73ccda3ea5536986dfe2c3a2c446c87>, <http://data.damepraci.cz/resource/countries/concept/e6d10cfe37ea8c7919156ed324b898957cb1587d> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/FJD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "242"^^xsd:int, "FJD" ;
+    skos:prefLabel "Fiji Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/766b8d04b0bcd95de1ca42b3a55dee62d74277bd> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/FKP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "238"^^xsd:int, "FKP" ;
+    skos:prefLabel "Falkland Islands Pound"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/7e84f58072dae4a9112e8f687ec9b4847aac27b8> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/FRF>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "250"^^xsd:int, "FRF" ;
+    skos:prefLabel "French Franc"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/00d7f69f12785bd324517c9f11e876c5da47ca5d>, <http://data.damepraci.cz/resource/countries/concept/0d4ec3f23fcfd1d0cc8572782b717099555be3a6>, <http://data.damepraci.cz/resource/countries/concept/395ab763dcf873eca612f4bf95612d875343b619>, <http://data.damepraci.cz/resource/countries/concept/4ce48c2bae087cc8c1e919e9f373f20d5654cb5a>, <http://data.damepraci.cz/resource/countries/concept/50a8352daae44061134c3a312370d01e41ab7a6e>, <http://data.damepraci.cz/resource/countries/concept/535eba316d13e66c019355bf52e9526b31792c8c>, <http://data.damepraci.cz/resource/countries/concept/7f388b93a8b9c35e447f6d30ebff2b25d4a7dde3>, <http://data.damepraci.cz/resource/countries/concept/85366acfb2d528adaac46564ceb84f59e801344d>, <http://data.damepraci.cz/resource/countries/concept/8c61e9f1d0d93226bcc4f87cc85a9efc46194024>, <http://data.damepraci.cz/resource/countries/concept/c113b2266e26cb3d037ffc8b3aa204ac3720360a>, <http://data.damepraci.cz/resource/countries/concept/ce78c2843f8ced486461dbea50c3b7a5be3835d7>, <http://data.damepraci.cz/resource/countries/concept/df495db9949de63496a74bc402b99940edfd55a5> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/GBP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "826"^^xsd:int, "GBP" ;
+    skos:prefLabel "Pound Sterling"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/247ee4c201b5936f6dffe2b7b368fb518386bfcc>, <http://data.damepraci.cz/resource/countries/concept/69a55cae5db5064cf98017292d9134f52b4843b0>, <http://data.damepraci.cz/resource/countries/concept/9b08d61248759ef698cccddcb20e83b214e8b072>, <http://data.damepraci.cz/resource/countries/concept/f031afefc0aa4e15e43e40c74b6276d43f1dbed2> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/GEK>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "268"^^xsd:int, "GEK" ;
+    skos:prefLabel "Georgian Coupon"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/9cd3301f68a17edd753be3cdb2d274a2ffa040b2> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/GEL>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "981"^^xsd:int, "GEL" ;
+    skos:prefLabel "Lari"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/9cd3301f68a17edd753be3cdb2d274a2ffa040b2> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/GHC>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "288"^^xsd:int, "GHC" ;
+    skos:prefLabel "Cedi"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/266b49393ba3f58b304b332328bcbdc23eef77f8> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/GHP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "939"^^xsd:int, "GHP" ;
+    skos:prefLabel "Ghana Cedi "@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/266b49393ba3f58b304b332328bcbdc23eef77f8> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/GHS>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "936"^^xsd:int, "GHS" ;
+    skos:prefLabel "Ghana Cedi"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/266b49393ba3f58b304b332328bcbdc23eef77f8> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/GIP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "292"^^xsd:int, "GIP" ;
+    skos:prefLabel "Gibraltar Pound"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/7c87ee2af4a3c4fe99801e9c02c2e5ec14b2f1e9> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/GMD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "270"^^xsd:int, "GMD" ;
+    skos:prefLabel "Dalasi"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/4abf69dfd5f9b900266cbf7ae24358a209c8787f> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/GNE>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "GNE", "—"^^xsd:int ;
+    skos:prefLabel "Syli"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/8c733edb949f2d77e6b68583879ce98b0f55f12b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/GNF>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "324"^^xsd:int, "GNF" ;
+    skos:prefLabel "Guinea Franc"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/8c733edb949f2d77e6b68583879ce98b0f55f12b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/GNS>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "GNS", "—"^^xsd:int ;
+    skos:prefLabel "Syli"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/8c733edb949f2d77e6b68583879ce98b0f55f12b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/GQE>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "226"^^xsd:int, "GQE" ;
+    skos:prefLabel "Ekwele"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/e681f126cd793f734a30bc2adc6152ac003b300b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/GRD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "300"^^xsd:int, "GRD" ;
+    skos:prefLabel "Drachma"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/271b05d0cba539ea60eded0119ccb7a22746b08c> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/GTQ>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "320"^^xsd:int, "GTQ" ;
+    skos:prefLabel "Quetzal"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/4ed304002fd201b19411a47ff48e025aa1aae0fd> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/GWE>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "GWE", "—"^^xsd:int ;
+    skos:prefLabel "Guinea Escudo"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/feaa95132a2bd72f55f9606c022b65946265c392> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/GWP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "624"^^xsd:int, "GWP" ;
+    skos:prefLabel "Guinea-Bissau Peso"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/feaa95132a2bd72f55f9606c022b65946265c392> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/GYD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "328"^^xsd:int, "GYD" ;
+    skos:prefLabel "Guyana Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/21003dd8ede74c10c9472d537849f6e7134c9ed8> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/HKD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "344"^^xsd:int, "HKD" ;
+    skos:prefLabel "Hong Kong Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/e23b41748e7e021cc4bfefd94a066845cf8f9d82> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/HNL>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "340"^^xsd:int, "HNL" ;
+    skos:prefLabel "Lempira"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/8a53300a0edf5d01122b448889cd74e3f4351233> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/HRD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "191"^^xsd:int, "HRD" ;
+    skos:prefLabel "Croatian Dinar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/05ba0b3b8290d69e6cef1189bbee863f442a3497> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/HRK>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "191"^^xsd:int, "HRK" ;
+    skos:prefLabel "Croatian Kuna"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/05ba0b3b8290d69e6cef1189bbee863f442a3497> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/HTG>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "332"^^xsd:int, "HTG" ;
+    skos:prefLabel "Gourde"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/8490df8864b1686357ab930bb6217424de96fef2> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/HUF>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "348"^^xsd:int, "HUF" ;
+    skos:prefLabel "Forint"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/388754ee5938c3b037b155bd3d292500235eb129> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/IDR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "360"^^xsd:int, "IDR" ;
+    skos:prefLabel "Rupiah"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/5a5dfbc752c3d0ed6395f01bb055282d36c685ee>, <http://data.damepraci.cz/resource/countries/concept/ef805f62949f18e77450ff5f7f2b06c3b319f50b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/IEP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "372"^^xsd:int, "IEP" ;
+    skos:prefLabel "Irish Pound"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/74cae568fc4b821d1421b549c21cac033b90c956> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ILP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "ILP", "—"^^xsd:int ;
+    skos:prefLabel "Pound"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/0edec670409380e42e57e7ab5224d815e3c121da> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ILR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "ILR", "—"^^xsd:int ;
+    skos:prefLabel "Old Shekel"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/0edec670409380e42e57e7ab5224d815e3c121da> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ILS>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "376"^^xsd:int, "ILS" ;
+    skos:prefLabel "New Israeli Sheqel"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/0edec670409380e42e57e7ab5224d815e3c121da> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/INR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "356"^^xsd:int, "INR" ;
+    skos:prefLabel "Indian Rupee"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/9616a98b4b971b9b812f9fb8e74b968e9c03b01a>, <http://data.damepraci.cz/resource/countries/concept/a3d4956fd094604c46004ee73491e530dffd33f1> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/IQD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "368"^^xsd:int, "IQD" ;
+    skos:prefLabel "Iraqi Dinar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/9a756651e8074acaf913fa1301dc80d0462dbfb7> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/IRR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "364"^^xsd:int, "IRR" ;
+    skos:prefLabel "Iranian Rial"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/9276f83d031a7677cfcfeeaf364f9eee9e06c71e> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ISJ>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "ISJ", "—"^^xsd:int ;
+    skos:prefLabel "Old Krona"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/8f5ffa5bd9cf23af8432bc8c4ae01d82f1bcb57d> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ISK>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "352"^^xsd:int, "ISK" ;
+    skos:prefLabel "Iceland Krona"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/8f5ffa5bd9cf23af8432bc8c4ae01d82f1bcb57d> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ITL>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "380"^^xsd:int, "ITL" ;
+    skos:prefLabel "Italian Lira"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/50c8232b82ba3764a4a2a8f4801de058bd3c3cc9>, <http://data.damepraci.cz/resource/countries/concept/a9be98dd0e094bb074d375a8f930e2083a682d84>, <http://data.damepraci.cz/resource/countries/concept/f727958ac99df81e0c437393a27739991a54e6c4> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/JMD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "388"^^xsd:int, "JMD" ;
+    skos:prefLabel "Jamaican Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/ecf78b9e129fa217876f43a59f74763c64eeedfe> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/JOD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "400"^^xsd:int, "JOD" ;
+    skos:prefLabel "Jordanian Dinar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/8181d69ab4eea9648908f3df9519dfe29dd688e2> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/JPY>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "392"^^xsd:int, "JPY" ;
+    skos:prefLabel "Yen"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/acc0b63c0bf638236a330717ebd2292cf7455513> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/KES>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "404"^^xsd:int, "KES" ;
+    skos:prefLabel "Kenyan Shilling"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/0f50c92061830695fc51abc609c71d1382652e61> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/KGS>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "417"^^xsd:int, "KGS" ;
+    skos:prefLabel "Som"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/64b795f7f4c2d4fc20b5cd9a366727aa4e897d95> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/KHR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "116"^^xsd:int, "KHR" ;
+    skos:prefLabel "Riel"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/e846880f77b6e03ea946c1493c3835e46514078d> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/KMF>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "174"^^xsd:int, "KMF" ;
+    skos:prefLabel "Comoro Franc"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/32201581f7745240f8b24a16b2d12edaa8d91661> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/KPW>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "408"^^xsd:int, "KPW" ;
+    skos:prefLabel "North Korean Won"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/1d98c7b37b7a5d4808d6a2ab8e57466e50fa42c8> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/KRW>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "410"^^xsd:int, "KRW" ;
+    skos:prefLabel "Won"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/1db405caad9dd2a99e49188198ec3faa560d6356> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/KWD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "414"^^xsd:int, "KWD" ;
+    skos:prefLabel "Kuwaiti Dinar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/efa27ec51d36c82370a7a872d15e07ed75deb1b5> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/KYD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "136"^^xsd:int, "KYD" ;
+    skos:prefLabel "Cayman Islands Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/043a6c45e472debba7980be9e3eb12b1209c2877> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/KZT>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "398"^^xsd:int, "KZT" ;
+    skos:prefLabel "Tenge"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/440c7706684e29a5586aef1fd06e2adc3b0f3b59> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/LAJ>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "LAJ", "—"^^xsd:int ;
+    skos:prefLabel "Kip Pot Pol"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/57d789c64316cf9178ab2bba702636e8786a3f47> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/LAK>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "418"^^xsd:int, "LAK" ;
+    skos:prefLabel "Kip"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/36f6b09f50bcfeee6b8edb11d6b38edbfd9e84d0> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/LBP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "422"^^xsd:int, "LBP" ;
+    skos:prefLabel "Lebanese Pound"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/14b2d53f66f7f09227cbff1cd0d6d45dd68f83aa> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/LKR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "144"^^xsd:int, "LKR" ;
+    skos:prefLabel "Sri Lanka Rupee"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/08a01ecab831f8e3b4af7ea90a91905dcd8f9ff3> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/LRD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "430"^^xsd:int, "LRD" ;
+    skos:prefLabel "Liberian Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/b935e42810144bfa10a4a50287d199f32811db1f> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/LSL>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "426"^^xsd:int, "LSL" ;
+    skos:prefLabel "Loti"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/4460e36a624853e6db2ecea812960361be82f962> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/LSM>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "LSM", "—"^^xsd:int ;
+    skos:prefLabel "Maloti"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/4460e36a624853e6db2ecea812960361be82f962> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/LTL>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "440"^^xsd:int, "LTL" ;
+    skos:prefLabel "Lithuanian Litas"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/aba68576228532164b2a6b237cb69709cdc6004b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/LTT>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "440"^^xsd:int, "LTT" ;
+    skos:prefLabel "Talonas"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/aba68576228532164b2a6b237cb69709cdc6004b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/LUC>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "989"^^xsd:int, "LUC" ;
+    skos:prefLabel "Luxembourg Convertible Franc"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/0494ce1ce00b5ed2f94cca73dcf4aa51cfe58529> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/LUF>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "442"^^xsd:int, "LUF" ;
+    skos:prefLabel "Luxembourg Franc"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/0494ce1ce00b5ed2f94cca73dcf4aa51cfe58529> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/LUL>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "988"^^xsd:int, "LUL" ;
+    skos:prefLabel "Luxembourg Financial Franc"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/0494ce1ce00b5ed2f94cca73dcf4aa51cfe58529> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/LVL>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "428"^^xsd:int, "LVL" ;
+    skos:prefLabel "Latvian Lats"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/f1d06296c08b9f1bb320fa52027d00d91e839e99> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/LVR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "428"^^xsd:int, "LVR" ;
+    skos:prefLabel "Latvian Ruble"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/f1d06296c08b9f1bb320fa52027d00d91e839e99> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/LYD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "434"^^xsd:int, "LYD" ;
+    skos:prefLabel "Libyan Dinar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/635c2f196e7daaeb3e269b1e4fef4501e933d6e8> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/MAD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "504"^^xsd:int, "MAD" ;
+    skos:prefLabel "Moroccan Dirham"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/4ce56ea9d4a5d5bc05c8a734e15503b652b88e2d>, <http://data.damepraci.cz/resource/countries/concept/aef31627152ff98a2a23643ef1b840c75192698e> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/MAF>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "MAF", "—"^^xsd:int ;
+    skos:prefLabel "Mali Franc"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/608a45ba900452c672001fdd6f3e7ac0455a4ee9> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/MDL>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "498"^^xsd:int, "MDL" ;
+    skos:prefLabel "Moldovan Leu"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/229556e4792c2e2834bb449d34c25a84b85e3ceb> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/MGA>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "969"^^xsd:int, "MGA" ;
+    skos:prefLabel "Malagasy Ariary"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/cee5d6db9a0b99c25d123fb70499d07a1bc7df30> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/MGF>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "450"^^xsd:int, "MGF" ;
+    skos:prefLabel "Malagasy Franc"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/cee5d6db9a0b99c25d123fb70499d07a1bc7df30> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/MKD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "807"^^xsd:int, "MKD" ;
+    skos:prefLabel "Denar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/e00c572817c7bed17ccbf9c3d91e7b410ee1c8ac> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/MLF>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "466"^^xsd:int, "MLF" ;
+    skos:prefLabel "Mali Franc"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/608a45ba900452c672001fdd6f3e7ac0455a4ee9> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/MMK>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "104"^^xsd:int, "MMK" ;
+    skos:prefLabel "Kyat"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/1b864784223fab4ab7f14a40d38b0ee6b3ede516> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/MNT>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "496"^^xsd:int, "MNT" ;
+    skos:prefLabel "Tugrik"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/8d85d5c926d174f4391d4e7a388527399597c7e7> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/MOP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "446"^^xsd:int, "MOP" ;
+    skos:prefLabel "Pataca"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/16f762a3ae3fdf3b98782cf47784303ac307e357> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/MRO>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "478"^^xsd:int, "MRO" ;
+    skos:prefLabel "Ouguiya"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/081b71d71da3621b781fab056ce7499d0f17d318> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/MTL>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "470"^^xsd:int, "MTL" ;
+    skos:prefLabel "Maltese Lira"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/973d770884b917bd89ba4f9271e260afdca09a04> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/MTP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "MTP", "—"^^xsd:int ;
+    skos:prefLabel "Maltese Pound"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/973d770884b917bd89ba4f9271e260afdca09a04> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/MUR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "480"^^xsd:int, "MUR" ;
+    skos:prefLabel "Mauritius Rupee"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/79bea32a845ef770e34bfdc609f6e26692e0f56a> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/MVQ>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "MVQ", "—"^^xsd:int ;
+    skos:prefLabel "Maldive Rupee"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/63948051b0f71922e3d2e853b37e50da2f520870> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/MVR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "462"^^xsd:int, "MVR" ;
+    skos:prefLabel "Rufiyaa"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/63948051b0f71922e3d2e853b37e50da2f520870> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/MWK>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "454"^^xsd:int, "MWK" ;
+    skos:prefLabel "Kwacha"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/d47786bc96e2d2b155b775a25b9ea1e4ee522815> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/MXN>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "484"^^xsd:int, "MXN" ;
+    skos:prefLabel "Mexican Peso"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/14c0a8bf76907883f4505a4d2609f5f9b2bfd09b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/MXP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "MXP", "— "^^xsd:int ;
+    skos:prefLabel "Mexican Peso"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/14c0a8bf76907883f4505a4d2609f5f9b2bfd09b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/MXV>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "979"^^xsd:int, "MXV" ;
+    skos:prefLabel "Mexican Unidad de Inversion (UDI)"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/14c0a8bf76907883f4505a4d2609f5f9b2bfd09b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/MYR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "458"^^xsd:int, "MYR" ;
+    skos:prefLabel "Malaysian Ringgit"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/d94778383eb31eb83fd0f1c95c55b540e1862b05> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/MZE>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "MZE", "—"^^xsd:int ;
+    skos:prefLabel "Mozambique Escudo"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/7d136fc23a639cf32d122f28849d7dc2e311015c> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/MZM>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "508"^^xsd:int, "MZM" ;
+    skos:prefLabel "Mozambique Metical"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/7d136fc23a639cf32d122f28849d7dc2e311015c> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/MZN>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "943"^^xsd:int, "MZN" ;
+    skos:prefLabel "Mozambique Metical"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/7d136fc23a639cf32d122f28849d7dc2e311015c> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/NAD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "516"^^xsd:int, "NAD" ;
+    skos:prefLabel "Namibia Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/11bdfea0b3365504d30da1fbef318014515bdcb2> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/NGN>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "566"^^xsd:int, "NGN" ;
+    skos:prefLabel "Naira"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/200ec51c7945a65a79ebafe35747f98335bdb67d> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/NIC>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "NIC", "—"^^xsd:int ;
+    skos:prefLabel "Cordoba"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/e76eb9ca1cc1f73151762a922703264dd95aa1cb> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/NIO>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "558"^^xsd:int, "NIO" ;
+    skos:prefLabel "Cordoba Oro"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/e76eb9ca1cc1f73151762a922703264dd95aa1cb> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/NLG>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "528"^^xsd:int, "NLG" ;
+    skos:prefLabel "Netherlands Guilder"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/7850d12ea45d65e283bb536cbc7222059b48448a> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/NOK>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "578"^^xsd:int, "NOK" ;
+    skos:prefLabel "Norwegian Krone"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/0422bf38a4e41786d8009dd5f36b5bb3014ca417>, <http://data.damepraci.cz/resource/countries/concept/13b59dfae73c9b610fbb4df685ce6ad2bb29502b>, <http://data.damepraci.cz/resource/countries/concept/d56dc95c7f1d34e1f2580c47afda83600b4c525d> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/NPR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "524"^^xsd:int, "NPR" ;
+    skos:prefLabel "Nepalese Rupee"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/36364f8f724b5c2897a1c60ef3b284f2480adbc5> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/NZD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "554"^^xsd:int, "NZD" ;
+    skos:prefLabel "New Zealand Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/01418e1bfbd17a694937cda87acc44155843e4df>, <http://data.damepraci.cz/resource/countries/concept/3643b49cdc91dbf8dbabcdf1a53a8396ea9711e0>, <http://data.damepraci.cz/resource/countries/concept/7e4d641286ddc303e468f66efe371bda8081fc91>, <http://data.damepraci.cz/resource/countries/concept/982f4613db077f4a23e56eb29668b07f0339901e>, <http://data.damepraci.cz/resource/countries/concept/b05bf84dabc63493a2bcbe8eb405e66d7355c824> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/OMR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "512"^^xsd:int, "OMR" ;
+    skos:prefLabel "Rial Omani"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/69f1e6c49853ed38f95d2b7bcf698bf2b47407b0> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/PAB>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "590"^^xsd:int, "PAB" ;
+    skos:prefLabel "Balboa"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/dc7a1bb025b899057e5c476bb410785c5382024f> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/PEH>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "PEH", "—"^^xsd:int ;
+    skos:prefLabel "Sol"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/bb47ad825ad1ad376da948f606628da882e5de31> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/PEI>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "604"^^xsd:int, "PEI" ;
+    skos:prefLabel "Inti"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/bb47ad825ad1ad376da948f606628da882e5de31> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/PEN>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "604"^^xsd:int, "PEN" ;
+    skos:prefLabel "Nuevo Sol"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/bb47ad825ad1ad376da948f606628da882e5de31> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/PES>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "604"^^xsd:int, "PES" ;
+    skos:prefLabel "Sol"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/bb47ad825ad1ad376da948f606628da882e5de31> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/PGK>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "598"^^xsd:int, "PGK" ;
+    skos:prefLabel "Kina"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/b29813e5fc832031e0aa8532adb98ed8566b9bfd> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/PHP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "608"^^xsd:int, "PHP" ;
+    skos:prefLabel "Philippine Peso"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/a86c99fe96786461c1542d48d79761e34d21ebd3> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/PKR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "586"^^xsd:int, "PKR" ;
+    skos:prefLabel "Pakistan Rupee"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/48f6131348ec4f6e822cd1299ea801c343a1a131> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/PLN>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "985"^^xsd:int, "PLN" ;
+    skos:prefLabel "Zloty"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/3ae3b3b80f697d9891e6490fdd0af1b094ae694c> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/PLZ>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "616"^^xsd:int, "PLZ" ;
+    skos:prefLabel "Zloty"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/3ae3b3b80f697d9891e6490fdd0af1b094ae694c> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/PTE>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "620"^^xsd:int, "PTE" ;
+    skos:prefLabel "Portuguese Escudo"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/459588b894012690c5f5f490757c3a54d65fd207> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/PYG>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "600"^^xsd:int, "PYG" ;
+    skos:prefLabel "Guarani"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/25099fc7bdbc418e195c4318f4ace9b5082cd08e> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/QAR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "634"^^xsd:int, "QAR" ;
+    skos:prefLabel "Qatari Rial"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/2a2df5999e3823ecc198dafed7ec15d34468f0af> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/RHD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "RHD", "—"^^xsd:int ;
+    skos:prefLabel "Rhodesian Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/e2b4c2d66c098d7c1c5554d511dd48f26a0a191c> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ROK>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "ROK", "—"^^xsd:int ;
+    skos:prefLabel "Leu A/52"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/3c4fd5d8932b41d0bd9795268a2e8ef88de36c57> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ROL>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "642"^^xsd:int, "ROL" ;
+    skos:prefLabel "Old Leu"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/3c4fd5d8932b41d0bd9795268a2e8ef88de36c57> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/RON>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "946"^^xsd:int, "RON" ;
+    skos:prefLabel "New Romanian Leu"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/3c4fd5d8932b41d0bd9795268a2e8ef88de36c57> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/RSD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "941"^^xsd:int, "RSD" ;
+    skos:prefLabel "Serbian Dinar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/92c3f8018585421683e816f74950e78df6da8565> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/RUB>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "643"^^xsd:int, "RUB" ;
+    skos:prefLabel "Russian Ruble"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/f13002b254426b4e624ade2e830ef1cdbbe6504e> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/RUR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "810"^^xsd:int, "RUR" ;
+    skos:prefLabel "Russian Ruble"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/03fa660b10af9f049d892919285ee7bb853b3bce>, <http://data.damepraci.cz/resource/countries/concept/229556e4792c2e2834bb449d34c25a84b85e3ceb>, <http://data.damepraci.cz/resource/countries/concept/440c7706684e29a5586aef1fd06e2adc3b0f3b59>, <http://data.damepraci.cz/resource/countries/concept/64b795f7f4c2d4fc20b5cd9a366727aa4e897d95>, <http://data.damepraci.cz/resource/countries/concept/676244c82757cc8e89591da1227d574d64effae3>, <http://data.damepraci.cz/resource/countries/concept/9cd3301f68a17edd753be3cdb2d274a2ffa040b2>, <http://data.damepraci.cz/resource/countries/concept/a937501c0a37730aa16fd2bb1babc798312a168e>, <http://data.damepraci.cz/resource/countries/concept/b1f4354c4c6927986d5f7842c5874fe2b7085c8b>, <http://data.damepraci.cz/resource/countries/concept/c5d39a82a9e040a467f20973b0c8fffb93afe7e6>, <http://data.damepraci.cz/resource/countries/concept/f13002b254426b4e624ade2e830ef1cdbbe6504e>, <http://data.damepraci.cz/resource/countries/concept/f55cfd3e4915121a73f33b54636f743adc9372ab> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/RWF>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "646"^^xsd:int, "RWF" ;
+    skos:prefLabel "Rwanda Franc"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/2f08e509f3e7d2ab37170f0812f80d87b3917e52> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/SAR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "682"^^xsd:int, "SAR" ;
+    skos:prefLabel "Saudi Riyal"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/4fa5dbd0adc10a8d5c3cccf2b866ae874ad97f43> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/SBD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "90"^^xsd:int, "SBD" ;
+    skos:prefLabel "Solomon Islands Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/e08a17ba05dafde84eb0b3d9d7843c30fb4df786> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/SCR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "690"^^xsd:int, "SCR" ;
+    skos:prefLabel "Seychelles Rupee"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/d732eaf782c28ebfb7ed33a3b806349141177ede> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/SDD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "736"^^xsd:int, "SDD" ;
+    skos:prefLabel "Sudanese Dinar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/a055dbfa0ab9612c1fdd26a94b3e6534eb06c7a8> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/SDG>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "938"^^xsd:int, "SDG" ;
+    skos:prefLabel "Sudanese Pound"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/a055dbfa0ab9612c1fdd26a94b3e6534eb06c7a8> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/SDP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "SDP", "—"^^xsd:int ;
+    skos:prefLabel "Sudanese Pound"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/a055dbfa0ab9612c1fdd26a94b3e6534eb06c7a8> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/SEK>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "752"^^xsd:int, "SEK" ;
+    skos:prefLabel "Swedish Krona"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/ec910439bf2f205ff18858f23c5257f35d01d5e3> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/SGD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "702"^^xsd:int, "SGD" ;
+    skos:prefLabel "Singapore Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/71024983a9d82e10cb88e9a514b559b43d213678> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/SHP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "654"^^xsd:int, "SHP" ;
+    skos:prefLabel "Saint Helena Pound"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/958ac4e49d513eb77bf36ee6a76ddc6a1561779f> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/SIT>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "705"^^xsd:int, "SIT" ;
+    skos:prefLabel "Tolar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/417f0d08790c8c0651a659bd0828fad232fa11a8> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/SKK>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "703"^^xsd:int, "SKK" ;
+    skos:prefLabel "Slovak Koruna"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/9c28e57f9a261443db1467d76589bccb5027ec5d> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/SLL>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "694"^^xsd:int, "SLL" ;
+    skos:prefLabel "Leone"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/0f6d46ed4948fd9bde4f2e9f33031253906ec827> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/SOS>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "706"^^xsd:int, "SOS" ;
+    skos:prefLabel "Somali Shilling"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/01a403218d16a72ecfd38a0ead7afa00dc2d1c4e> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/SRD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "968"^^xsd:int, "SRD" ;
+    skos:prefLabel "Surinam Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/7c29612b1fcad24cf6e236f81a7a7aebe222a4d9> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/SRG>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "740"^^xsd:int, "SRG" ;
+    skos:prefLabel "Surinam Guilder"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/7c29612b1fcad24cf6e236f81a7a7aebe222a4d9> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/SSP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "728"^^xsd:int, "SSP" ;
+    skos:prefLabel "South Sudanese Pound"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/6640c79d2fc26f43255781073f33f650fff8d380> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/STD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "678"^^xsd:int, "STD" ;
+    skos:prefLabel "Dobra"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/a86d892aa050c17f015132dab68b8ca4b9e407b0> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/SUR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "SUR", "—"^^xsd:int ;
+    skos:prefLabel "Rouble"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/801bdbde264a51f2c5f207d990df44777b4785f4> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/SVC>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "222"^^xsd:int, "SVC" ;
+    skos:prefLabel "El Salvador Colon"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/acbef919756615910feb56b1e0fdb3fba5432c04> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/SYP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "760"^^xsd:int, "SYP" ;
+    skos:prefLabel "Syrian Pound"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/18868e130eced7bea54b09a9a1ae24d234267393> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/SZL>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "748"^^xsd:int, "SZL" ;
+    skos:prefLabel "Lilangeni"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/91e35c8e152e7ac2c1e5c93dda7f2e4e4b4d6d6b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/THB>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "764"^^xsd:int, "THB" ;
+    skos:prefLabel "Baht"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/4869b5e8439d0532a812c0f9aa2de11aa2f61bf1> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/TJR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "762"^^xsd:int, "TJR" ;
+    skos:prefLabel "Tajik Ruble"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/a937501c0a37730aa16fd2bb1babc798312a168e> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/TJS>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "972"^^xsd:int, "TJS" ;
+    skos:prefLabel "Somoni"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/a937501c0a37730aa16fd2bb1babc798312a168e> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/TMM>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "795"^^xsd:int, "TMM" ;
+    skos:prefLabel "Turkmenistan Manat"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/f55cfd3e4915121a73f33b54636f743adc9372ab> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/TMT>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "934"^^xsd:int, "TMT" ;
+    skos:prefLabel "Turkmenistan New Manat"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/f55cfd3e4915121a73f33b54636f743adc9372ab> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/TND>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "788"^^xsd:int, "TND" ;
+    skos:prefLabel "Tunisian Dinar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/831957e232a585d2a99a1cf1828e4123a24d3a81> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/TOP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "776"^^xsd:int, "TOP" ;
+    skos:prefLabel "Pa’anga"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/40bef83b5e8b8a29343bc2a8c9233bf17ee9542b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/TPE>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "626"^^xsd:int, "TPE" ;
+    skos:prefLabel "Timor Escudo"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/5a5dfbc752c3d0ed6395f01bb055282d36c685ee> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/TRL>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "792"^^xsd:int, "TRL" ;
+    skos:prefLabel "Old Turkish Lira"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/2db56a6fb2248e20b0fe41fc122d7b77dbf84d6b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/TRY>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "949"^^xsd:int, "TRY" ;
+    skos:prefLabel "New Turkish Lira"@en, "Turkish Lira"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/2db56a6fb2248e20b0fe41fc122d7b77dbf84d6b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/TTD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "780"^^xsd:int, "TTD" ;
+    skos:prefLabel "Trinidad and Tobago Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/f08d6acceb1deb8c8854ad7b975f809b2ab0b5fa> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/TWD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "901"^^xsd:int, "TWD" ;
+    skos:prefLabel "New Taiwan Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/682c47c56f43cb7097be21e102c96aedaa975678> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/TZS>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "834"^^xsd:int, "TZS" ;
+    skos:prefLabel "Tanzanian Shilling"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/4edc5f231aceae02b2d148b9b010700bda0f67bf> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/UAH>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "980"^^xsd:int, "UAH" ;
+    skos:prefLabel "Hryvnia"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/9e48ab40544f1a7ab5f6b7f2616a1772c1b93ce1> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/UAK>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "804"^^xsd:int, "UAK" ;
+    skos:prefLabel "Karbovanet"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/9e48ab40544f1a7ab5f6b7f2616a1772c1b93ce1> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/UGS>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "UGS", "—"^^xsd:int ;
+    skos:prefLabel "Uganda Shilling"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/e45599c83e478beffe9e857807afe5adf7dfecc6> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/UGW>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "UGW", "—"^^xsd:int ;
+    skos:prefLabel "Old Shilling"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/e45599c83e478beffe9e857807afe5adf7dfecc6> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/UGX>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "800"^^xsd:int, "UGX" ;
+    skos:prefLabel "Uganda Shilling"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/e45599c83e478beffe9e857807afe5adf7dfecc6> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/USD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "840"^^xsd:int, "USD" ;
+    skos:prefLabel "US Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/38b582da53138ce26920fbf81a8eca8eca2cecc0>, <http://data.damepraci.cz/resource/countries/concept/42483a95c37c3c5daa776f9aed07d4e7dce764d2>, <http://data.damepraci.cz/resource/countries/concept/5a3f31c6cbec238d30ac2c578f3795f6ecd9c404>, <http://data.damepraci.cz/resource/countries/concept/5a5dfbc752c3d0ed6395f01bb055282d36c685ee>, <http://data.damepraci.cz/resource/countries/concept/6a63d630a9e279eb97d96b89dc21f8513497fff4>, <http://data.damepraci.cz/resource/countries/concept/827a5e30c3aec55cc5da99e6bde2d3ba464af555>, <http://data.damepraci.cz/resource/countries/concept/8490df8864b1686357ab930bb6217424de96fef2>, <http://data.damepraci.cz/resource/countries/concept/a17ad72c8426cde2d688682a57fcb69fde33bed5>, <http://data.damepraci.cz/resource/countries/concept/acbef919756615910feb56b1e0fdb3fba5432c04>, <http://data.damepraci.cz/resource/countries/concept/c85f0938c77d8514bbea8f995f1a5beb3f1d36ae>, <http://data.damepraci.cz/resource/countries/concept/cd371c39bd87c7824e66f7873370e00363cdb6fc>, <http://data.damepraci.cz/resource/countries/concept/d0438bf55fff7706090141d0d8a69a1f1f43c70f>, <http://data.damepraci.cz/resource/countries/concept/d1da4cb376d4c322b9104b24e5e497c2f29598cb>, <http://data.damepraci.cz/resource/countries/concept/d735914733a5c231bad1bfc3aaf66e8e1a7fbfc2>, <http://data.damepraci.cz/resource/countries/concept/da9f7f50002e5ba019201d42f8c8104a4f3bc8d7>, <http://data.damepraci.cz/resource/countries/concept/dc7a1bb025b899057e5c476bb410785c5382024f>, <http://data.damepraci.cz/resource/countries/concept/f5652ad89e217eb7febe496353ed0fabd09454ee>, <http://data.damepraci.cz/resource/countries/concept/f82a1dcdad23bcd4faf35e347798db025b3e6833>, <http://data.damepraci.cz/resource/countries/concept/fe27508f993bd93ab577249fe4703a6c09a38d08> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/USN>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "997"^^xsd:int, "USN" ;
+    skos:prefLabel "US Dollar (Next day)"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/a17ad72c8426cde2d688682a57fcb69fde33bed5> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/USS>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "998"^^xsd:int, "USS" ;
+    skos:prefLabel "US Dollar (Same day)"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/a17ad72c8426cde2d688682a57fcb69fde33bed5> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/UYI>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "940"^^xsd:int, "UYI" ;
+    skos:prefLabel "Uruguay Peso en Unidades Indexadas (URUIURUI)"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/94ed170cfc28d9d65b9207114b8529fa3d32a340> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/UYN>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "UYN", "—"^^xsd:int ;
+    skos:prefLabel "Old Uruguay Peso"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/94ed170cfc28d9d65b9207114b8529fa3d32a340> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/UYP>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "UYP", "—  "^^xsd:int ;
+    skos:prefLabel "Uruguayan Peso"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/94ed170cfc28d9d65b9207114b8529fa3d32a340> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/UYU>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "858"^^xsd:int, "UYU" ;
+    skos:prefLabel "Peso Uruguayo"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/94ed170cfc28d9d65b9207114b8529fa3d32a340> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/UZS>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "860"^^xsd:int, "UZS" ;
+    skos:prefLabel "Uzbekistan Sum"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/03fa660b10af9f049d892919285ee7bb853b3bce> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/VEB>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "862"^^xsd:int, "VEB" ;
+    skos:prefLabel "Bolivar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/55433e5df9c0ab8a87cb856ea8fc2543806c2729> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/VEF>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "937"^^xsd:int, "VEF" ;
+    skos:prefLabel "Bolivar Fuerte"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/e2233f7e49b19f2b6d0bae30ea26c7f8bd03bc53> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/VNC>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "VNC", "—"^^xsd:int ;
+    skos:prefLabel "Old Dong"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/791b2192ceed560f42629925f31315e8d3f7ac29> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/VND>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "704"^^xsd:int, "VND" ;
+    skos:prefLabel "Dong"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/375460498c71e02dc7491eceb25f0d995842016b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/VUV>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "548"^^xsd:int, "VUV" ;
+    skos:prefLabel "Vatu"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/dcefe181ac434342e2a3560d3d60877ca9f80c6b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/WST>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "882"^^xsd:int, "WST" ;
+    skos:prefLabel "Tala"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/bfaf7b95493025da05683284ff7db1b543bf09e4> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/XAF>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "950"^^xsd:int, "XAF" ;
+    skos:prefLabel "CFA Franc BEAC"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/36e58d2887eac7d19f60470e9ef9ed18cfd0e1f4>, <http://data.damepraci.cz/resource/countries/concept/7259f0a955648862de3c3909c2701775ba6b223e>, <http://data.damepraci.cz/resource/countries/concept/a717438fc71ff437d3ba1ef43ab43d78563ffe4f>, <http://data.damepraci.cz/resource/countries/concept/a9642f2ce9f7762b4a5c1abc4a158780ad4d6a37>, <http://data.damepraci.cz/resource/countries/concept/e681f126cd793f734a30bc2adc6152ac003b300b>, <http://data.damepraci.cz/resource/countries/concept/edb3e1d4a02fb37f5b52b3dbe99889b22a5484d7> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/XAG>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "961"^^xsd:int, "XAG" ;
+    skos:prefLabel "Silver"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/38d7faa6258194ad673bc7db85946f9cc0e615fe> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/XAU>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "959"^^xsd:int, "XAU" ;
+    skos:prefLabel "Gold"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/0ea7c1c7983377fba8ac21e3521d2601f3a41134> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/XBA>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "955"^^xsd:int, "XBA" ;
+    skos:prefLabel "Bond Markets Unit European Composite Unit (EURCO)"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/1e93b5af64c44a5884c36c8545bd800a6b78836b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/XBB>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "956"^^xsd:int, "XBB" ;
+    skos:prefLabel "Bond Markets Unit European Monetary Unit (E.M.U.-6)"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/d7d4cd6a339b94c9d16158b8c6751a30827bdc89> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/XBC>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "957"^^xsd:int, "XBC" ;
+    skos:prefLabel "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/84db823212fa8111bff304fb3ddbdae67a5ce957> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/XBD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "958"^^xsd:int, "XBD" ;
+    skos:prefLabel "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/1bd4e6333ee30638b526213d7126df0cd824d18c> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/XCD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "951"^^xsd:int, "XCD" ;
+    skos:prefLabel "East Caribbean Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/238b81bbcb9ecec213b2607bc5d1bebad96ae2d0>, <http://data.damepraci.cz/resource/countries/concept/4564825e8aef351ae1eb60a5754adb5458438304>, <http://data.damepraci.cz/resource/countries/concept/7835c8e940be008f10141a5a5f098be5883ae38b>, <http://data.damepraci.cz/resource/countries/concept/78497fcaa2178097b0a214bea5fcb7750395c953>, <http://data.damepraci.cz/resource/countries/concept/82beaaded0b7ccfa35b1779b69a2d3ae27d803e2>, <http://data.damepraci.cz/resource/countries/concept/ace70d5a657dfe9c7309a16b0f7252d797e1f488>, <http://data.damepraci.cz/resource/countries/concept/c616cded54b6f03e2457b760db7009eacd71c4c0>, <http://data.damepraci.cz/resource/countries/concept/dd25717c12572835f1ca9f35a2e5020f64eee8da> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/XDR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "960"^^xsd:int, "XDR" ;
+    skos:prefLabel "SDR (Special Drawing Right)"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/085a3082042e3090132b4c736eab30cf4d0da8e1> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/XFO>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "XFO", "—"^^xsd:int ;
+    skos:prefLabel "Gold-Franc"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/a0d1961ddf21cc849d8e12b425826599f3db156f> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/XFU>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "Nil"^^xsd:int, "XFU" ;
+    skos:prefLabel "UIC-Franc"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/2e7fdd04e6bed71acd81c49e1ceb266f9ddfe132> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/XOF>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "952"^^xsd:int, "XOF" ;
+    skos:prefLabel "CFA Franc BCEAO"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/25553bbecf4e60c4765210b82911d252b0567956>, <http://data.damepraci.cz/resource/countries/concept/3326c00f388e025abf7dbf7324b1e786be4d0a89>, <http://data.damepraci.cz/resource/countries/concept/35698c21875c72b5337c75e2934fab7600151f81>, <http://data.damepraci.cz/resource/countries/concept/3993eab891a84e6419ddec3a858d1c3261a5434b>, <http://data.damepraci.cz/resource/countries/concept/608a45ba900452c672001fdd6f3e7ac0455a4ee9>, <http://data.damepraci.cz/resource/countries/concept/6cecd3a4a710300fef2d0c5420491f7fc7338df8>, <http://data.damepraci.cz/resource/countries/concept/c2e142c1838966c7677ce981bd02df18bb738b52>, <http://data.damepraci.cz/resource/countries/concept/feaa95132a2bd72f55f9606c022b65946265c392> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/XPD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "964"^^xsd:int, "XPD" ;
+    skos:prefLabel "Palladium"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/7c3fe2447b69d3b4c0ede21565f98721a48cc257> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/XPF>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "953"^^xsd:int, "XPF" ;
+    skos:prefLabel "CFP Franc"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/164ea7dafd1c9b1be614ca3240fb5a594337a9f3>, <http://data.damepraci.cz/resource/countries/concept/58b6820c055bc2683b8e208d9bc113555caebc17>, <http://data.damepraci.cz/resource/countries/concept/ab38b87798620e47603e663688cd12a469de44ae> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/XPT>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "962"^^xsd:int, "XPT" ;
+    skos:prefLabel "Platinum"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/64d524e258cbce2a9a13a015c86443c01d583732> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/XRE>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "N.A."^^xsd:int, "XRE" ;
+    skos:prefLabel "RINET Funds Code"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/1455ddefee49384c0a19a5c248f844e6a68b41d9> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/XSU>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "994"^^xsd:int, "XSU" ;
+    skos:prefLabel "Sucre"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/8efec1034f468d6fdff24d399cd06f98ff7ec4d8> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/XTS>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "963"^^xsd:int, "XTS" ;
+    skos:prefLabel "Codes specifically reserved for testing purposes"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/e35d9e057d6915d00907d27eced5f13ccf28b122> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/XUA>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "965"^^xsd:int, "XUA" ;
+    skos:prefLabel "ADB Unit of Account"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/8928df794035338af827f105c5e412222a79c7cf> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/XXX>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "999"^^xsd:int, "XXX" ;
+    skos:prefLabel "The codes assigned for transactions where no currency is involved"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/8e567b13b99dea6de92443c9c7d52e9e1161e015> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/YDD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "720"^^xsd:int, "YDD" ;
+    skos:prefLabel "Yemeni Dinar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/9a75d366452896de91b62599630e1c8e0c5bcf52> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/YER>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "886"^^xsd:int, "YER" ;
+    skos:prefLabel "Yemeni Rial"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/e9518f08c133a57dc679d841125696a2dc9059a4> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/YUD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "YUD", "—"^^xsd:int ;
+    skos:prefLabel "New Yugoslavian Dinar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/0c56d10716a4dbc5588692af8afb0521b43e0fcc> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/YUM>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "891"^^xsd:int, "YUM" ;
+    skos:prefLabel "New Dinar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/0c56d10716a4dbc5588692af8afb0521b43e0fcc> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/YUN>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "890"^^xsd:int, "YUN" ;
+    skos:prefLabel "Yugoslavian Dinar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/0c56d10716a4dbc5588692af8afb0521b43e0fcc> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ZAL>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "991"^^xsd:int, "ZAL" ;
+    skos:prefLabel "Financial Rand"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/4460e36a624853e6db2ecea812960361be82f962>, <http://data.damepraci.cz/resource/countries/concept/6016c4536e6cab1fe4322ee49545880173dbb5d9> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ZAR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "710"^^xsd:int, "ZAR" ;
+    skos:prefLabel "Rand"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/11bdfea0b3365504d30da1fbef318014515bdcb2>, <http://data.damepraci.cz/resource/countries/concept/4460e36a624853e6db2ecea812960361be82f962>, <http://data.damepraci.cz/resource/countries/concept/6016c4536e6cab1fe4322ee49545880173dbb5d9> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ZMK>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "894"^^xsd:int, "ZMK" ;
+    skos:prefLabel "Zambian Kwacha"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/a797c1146a0211ee7add6db6642657500c350fb0> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ZRN>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "180"^^xsd:int, "ZRN" ;
+    skos:prefLabel "New Zaire"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/acafd197d1f4b07255808590c6a7ba74be211993> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ZRZ>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "180"^^xsd:int, "ZRZ" ;
+    skos:prefLabel "Zaire"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/acafd197d1f4b07255808590c6a7ba74be211993> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ZWC>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "ZWC", "—"^^xsd:int ;
+    skos:prefLabel "Rhodesian Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/0c1d80180aa45d3f66464bdc2b076e6421dabd9b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ZWD>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "716"^^xsd:int, "ZWD" ;
+    skos:prefLabel "Zimbabwe Dollar"@en, "Zimbabwe Dollar (old)"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/0c1d80180aa45d3f66464bdc2b076e6421dabd9b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ZWL>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "932"^^xsd:int, "ZWL" ;
+    skos:prefLabel "Zimbabwe Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/0c1d80180aa45d3f66464bdc2b076e6421dabd9b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ZWN>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "942"^^xsd:int, "ZWN" ;
+    skos:prefLabel "Zimbabwe Dollar (new)"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/0c1d80180aa45d3f66464bdc2b076e6421dabd9b> .
+
+<http://data.damepraci.cz/resource/currency-codes/concept/ZWR>
+    a skos:Concept ;
+    skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
+    skos:notation "935"^^xsd:int, "ZWR" ;
+    skos:prefLabel "Zimbabwe Dollar"@en ;
+    skos:related <http://data.damepraci.cz/resource/countries/concept/0c1d80180aa45d3f66464bdc2b076e6421dabd9b> .
+
