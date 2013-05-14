@@ -1,0 +1,57 @@
+@prefix :     <http://data.damepraci.cz/resource/employment-types/concept/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.damepraci.cz/resource/concept-scheme/employment-types> a skos:ConceptScheme ;
+  rdfs:label "Employment types"@en, "Druhy zaměstnání"@cs ;
+  skos:hasTopConcept :full-time, :part-time, :contract, :internship
+  .
+
+:full-time a skos:Concept ;
+  skos:prefLabel "Full-time"@en, "Plný úvazek"@cs ;
+  skos:topConceptOf <http://data.damepraci.cz/resource/concept-scheme/employment-types> ;
+  skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/employment-types>
+  .
+
+:part-time a skos:Concept ;
+  skos:prefLabel "Part-time"@en, "Částečný úvazek"@cs ;
+  skos:narrower :one-day-a-week, :two-days-a-week, :three-days-a-week, :four-days-a-week ;
+  skos:topConceptOf <http://data.damepraci.cz/resource/concept-scheme/employment-types> ;
+  skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/employment-types>
+  .
+
+:one-day-a-week a skos:Concept ;
+  skos:prefLabel "1 day a week"@en, "1 den v týdnu"@cs ;
+  skos:broader :part-time ;
+  skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/employment-types>
+  .
+
+:two-days-a-week a skos:Concept ;
+  skos:prefLabel "2 days a week"@en, "2 dny v týdnu"@cs ;
+  skos:broader :part-time ;
+  skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/employment-types>
+  .
+
+:three-day-a-week a skos:Concept ;
+  skos:prefLabel "3 days a week"@en, "3 dny v týdnu"@cs ;
+  skos:broader :part-time ;
+  skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/employment-types>
+  .
+
+:four-days-a-week a skos:Concept ;
+  skos:prefLabel "4 days a week"@en, "4 dny v týdnu"@cs ;
+  skos:broader :part-time ;
+  skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/employment-types>
+  .
+
+:contract a skos:Concept ;
+  skos:prefLabel "Contract job"@en, "Práce na dohodu"@cs ;
+  skos:topConceptOf <http://data.damepraci.cz/resource/concept-scheme/employment-types> ;
+  skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/employment-types>
+  .
+
+:internship a skos:Concept ;
+  skos:prefLabel "Internship"@en, "Stáž"@cs ;
+  skos:topConceptOf <http://data.damepraci.cz/resource/concept-scheme/employment-types> ;
+  skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/employment-types>
+  .
