@@ -68,9 +68,9 @@ schema:type a owl:FunctionalProperty ;
 schema:availableVacancies a owl:FunctionalProperty ;
   rdfs:label "number of available vacancies"@en, "počet nabízených míst"@cs ;
   rdfs:comment "Number of persons sought for a job. Default value is 1."@en, "Počet osob požadovaných pro práci. Výchozí hodnotou je 1."@cs ;
-  vann:usageNote "Cardinality 1..1"@en, "Kardinalita 1..1"@cs ;
+  vann:usageNote "Cardinality 0..1"@en, "Kardinalita 0..1"@cs ;
   rdfs:domain schema:JobPosting ;
-  rdfs:range xsd:integer ;
+  rdfs:range xsd:positiveInteger ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
