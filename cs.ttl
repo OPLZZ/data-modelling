@@ -16,7 +16,7 @@ dcterms:publisher a rdf:Property ;
 
 dcterms:valid a rdf:Property ;
   rdfs:label "platnost"@cs ;
-  rdfs:comment "Datum (nebo časové rozmení) určující meze platnosti nabídky práce."@cs .
+  rdfs:comment "Datum (nebo časové rozmezí) určující meze platnosti nabídky práce."@cs .
 
 schema:ContactPoint a rdfs:Class ;
   rdfs:label "Kontakt"@cs ;
