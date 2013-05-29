@@ -1,9 +1,8 @@
-@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix owl:  <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <http://data.damepraci.cz/resource/concept-scheme/countries>
@@ -1475,7 +1474,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/ALK>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "ALK", "—"^^xsd:int ;
+    skos:notation "ALK" ;
     skos:prefLabel "Old Lek"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/75956b90639c7f25b309ccc3c1ee66d0357f279d> .
 
@@ -1510,7 +1509,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/AOK>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "AOK", "—"^^xsd:int ;
+    skos:notation "AOK" ;
     skos:prefLabel "Kwanza"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/2470c360dae2b1263ebee2a62354e146e0b6e8ef> .
 
@@ -1552,7 +1551,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/ARY>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "ARY", "—"^^xsd:int ;
+    skos:notation "ARY" ;
     skos:prefLabel "Peso"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/430a1d65b23e550060d8487d5cec3487c1161f7c> .
 
@@ -1650,14 +1649,14 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/BGJ>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "BGJ", "—"^^xsd:int ;
+    skos:notation "BGJ" ;
     skos:prefLabel "Lev A/52"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/d12ec993bd5322504816bb9690473ae42cdf74d9> .
 
 <http://data.damepraci.cz/resource/currency-codes/concept/BGK>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "BGK", "—"^^xsd:int ;
+    skos:notation "BGK" ;
     skos:prefLabel "Lev A/62"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/d12ec993bd5322504816bb9690473ae42cdf74d9> .
 
@@ -1713,7 +1712,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/BOP>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "BOP", "—"^^xsd:int ;
+    skos:notation "BOP" ;
     skos:prefLabel "Peso boliviano"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/9b9b690debf7de03f11b68c2291f42a737220d69> .
 
@@ -1727,7 +1726,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/BRB>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "BRB", "—"^^xsd:int ;
+    skos:notation "BRB" ;
     skos:prefLabel "Cruzeiro"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/653b4e6d1258e62abd4015f3b8aeecae0d18981b> .
 
@@ -1783,7 +1782,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/BUK>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "BUK", "—"^^xsd:int ;
+    skos:notation "BUK" ;
     skos:prefLabel "N.A."@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/67227250c54cd99313668ebbe910038691ce3157> .
 
@@ -1874,7 +1873,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/CNX>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "CNX", "—"^^xsd:int ;
+    skos:notation "CNX" ;
     skos:prefLabel "Peoples Bank Dollar"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/7358da24e692c13d35e9097d4a34bd25c7add28f> .
 
@@ -1916,7 +1915,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/CSJ>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "CSJ", "—"^^xsd:int ;
+    skos:notation "CSJ" ;
     skos:prefLabel "Krona A/53"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/ec2c7c39697091c56829a0195dd2a82798c392c5> .
 
@@ -2028,7 +2027,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/EQE>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "EQE", "—"^^xsd:int ;
+    skos:notation "EQE" ;
     skos:prefLabel "Ekwele"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/e681f126cd793f734a30bc2adc6152ac003b300b> .
 
@@ -2161,7 +2160,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/GNE>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "GNE", "—"^^xsd:int ;
+    skos:notation "GNE" ;
     skos:prefLabel "Syli"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/8c733edb949f2d77e6b68583879ce98b0f55f12b> .
 
@@ -2175,7 +2174,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/GNS>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "GNS", "—"^^xsd:int ;
+    skos:notation "GNS" ;
     skos:prefLabel "Syli"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/8c733edb949f2d77e6b68583879ce98b0f55f12b> .
 
@@ -2203,7 +2202,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/GWE>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "GWE", "—"^^xsd:int ;
+    skos:notation "GWE" ;
     skos:prefLabel "Guinea Escudo"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/feaa95132a2bd72f55f9606c022b65946265c392> .
 
@@ -2280,14 +2279,14 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/ILP>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "ILP", "—"^^xsd:int ;
+    skos:notation "ILP" ;
     skos:prefLabel "Pound"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/0edec670409380e42e57e7ab5224d815e3c121da> .
 
 <http://data.damepraci.cz/resource/currency-codes/concept/ILR>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "ILR", "—"^^xsd:int ;
+    skos:notation "ILR" ;
     skos:prefLabel "Old Shekel"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/0edec670409380e42e57e7ab5224d815e3c121da> .
 
@@ -2322,7 +2321,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/ISJ>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "ISJ", "—"^^xsd:int ;
+    skos:notation "ISJ" ;
     skos:prefLabel "Old Krona"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/8f5ffa5bd9cf23af8432bc8c4ae01d82f1bcb57d> .
 
@@ -2427,7 +2426,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/LAJ>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "LAJ", "—"^^xsd:int ;
+    skos:notation "LAJ" ;
     skos:prefLabel "Kip Pot Pol"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/57d789c64316cf9178ab2bba702636e8786a3f47> .
 
@@ -2469,7 +2468,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/LSM>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "LSM", "—"^^xsd:int ;
+    skos:notation "LSM" ;
     skos:prefLabel "Maloti"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/4460e36a624853e6db2ecea812960361be82f962> .
 
@@ -2539,7 +2538,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/MAF>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "MAF", "—"^^xsd:int ;
+    skos:notation "MAF" ;
     skos:prefLabel "Mali Franc"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/608a45ba900452c672001fdd6f3e7ac0455a4ee9> .
 
@@ -2616,7 +2615,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/MTP>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "MTP", "—"^^xsd:int ;
+    skos:notation "MTP" ;
     skos:prefLabel "Maltese Pound"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/973d770884b917bd89ba4f9271e260afdca09a04> .
 
@@ -2630,7 +2629,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/MVQ>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "MVQ", "—"^^xsd:int ;
+    skos:notation "MVQ" ;
     skos:prefLabel "Maldive Rupee"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/63948051b0f71922e3d2e853b37e50da2f520870> .
 
@@ -2658,7 +2657,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/MXP>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "MXP", "— "^^xsd:int ;
+    skos:notation "MXP" ;
     skos:prefLabel "Mexican Peso"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/14c0a8bf76907883f4505a4d2609f5f9b2bfd09b> .
 
@@ -2679,7 +2678,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/MZE>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "MZE", "—"^^xsd:int ;
+    skos:notation "MZE" ;
     skos:prefLabel "Mozambique Escudo"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/7d136fc23a639cf32d122f28849d7dc2e311015c> .
 
@@ -2714,7 +2713,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/NIC>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "NIC", "—"^^xsd:int ;
+    skos:notation "NIC" ;
     skos:prefLabel "Cordoba"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/e76eb9ca1cc1f73151762a922703264dd95aa1cb> .
 
@@ -2770,7 +2769,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/PEH>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "PEH", "—"^^xsd:int ;
+    skos:notation "PEH" ;
     skos:prefLabel "Sol"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/bb47ad825ad1ad376da948f606628da882e5de31> .
 
@@ -2854,14 +2853,14 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/RHD>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "RHD", "—"^^xsd:int ;
+    skos:notation "RHD" ;
     skos:prefLabel "Rhodesian Dollar"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/e2b4c2d66c098d7c1c5554d511dd48f26a0a191c> .
 
 <http://data.damepraci.cz/resource/currency-codes/concept/ROK>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "ROK", "—"^^xsd:int ;
+    skos:notation "ROK" ;
     skos:prefLabel "Leu A/52"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/3c4fd5d8932b41d0bd9795268a2e8ef88de36c57> .
 
@@ -2945,7 +2944,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/SDP>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "SDP", "—"^^xsd:int ;
+    skos:notation "SDP" ;
     skos:prefLabel "Sudanese Pound"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/a055dbfa0ab9612c1fdd26a94b3e6534eb06c7a8> .
 
@@ -3029,7 +3028,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/SUR>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "SUR", "—"^^xsd:int ;
+    skos:notation "SUR" ;
     skos:prefLabel "Rouble"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/801bdbde264a51f2c5f207d990df44777b4785f4> .
 
@@ -3162,14 +3161,14 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/UGS>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "UGS", "—"^^xsd:int ;
+    skos:notation "UGS" ;
     skos:prefLabel "Uganda Shilling"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/e45599c83e478beffe9e857807afe5adf7dfecc6> .
 
 <http://data.damepraci.cz/resource/currency-codes/concept/UGW>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "UGW", "—"^^xsd:int ;
+    skos:notation "UGW" ;
     skos:prefLabel "Old Shilling"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/e45599c83e478beffe9e857807afe5adf7dfecc6> .
 
@@ -3211,14 +3210,14 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/UYN>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "UYN", "—"^^xsd:int ;
+    skos:notation "UYN" ;
     skos:prefLabel "Old Uruguay Peso"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/94ed170cfc28d9d65b9207114b8529fa3d32a340> .
 
 <http://data.damepraci.cz/resource/currency-codes/concept/UYP>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "UYP", "—  "^^xsd:int ;
+    skos:notation "UYP" ;
     skos:prefLabel "Uruguayan Peso"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/94ed170cfc28d9d65b9207114b8529fa3d32a340> .
 
@@ -3253,7 +3252,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/VNC>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "VNC", "—"^^xsd:int ;
+    skos:notation "VNC" ;
     skos:prefLabel "Old Dong"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/791b2192ceed560f42629925f31315e8d3f7ac29> .
 
@@ -3344,14 +3343,14 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/XFO>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "XFO", "—"^^xsd:int ;
+    skos:notation "XFO" ;
     skos:prefLabel "Gold-Franc"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/a0d1961ddf21cc849d8e12b425826599f3db156f> .
 
 <http://data.damepraci.cz/resource/currency-codes/concept/XFU>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "Nil"^^xsd:int, "XFU" ;
+    skos:notation "XFU" ;
     skos:prefLabel "UIC-Franc"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/2e7fdd04e6bed71acd81c49e1ceb266f9ddfe132> .
 
@@ -3386,7 +3385,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/XRE>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "N.A."^^xsd:int, "XRE" ;
+    skos:notation "XRE" ;
     skos:prefLabel "RINET Funds Code"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/1455ddefee49384c0a19a5c248f844e6a68b41d9> .
 
@@ -3435,7 +3434,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/YUD>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "YUD", "—"^^xsd:int ;
+    skos:notation "YUD" ;
     skos:prefLabel "New Yugoslavian Dinar"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/0c56d10716a4dbc5588692af8afb0521b43e0fcc> .
 
@@ -3491,7 +3490,7 @@
 <http://data.damepraci.cz/resource/currency-codes/concept/ZWC>
     a skos:Concept ;
     skos:inScheme <http://data.damepraci.cz/resource/concept-scheme/currency-codes> ;
-    skos:notation "ZWC", "—"^^xsd:int ;
+    skos:notation "ZWC" ;
     skos:prefLabel "Rhodesian Dollar"@en ;
     skos:related <http://data.damepraci.cz/resource/countries/concept/0c1d80180aa45d3f66464bdc2b076e6421dabd9b> .
 
