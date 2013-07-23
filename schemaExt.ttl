@@ -5,13 +5,14 @@
 @prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema:   <http://schema.org/> .
 @prefix vann:     <http://purl.org/vocab/vann/> .
+@prefix voaf:     <http://purl.org/vocommons/voaf#> .
 @prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
 
-<http://schema.org> a owl:Ontology ;
-  rdfs:label "Schema.org extension proposal"@en,
-    "Návrh rozšíření Schema.org"@cs ;
+<http://schema.org> a owl:Ontology, voaf:Vocabulary ;
+  rdfs:label "Schema.org extension proposal for job market"@en,
+    "Návrh rozšíření Schema.org pro trh práce"@cs ;
   dcterms:contributor <http://richard.cyganiak.de/#me>, 
-    <http://keg.vse.cz/resource/person/jindrich-mynarz>,
+    <http://mynarz.net/#jindrich>,
     [
       a foaf:Person ;
       foaf:name "Josef Šlerka"
