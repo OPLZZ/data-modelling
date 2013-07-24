@@ -85,7 +85,7 @@ damepraci:profession a owl:FunctionalProperty ;
   .
 
 damepraci:isImmediateStart a owl:FunctionalProperty ;
-  rdfs:label "Immediate start date"@en, "Nástup ihned"@cs ;
+  rdfs:label "is immediate start"@en, "Nástup ihned"@cs ;
   rdfs:comment "Indicates whether the applicants should start with the posted job immediately."@en, "Označení nabídek práce, kde by uchazeč měl nastoupit ihned."@cs ;
   vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
   rdfs:domain schema:JobPosting ;
