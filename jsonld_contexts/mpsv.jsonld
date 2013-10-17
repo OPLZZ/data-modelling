@@ -1,0 +1,137 @@
+{
+  "@context" : {
+    "@base" : "http://data.damepraci.cz/resource/portal.mpsv.cz/",
+    "adms" : "http://www.w3.org/ns/adms#",
+    "damepraci" : "http://vocab.damepraci.eu/#",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "schema" : "http://schema.org/",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+
+    "address" : {
+      "@id" : "schema:address",
+      "@type" : "@id"
+    },
+    "addressCountry" : "schema:addressCountry",
+    "addressLocality" : "schema:addressLocality",
+    "addressRegion" : "schema:addressRegion",
+    "benefits" : {
+      "@id" : "schema:benefits",
+      "@type" : "@id"
+    },
+    "compensation" : {
+      "@id" : "schema:compensation",
+      "@type" : "@id"
+    },
+    "Compensation" : "schema:Compensation",
+    "Concept" : "skos:Concept",
+    "confidential" : {
+      "@id" : "damepraci:confidential",
+      "@type" : "xsd:boolean"
+    },
+    "contact" : {
+      "@id" : "schema:contact",
+      "@type" : "@id"
+    },
+    "ContactPoint" : "schema:ContactPoint",
+    "contactType" : {
+      "@id" : "schema:contactType",
+      "@language" : "cs"
+    },
+    "currency" : "schema:currency",
+    "dateModified" : {
+      "@id" : "schema:dateModified",
+      "@type" : "xsd:dateTime"
+    },
+    "description" : {
+      "@id" : "schema:description",
+      "@language" : "cs"
+    },
+    "duration" : {
+      "@id" : "schema:duration",
+      "@type" : "xsd:duration"
+    },
+    "educationRequirements" : {
+      "@id" : "schema:educationRequirements",
+      "@type" : "@id"
+    },
+    "email" : "schema:email",
+    "employer" : {
+      "@id" : "schema:employer",
+      "@type" : "@id"
+    },
+    "employmentType" : {
+      "@id" : "schema:employmentType",
+      "@type" : "@id"
+    },
+    "endDate" : {
+      "@id" : "schema:endDate",
+      "@type" : "xsd:date"
+    },
+    "feature" : {
+      "@id" : "damepraci:feature",
+      "@type" : "@id"
+    },
+    "Identifier" : "adms:Identifier",
+    "industry" : {
+      "@id" : "schema:industry",
+      "@type" : "@id"
+    },
+    "inScheme" : {
+      "@id" : "skos:inScheme",
+      "@type" : "@id"
+    },
+    "jobLocation" : {
+      "@id" : "schema:jobLocation",
+      "@type" : "@id"
+    },
+    "JobPosting" : "schema:JobPosting",
+    "Language" : "schema:Language",
+    "maxValue" : {
+      "@id" : "schema:maxValue",
+      "@type" : "xsd:decimal"
+    },
+    "minValue" : {
+      "@id" : "schema:minValue",
+      "@type" : "xsd:decimal"
+    },
+    "name" : "schema:name",
+    "notation" : "skos:notation",
+    "Organization" : "schema:Organization",
+    "Place" : "schema:Place", 
+    "PostalAddress" : "schema:PostalAddress",
+    "postalCode" : "schema:postalCode",
+    "prefLabel" : {
+      "@id" : "skos:prefLabel",
+      "@language" : "cs"
+    },
+    "proficiencyLevel" : {
+      "@id" : "schema:proficiencyLevel",
+      "@type" : "@id"
+    },
+    "startDate" : {
+      "@id" : "schema:startDate",
+      "@type" : "xsd:date"
+    },
+    "streetAddress" : "schema:streetAddress",
+    "taxID" : {
+      "@id" : "schema:taxID",
+      "@type" : "@id"
+    },
+    "telephone" : "schema:telephone",
+    "title" : {
+      "@id" : "schema:title",
+      "@type" : "@id"
+    },
+    "url" : "schema:url",
+    "validThrough" : {
+      "@id" : "schema:validThrough",
+      "@type" : "xsd:date"
+    },
+    "WorkExperience" : "schema:WorkExperience",
+    "workHours" : {
+      "@id" : "schema:workHours",
+      "@type" : "@id"
+    }
+  }
+}
