@@ -75,16 +75,6 @@ schema:availableVacancies a owl:FunctionalProperty ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
-schema:contact a rdf:Property ;
-  rdfs:label "contact"@en, "kontakt"@cs ;
-  rdfs:comment "Contact information job seeker needs to respond to job posting"@en,
-    "Kontaktní informace, které jsou zapotřebí proto, aby uchazeč o práci mohl odpovědět na nabídku práce"@cs ;
-  vann:usageNote "Cardinality: n..n"@en, "Kardinalita: n..n"@cs ;
-  rdfs:domain schema:JobPosting ;
-  rdfs:range schema:ContactPoint ;
-  rdfs:isDefinedBy <http://schema.org>
-  .
-
 schema:compensation a rdf:Property ;
   rdfs:label "compensation"@en, "kompenzace"@cs ;
   rdfs:comment "Compensation paid by employer to employee as stated in job posting"@en,
@@ -92,6 +82,16 @@ schema:compensation a rdf:Property ;
   vann:usageNote "Cardinality: n..n"@en, "Kardinalita: n..n"@cs ;
   rdfs:domain schema:JobPosting ;
   rdfs:range schema:Compensation ;
+  rdfs:isDefinedBy <http://schema.org>
+  .
+
+schema:contact a rdf:Property ;
+  rdfs:label "contact"@en, "kontakt"@cs ;
+  rdfs:comment "Contact information job seeker needs to respond to job posting"@en,
+    "Kontaktní informace, které jsou zapotřebí proto, aby uchazeč o práci mohl odpovědět na nabídku práce"@cs ;
+  vann:usageNote "Cardinality: n..n"@en, "Kardinalita: n..n"@cs ;
+  rdfs:domain schema:JobPosting ;
+  rdfs:range schema:ContactPoint ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
@@ -133,7 +133,7 @@ schema:duration a owl:FunctionalProperty ;
   rdfs:comment "Length of period during which job applicant acquired experience"@en,
     "Délka trvání zkušenosti žadatele/ky o práci"@cs ;
   vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
-  rdfs:domain schema:Experience ;
+  rdfs:domain schema:WorkExperience ;
   rdfs:range xsd:duration ;
   rdfs:isDefinedBy <http://schema.org>
   .
@@ -143,7 +143,7 @@ schema:references a owl:FunctionalProperty ;
   rdfs:comment "Indicates whether applicant is able to provide contact for references"@en,
     "Ukazuje, zda žadatel/ka může uvést kontakt pro poskytnutí reference k minulé práci"@cs ;
   vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
-  rdfs:domain schema:Experience ;
+  rdfs:domain schema:WorkExperience ;
   rdfs:range xsd:boolean ;
   rdfs:isDefinedBy <http://schema.org>
   .
