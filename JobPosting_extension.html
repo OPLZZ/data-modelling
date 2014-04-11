@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html vocab="http://schema.org/"
+      prefix="rdf:  http://www.w3.org/1999/02/22-rdf-syntax-ns#
+              rdfs: http://www.w3.org/2000/01/rdf-schema#"> 
+  <head>
+    <title>Job market extension proposal | RDFa Lite Reflection</title>
+  </head>
+  <body>
+    <h1>Extension for modelling job markets</h1>
+
+    <p>Collection of vocabulary terms extending Schema.org's JobPosting to cover the domain of job market.</p>
+
+    <p>See <a href="http://www.w3.org/wiki/WebSchemas/JobMarket">wiki</a> for details.</p>
+
+    <!-- Compensation class --> 
+    <div typeof="rdfs:Class" resource="http://schema.org/Compensation">
+      <h2 property="rdfs:label">Compensation</h2>
+      <p property="rdfs:comment">Compensation describes how the worker is paid for the work done.</p>
+      <p>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/QuantitativeValue">QuantitativeValue</a></p>
+      <p><strong>Example (RDFa):</strong></p>
+      <pre>
+&lt;p rel="compensation"&gt;
+  Wage:
+  &lt;span property="currency" content="EUR"&gt;&amp;euro;&lt;/span&gt;&lt;span property="value"&gt;4.50&lt;/span&gt; 
+  (&lt;span property="type"&gt;hourly&lt;/span&gt; rate)
+&lt;/p&gt;
+      </pre>
+    </div>
+
+    <!-- Compensation properties -->
+    <div typeof="rdf:Property" resource="http://schema.org/currency">
+      <h3 property="rdfs:label">currency</h3>
+      <p property="rdfs:comment">Currency (in 3-letter ISO 4217 format), in which compensation is paid.</p>
+      <p>Domain: <a property="domainIncludes" href="http://schema.org/Compensation">Compensation</a></p>
+      <p>Range: <a property="rangeIncludes" href="http://schema.org/Text">Text</a></p>
+      <p><strong>Example (RDFa):</strong></p>
+      <pre>
+&lt;span property="currency" content="EUR"&gt;&amp;euro;&lt;/span&gt;
+      </pre>
+    </div>
+
+    <div typeof="rdf:Property" resource="http://schema.org/type">
+      <h3 property="rdfs:label">type</h3>
+      <p property="rdfs:comment">Type of compensation. Recommended values are: annual, monthly, hourly, fixed.</p>
+      <p>Domain: <a property="domainIncludes" href="http://schema.org/Compensation">Compensation</a></p>
+      <p>Range: <a property="rangeIncludes" href="http://schema.org/Text">Text</a></p>
+      <p><strong>Example (RDFa):</strong></p>
+      <pre>
+&lt;span property="type"&gt;hourly&lt;/span&gt; rate
+      </pre>
+    </div>
+
+    <!-- JobPosting properties -->
+    <div typeof="rdf:Property" resource="http://schema.org/availableVacancies">
+      <h3 property="rdfs:label">available vacancies</h3>
+      <p property="rdfs:comment">Number of persons sought for a job. Default value is 1.</p>
+      <p>Domain: <a property="domainIncludes" href="http://schema.org/JobPosting">JobPosting</a></p>
+      <p>Range: <a property="rangeIncludes" href="http://schema.org/Integer">Integer</a></p>
+      <p><strong>Example (RDFa):</strong></p>
+      <pre>
+&lt;tr&gt;
+  &lt;th&gt;Number of open vacancies:&lt;/th&gt;
+  &lt;td property="availableVacancies"&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+      </pre>
+    </div>
+
+    <div typeof="rdf:Property" resource="http://schema.org/compensation">
+      <h3 property="rdfs:label">compensation</h3>
+      <p property="rdfs:comment">Compensation paid by employer to employee as stated in job posting</p>
+      <p>Domain: <a property="domainIncludes" href="http://schema.org/JobPosting">JobPosting</a></p>
+      <p>Range: <a property="rangeIncludes" href="http://schema.org/Compensation">Compensation</a></p>
+      <p><strong>Example (RDFa):</strong></p>
+      <pre>
+&lt;p rel="compensation"&gt;
+  Wage:
+  &lt;span property="value"&gt;4.50&lt;/span&gt; &lt;span property="currency" content="EUR"&gt;&amp;euro;&lt;/span&gt;
+  (&lt;span property="type"&gt;hourly&lt;/span&gt; rate)
+&lt;/p&gt;
+      </pre>
+    </div>
+
+    <div typeof="rdf:Property" resource="http://schema.org/contact">
+      <h3 property="rdfs:label">contact</h3>
+      <p property="rdfs:comment">Contact information job seeker needs to respond to job posting</p>
+      <p>Domain: <a property="domainIncludes" href="http://schema.org/JobPosting">JobPosting</a></p>
+      <p>Range: <a property="rangeIncludes" href="http://schema.org/ContactPoint">ContactPoint</a></p>
+      <p><strong>Example (RDFa):</strong></p>
+      <pre>
+&lt;div rel="contact"&gt;
+  &lt;p property="name"&gt;John Doe&lt;/p&gt;
+  &lt;p&gt;Phone: &lt;span property="telephone" content="+35312345678"&gt;12 345678&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+      </pre>
+    </div>
+
+    <div typeof="rdf:Property" resource="http://schema.org/employer">
+      <h3 property="rdfs:label">employer</h3>
+      <p property="rdfs:comment">Property relating job postings to persons or organizations offering a job</p>
+      <p>Domain: <a property="domainIncludes" href="http://schema.org/JobPosting">JobPosting</a></p>
+      <p>Range: <a property="rangeIncludes" href="http://schema.org/Organization">Organization</a>, <a property="rangeIncludes" href="http://schema.org/Person">Person</a></p>
+      <p><strong>Example (RDFa):</strong></p>
+      <pre>
+&lt;p&gt;Employer: &lt;a rel="employer" href="http://acme.com/"&gt;ACME Inc.&lt;/a&gt;&lt;/p&gt;
+      </pre>
+    </div>
+
+    <div typeof="rdf:Property" resource="http://schema.org/experienceRequirements">
+      <h3 property="rdfs:label">experience requirements</h3>
+      <p property="rdfs:comment">Description of skills and experience needed for the position.</p>
+      <p>Domain: <a property="domainIncludes" href="http://schema.org/JobPosting">JobPosting</a></p>
+      <p>Range: <a property="rangeIncludes" href="http://schema.org/Text">Text</a>, <a property="rangeIncludes" href="http://schema.org/WorkExperience">WorkExperience</a></p>
+      <p><strong>Example (RDFa):</strong></p>
+      <pre>
+&lt;div rel="experienceRequirements"&gt;
+  &lt;p&gt;Required experience:&lt;/p&gt;
+  &lt;p&gt;
+    At least a &lt;span property="duration" content="P1Y"&gt;year&lt;/span&gt; of
+    &lt;span property="description"&gt;work with forklift&lt;/span&gt;
+    (&lt;span property="references" content="true"&gt;job applicant has to provide references&lt;/span&gt;)
+  &lt;/p&gt;
+&lt;/div&gt;
+      </pre>
+    </div>
+    
+    <div typeof="rdf:Property" resource="http://schema.org/isRemoteWork">
+      <h3 property="rdfs:label">is remote work</h3>
+      <p property="rdfs:comment">Indicates job postings for which location of execution does not matter (i.e. remote work)</p>
+      <p>Domain: <a property="domainIncludes" href="http://schema.org/JobPosting">JobPosting</a></p>
+      <p>Range: <a property="rangeIncludes" href="http://schema.org/Boolean">Boolean</a></p>
+      <p><strong>Example (RDFa):</strong></p>
+      <pre>
+&lt;p property="isRemoteWork" content="true"&gt;Work from home.&lt;/p&gt;
+      </pre>
+    </div>
+
+    <div typeof="rdf:Property" resource="http://schema.org/startDate">
+      <h3 property="rdfs:label">start date</h3>
+      <p property="rdfs:comment">Date when employment starts</p>
+      <p>Domain: <a property="domainIncludes" href="http://schema.org/JobPosting">JobPosting</a></p>
+      <p>Range: <a property="rangeIncludes" href="http://schema.org/Date">Date</a></p>
+      <p><strong>Example (RDFa):</strong></p>
+      <pre>
+&lt;p&gt;Start date: &lt;span property="startDate" content="2013-04-01"&gt;April 1, 2013&lt;/span&gt;&lt;/p&gt;
+      </pre>
+    </div>
+
+    <!-- WorkExperience class -->
+    <div typeof="rdf:Property" resource="http://schema.org/WorkExperience">
+      <h2 property="rdfs:label">Work experience</h2>
+      <p property="rdfs:comment">Job applicant's work history that demonstrates skills or competences</p>
+      <p>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/StructuredValue">StructuredValue</a></p>
+      <p><strong>Example (RDFa):</strong></p>
+      <pre>
+&lt;h2&gt;Required experience:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li rel="experienceRequirements"&gt;&lt;span property="description"&gt;Forklift operation&lt;/span&gt;, &lt;span property="duration" content="P1Y"&gt;1 year&lt;/span&gt;&lt;/li&gt;
+  &lt;li rel="experienceRequirements"&gt;
+    &lt;span property="description"&gt;Industry experience&lt;/span&gt;,
+    &lt;span property="duration" content="P2Y"&gt;2 years&lt;/span&gt;
+    (&lt;span property="references" content="true"&gt;job applicant has to provide references&lt;/span&gt;)
+  &lt;/li&gt;
+&lt;/ul&gt;
+      </pre>
+    </div>
+  
+    <!-- WorkExperience properties -->
+    <div typeof="rdf:Property" resource="http://schema.org/duration">
+      <h3 property="rdfs:label">duration</h3>
+      <p property="rdfs:comment">Length of period during which job applicant acquired experience</p>
+      <p>Domain: <a property="domainIncludes" href="http://schema.org/WorkExperience">WorkExperience</a></p>
+      <p>Range: <a property="rangeIncludes" href="http://schema.org/Duration">Duration</a></p>
+      <p><strong>Example (RDFa):</strong></p>
+      <pre>
+&lt;p&gt;
+  Job applicant must have at least a &lt;span property="duration" content="P1Y"&gt;year&lt;/span&gt; of experience in the field.
+&lt;/p&gt;
+      </pre>
+    </div>
+
+    <div typeof="rdf:Property" resource="http://schema.org/references">
+      <h3 property="rdfs:label">references</h3>
+      <p property="rdfs:comment">Indicates whether applicant is able to provide contact for references</p>
+      <p>Domain: <a property="domainIncludes" href="http://schema.org/WorkExperience">WorkExperience</a></p>
+      <p>Range: <a property="rangeIncludes" href="http://schema.org/Boolean">Boolean</a></p>
+      <p><strong>Example (RDFa):</strong></p>
+      <pre>
+&lt;p&gt;
+  Previous work history need to be supported &lt;span property="references" content="true"&gt;with references&lt;/span&gt;.
+&lt;/p&gt;
+      </pre>
+    </div>
+  </body>
+</html>
