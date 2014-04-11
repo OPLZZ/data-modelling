@@ -46,7 +46,7 @@ schema:WorkExperience a rdfs:Class ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
-schema:currency a owl:FunctionalProperty ;
+schema:currency a owl:FunctionalProperty, owl:DatatypeProperty ;
   rdfs:label "currency"@en, "měna"@cs ;
   rdfs:comment "Currency (in 3-letter ISO 4217 format), in which compensation is paid"@en,
     "Měna (v 3-místném formátu ISO 4217), ve které je vyplácena kompenzace"@cs ;
@@ -56,7 +56,7 @@ schema:currency a owl:FunctionalProperty ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
-schema:type a owl:FunctionalProperty ;
+schema:type a owl:FunctionalProperty, owl:DatatypeProperty ;
   rdfs:label "type"@en, "typ"@cs ;
   rdfs:comment "Type of compensation. Recommended values are: annual, monthly, hourly, fixed."@en,
     "Způsob výpočtu a vyplácení kompenzace. Doporučené hodnoty jsou: roční, měsíční, hodinová, fixní."@cs ;
@@ -66,7 +66,7 @@ schema:type a owl:FunctionalProperty ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
-schema:availableVacancies a owl:FunctionalProperty ;
+schema:availableVacancies a owl:FunctionalProperty, owl:DatatypeProperty ;
   rdfs:label "available vacancies"@en, "počet nabízených míst"@cs ;
   rdfs:comment "Number of persons sought for a job. Default value is 1."@en, "Počet osob požadovaných pro práci. Výchozí hodnotou je 1."@cs ;
   vann:usageNote "Cardinality 0..1"@en, "Kardinalita 0..1"@cs ;
@@ -75,7 +75,7 @@ schema:availableVacancies a owl:FunctionalProperty ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
-schema:compensation a rdf:Property ;
+schema:compensation a rdf:Property, owl:ObjectProperty ;
   rdfs:label "compensation"@en, "kompenzace"@cs ;
   rdfs:comment "Compensation paid by employer to employee as stated in job posting"@en,
     "Kompenzace hrazená zaměstnavatelem zaměstnanci popsaná v nabídce práce"@cs ;
@@ -85,7 +85,7 @@ schema:compensation a rdf:Property ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
-schema:contact a rdf:Property ;
+schema:contact a rdf:Property, owl:ObjectProperty ;
   rdfs:label "contact"@en, "kontakt"@cs ;
   rdfs:comment "Contact information job seeker needs to respond to job posting"@en,
     "Kontaktní informace, které jsou zapotřebí proto, aby uchazeč o práci mohl odpovědět na nabídku práce"@cs ;
@@ -95,7 +95,7 @@ schema:contact a rdf:Property ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
-schema:employer a owl:FunctionalProperty ;
+schema:employer a owl:FunctionalProperty, owl:ObjectProperty ;
   rdfs:label "employer"@en, "zaměstnavatel"@cs ;
   rdfs:comment "Property relating job postings to persons or organizations offering a job"@en,
     "Vlastnost propojující nabídky práce s osobami nebo organizacemi, které práci nabízejí"@cs ;
@@ -105,7 +105,7 @@ schema:employer a owl:FunctionalProperty ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
-schema:isRemoteWork a owl:FunctionalProperty ;
+schema:isRemoteWork a owl:FunctionalProperty, owl:DatatypeProperty ;
   rdfs:label "is remote work"@en, "práce na dálku"@cs ;
   rdfs:comment "Indicates job postings for which location of execution does not matter (i.e. remote work)"@en,
     "Označení nabídek práce, pro které na místu výkonu nezáleží (tj. práce na dálku)"@cs ;
@@ -115,7 +115,7 @@ schema:isRemoteWork a owl:FunctionalProperty ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
-schema:startDate a owl:FunctionalProperty ;
+schema:startDate a owl:FunctionalProperty, owl:DatatypeProperty ;
   rdfs:label "start date"@en, "datum nástupu"@cs ;
   rdfs:comment "Date when employment starts"@en, 
     "Datum zahájení práce"@cs ;
@@ -125,7 +125,7 @@ schema:startDate a owl:FunctionalProperty ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
-schema:duration a owl:FunctionalProperty ;
+schema:duration a owl:FunctionalProperty, owl:DatatypeProperty ;
   rdfs:label "duration"@en, "délka"@cs ;
   rdfs:comment "Length of period during which job applicant acquired experience"@en,
     "Délka trvání zkušenosti žadatele/ky o práci"@cs ;
@@ -135,7 +135,7 @@ schema:duration a owl:FunctionalProperty ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
-schema:references a owl:FunctionalProperty ;
+schema:references a owl:FunctionalProperty, owl:DatatypeProperty ;
   rdfs:label "references"@en, "reference"@cs ;
   rdfs:comment "Indicates whether applicant is able to provide contact for references"@en,
     "Ukazuje, zda žadatel/ka může uvést kontakt pro poskytnutí reference k minulé práci"@cs ;
