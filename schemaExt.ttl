@@ -51,8 +51,8 @@ schema:currency a owl:FunctionalProperty ;
   rdfs:comment "Currency (in 3-letter ISO 4217 format), in which compensation is paid"@en,
     "Měna (v 3-místném formátu ISO 4217), ve které je vyplácena kompenzace"@cs ;
   vann:usageNote "Cardinality 1..1"@en, "Kardinalita 1..1"@cs ;
-  rdfs:domain schema:Compensation ;
-  rdfs:range xsd:string ;
+  schema:domainIncludes schema:Compensation ;
+  schema:rangeIncludes schema:Text ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
@@ -61,8 +61,8 @@ schema:type a owl:FunctionalProperty ;
   rdfs:comment "Type of compensation. Recommended values are: annual, monthly, hourly, fixed."@en,
     "Způsob výpočtu a vyplácení kompenzace. Doporučené hodnoty jsou: roční, měsíční, hodinová, fixní."@cs ;
   vann:usageNote "Cardinality 1..1"@en, "Kardinalita 1..1"@cs ;
-  rdfs:domain schema:Compensation ;
-  rdfs:range xsd:string ;
+  schema:domainIncludes schema:Compensation ;
+  schema:rangeIncludes schema:Text ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
@@ -70,8 +70,8 @@ schema:availableVacancies a owl:FunctionalProperty ;
   rdfs:label "available vacancies"@en, "počet nabízených míst"@cs ;
   rdfs:comment "Number of persons sought for a job. Default value is 1."@en, "Počet osob požadovaných pro práci. Výchozí hodnotou je 1."@cs ;
   vann:usageNote "Cardinality 0..1"@en, "Kardinalita 0..1"@cs ;
-  rdfs:domain schema:JobPosting ;
-  rdfs:range xsd:positiveInteger ;
+  schema:domainIncludes schema:JobPosting ;
+  schema:rangeIncludes xsd:positiveInteger ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
@@ -80,8 +80,8 @@ schema:compensation a rdf:Property ;
   rdfs:comment "Compensation paid by employer to employee as stated in job posting"@en,
     "Kompenzace hrazená zaměstnavatelem zaměstnanci popsaná v nabídce práce"@cs ;
   vann:usageNote "Cardinality: n..n"@en, "Kardinalita: n..n"@cs ;
-  rdfs:domain schema:JobPosting ;
-  rdfs:range schema:Compensation ;
+  schema:domainIncludes schema:JobPosting ;
+  schema:rangeIncludes schema:Compensation ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
@@ -90,8 +90,8 @@ schema:contact a rdf:Property ;
   rdfs:comment "Contact information job seeker needs to respond to job posting"@en,
     "Kontaktní informace, které jsou zapotřebí proto, aby uchazeč o práci mohl odpovědět na nabídku práce"@cs ;
   vann:usageNote "Cardinality: n..n"@en, "Kardinalita: n..n"@cs ;
-  rdfs:domain schema:JobPosting ;
-  rdfs:range schema:ContactPoint ;
+  schema:domainIncludes schema:JobPosting ;
+  schema:rangeIncludes schema:ContactPoint ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
@@ -100,11 +100,8 @@ schema:employer a owl:FunctionalProperty ;
   rdfs:comment "Property relating job postings to persons or organizations offering a job"@en,
     "Vlastnost propojující nabídky práce s osobami nebo organizacemi, které práci nabízejí"@cs ;
   vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
-  rdfs:domain schema:JobPosting ;
-  rdfs:range [
-    a owl:Class ;
-    owl:unionOf (schema:Organization schema:Person)
-  ] ;
+  schema:domainIncludes schema:JobPosting ;
+  schema:rangeIncludes schema:Organization, schema:Person ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
@@ -113,8 +110,8 @@ schema:isRemoteWork a owl:FunctionalProperty ;
   rdfs:comment "Indicates job postings for which location of execution does not matter (i.e. remote work)"@en,
     "Označení nabídek práce, pro které na místu výkonu nezáleží (tj. práce na dálku)"@cs ;
   vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
-  rdfs:domain schema:JobPosting ;
-  rdfs:range xsd:boolean ;
+  schema:domainIncludes schema:JobPosting ;
+  schema:rangeIncludes schema:Boolean ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
@@ -123,8 +120,8 @@ schema:startDate a owl:FunctionalProperty ;
   rdfs:comment "Date when employment starts"@en, 
     "Datum zahájení práce"@cs ;
   vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
-  rdfs:domain schema:JobPosting ;
-  rdfs:range xsd:date ;
+  schema:domainIncludes schema:JobPosting ;
+  schema:rangeIncludes schema:Date ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
@@ -133,8 +130,8 @@ schema:duration a owl:FunctionalProperty ;
   rdfs:comment "Length of period during which job applicant acquired experience"@en,
     "Délka trvání zkušenosti žadatele/ky o práci"@cs ;
   vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
-  rdfs:domain schema:WorkExperience ;
-  rdfs:range xsd:duration ;
+  schema:domainIncludes schema:WorkExperience ;
+  schema:rangeIncludes schema:Duration ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
@@ -143,14 +140,14 @@ schema:references a owl:FunctionalProperty ;
   rdfs:comment "Indicates whether applicant is able to provide contact for references"@en,
     "Ukazuje, zda žadatel/ka může uvést kontakt pro poskytnutí reference k minulé práci"@cs ;
   vann:usageNote "Cardinality: 0..1"@en, "Kardinalita: 0..1"@cs ;
-  rdfs:domain schema:WorkExperience ;
-  rdfs:range xsd:boolean ;
+  schema:domainIncludes schema:WorkExperience ;
+  schema:rangeIncludes schema:Boolean ;
   rdfs:isDefinedBy <http://schema.org>
   .
 
 schema:hiringOrganization rdfs:subPropertyOf schema:employer .
 
-schema:experienceRequirements rdfs:range schema:WorkExperience .
+schema:experienceRequirements schema:rangeIncludes schema:WorkExperience .
 
 schema:industry vann:usageNote "Includes also private employment etc."@en,
   "Zahrnuje také kategorie zaměstnání fyzickými osobami atp."@cs
