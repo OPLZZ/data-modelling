@@ -147,7 +147,8 @@ schema:references a owl:FunctionalProperty, owl:DatatypeProperty ;
 
 schema:hiringOrganization rdfs:subPropertyOf schema:employer .
 
-schema:experienceRequirements schema:rangeIncludes schema:WorkExperience .
+schema:experienceRequirements a owl:ObjectProperty ;
+  schema:rangeIncludes schema:WorkExperience .
 
 schema:industry vann:usageNote "Includes also private employment etc."@en,
   "Zahrnuje také kategorie zaměstnání fyzickými osobami atp."@cs

@@ -1,6 +1,47 @@
 @prefix dcterms:  <http://purl.org/dc/terms/> .
-@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix schema:   <http://schema.org/> .
 
-dcterms:modified rdfs:range xsd:date .
-schema:duration rdfs:domain schema:WorkExperience . 
+dcterms:modified a owl:DatatypeProperty ;
+  schema:rangeIncludes schema:Date .
+
+dcterms:publisher a owl:ObjectProperty .
+
+dcterms:valid a owl:DatatypeProperty .
+
+schema:address a owl:ObjectProperty .
+
+schema:addressLocality a owl:DatatypeProperty .
+
+schema:addressRegion a owl:DatatypeProperty .
+
+schema:description a owl:DatatypeProperty .
+
+schema:duration a owl:DatatypeProperty ;
+  schema:domainIncludes schema:WorkExperience . 
+
+schema:email a owl:DatatypeProperty .
+
+schema:employmentType a owl:DatatypeProperty .
+
+schema:experienceRequirements a owl:ObjectProperty .
+
+schema:industry a owl:DatatypeProperty .
+
+schema:jobLocation a owl:ObjectProperty .
+
+schema:maxValue a owl:DatatypeProperty .
+
+schema:minValue a owl:DatatypeProperty .
+
+schema:name a owl:DatatypeProperty .
+
+schema:responsibilities a owl:DatatypeProperty .
+
+schema:streetAddress a owl:DatatypeProperty .
+
+schema:telephone a owl:DatatypeProperty .
+
+schema:title a owl:DatatypeProperty .
+
+schema:value a owl:DatatypeProperty .
