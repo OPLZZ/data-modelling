@@ -28,7 +28,8 @@ schema:experienceRequirements a owl:ObjectProperty .
 
 schema:industry a owl:DatatypeProperty .
 
-schema:jobLocation a owl:ObjectProperty .
+schema:jobLocation a owl:ObjectProperty ;
+  schema:rangeIncludes schema:PostalAddress .
 
 schema:maxValue a owl:DatatypeProperty .
 
